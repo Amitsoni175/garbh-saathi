@@ -190,5 +190,245 @@
       "hinglish": "Sui"
     },
     "emoji": "🪡"
+  },
+  {
+    "id": "p-harmonium",
+    "riddle": {
+      "en": "I have many keys but open no door; press me gently and I sing.",
+      "hinglish": "Meri bahut chaabiyan hain par koi darwaza nahi kholti; dabaao to main gaata hoon."
+    },
+    "answer": {
+      "en": "A harmonium",
+      "hinglish": "Harmonium"
+    },
+    "emoji": "🎹"
+  },
+  {
+    "id": "p-tongue",
+    "riddle": {
+      "en": "I live in a house guarded by thirty-two white soldiers.",
+      "hinglish": "Main battees safed sipaahiyon ke pehre mein rehti hoon."
+    },
+    "answer": {
+      "en": "Your tongue",
+      "hinglish": "Jeebh"
+    },
+    "emoji": "👅"
+  },
+  {
+    "id": "p-chappal",
+    "riddle": {
+      "en": "We are a pair; we go everywhere with you but wait outside the temple.",
+      "hinglish": "Hum jodi hain; har jagah saath chalte hain par mandir ke bahar ruk jaate hain."
+    },
+    "answer": {
+      "en": "Chappals",
+      "hinglish": "Chappal"
+    },
+    "emoji": "🩴"
+  },
+  {
+    "id": "p-stars",
+    "riddle": {
+      "en": "Flowers bloom in the night sky, but no one can pick them.",
+      "hinglish": "Raat ke aasmaan mein phool khilte hain, par koi tod nahi sakta."
+    },
+    "answer": {
+      "en": "Stars",
+      "hinglish": "Taare"
+    },
+    "emoji": "⭐"
+  },
+  {
+    "id": "p-mirror",
+    "riddle": {
+      "en": "I copy everything you do, but I never say a word.",
+      "hinglish": "Main tumhari har nakal karta hoon, par ek shabd nahi bolta."
+    },
+    "answer": {
+      "en": "A mirror",
+      "hinglish": "Aaina"
+    },
+    "emoji": "🪞"
+  },
+  {
+    "id": "p-watermelon",
+    "riddle": {
+      "en": "Green outside, red inside, with little black seeds that smile.",
+      "hinglish": "Bahar se hara, andar se laal, chhote kaale beej muskuraate."
+    },
+    "answer": {
+      "en": "A watermelon",
+      "hinglish": "Tarbooz"
+    },
+    "emoji": "🍉"
+  },
+  {
+    "id": "p-milk",
+    "riddle": {
+      "en": "I am white, babies love me, and I become curd overnight.",
+      "hinglish": "Main safed hoon, bachche mujhe pyaar karte hain, aur raat bhar mein dahi ban jaata hoon."
+    },
+    "answer": {
+      "en": "Milk",
+      "hinglish": "Doodh"
+    },
+    "emoji": "🥛"
+  },
+  {
+    "id": "p-patang",
+    "riddle": {
+      "en": "I fly without wings and dance on a string.",
+      "hinglish": "Bina pankh udti hoon, dhaage par naachti hoon."
+    },
+    "answer": {
+      "en": "A kite",
+      "hinglish": "Patang"
+    },
+    "emoji": "🪁"
+  },
+  {
+    "id": "p-ears",
+    "riddle": {
+      "en": "Two sisters live on either side of your face, but they never see each other.",
+      "hinglish": "Do behnein chehre ke dono taraf rehti hain, par kabhi ek-doosre ko nahi dekhti."
+    },
+    "answer": {
+      "en": "Your ears",
+      "hinglish": "Kaan"
+    },
+    "emoji": "👂"
+  },
+  {
+    "id": "p-rain",
+    "riddle": {
+      "en": "I fall from the sky every year, but I never get hurt.",
+      "hinglish": "Main har saal aasmaan se girti hoon, par mujhe chot nahi lagti."
+    },
+    "answer": {
+      "en": "Rain",
+      "hinglish": "Baarish"
+    },
+    "emoji": "🌧️"
+  },
+  {
+    "id": "p-salt",
+    "riddle": {
+      "en": "Without me food is sad; too much of me and food is bad.",
+      "hinglish": "Mere bina khaana pheeka; zyada ho jaaoon to kharaab."
+    },
+    "answer": {
+      "en": "Salt",
+      "hinglish": "Namak"
+    },
+    "emoji": "🧂"
+  },
+  {
+    "id": "p-banana",
+    "riddle": {
+      "en": "I wear a yellow coat; monkeys love me and I am soft inside.",
+      "hinglish": "Main peela coat pehenta hoon; bandar mujhe pyaar karte hain aur andar se naram hoon."
+    },
+    "answer": {
+      "en": "A banana",
+      "hinglish": "Kela"
+    },
+    "emoji": "🍌"
+  },
+  {
+    "id": "p-year",
+    "riddle": {
+      "en": "I have twelve brothers who visit one after another, and then they start again.",
+      "hinglish": "Mere baarah bhai ek ke baad ek aate hain, aur phir se shuru ho jaate hain."
+    },
+    "answer": {
+      "en": "A year (12 months)",
+      "hinglish": "Saal (12 mahine)"
+    },
+    "emoji": "📅"
+  },
+  {
+    "id": "p-broom",
+    "riddle": {
+      "en": "I clean the whole house every day, but I never take a bath.",
+      "hinglish": "Main roz poora ghar saaf karti hoon, par khud kabhi nahi nahaati."
+    },
+    "answer": {
+      "en": "A broom",
+      "hinglish": "Jhaadu"
+    },
+    "emoji": "🧹"
+  },
+  {
+    "id": "p-book",
+    "riddle": {
+      "en": "I have leaves but I am not a tree; open me and I tell you stories.",
+      "hinglish": "Mere patte hain par main ped nahi; kholo to kahaniyan sunaati hoon."
+    },
+    "answer": {
+      "en": "A book",
+      "hinglish": "Kitaab"
+    },
+    "emoji": "📖"
+  },
+  {
+    "id": "p-charpai",
+    "riddle": {
+      "en": "I have four legs but no feet; everyone sleeps on me in the courtyard.",
+      "hinglish": "Mere chaar pair hain par chal nahi sakti; aangan mein sab mujh par sote hain."
+    },
+    "answer": {
+      "en": "A charpai",
+      "hinglish": "Charpai"
+    },
+    "emoji": "🛏️"
+  },
+  {
+    "id": "p-rope",
+    "riddle": {
+      "en": "I tie the cow and lift the bucket from the well.",
+      "hinglish": "Main gaay baandhti hoon aur kuein se baalti uthaati hoon."
+    },
+    "answer": {
+      "en": "A rope",
+      "hinglish": "Rassi"
+    },
+    "emoji": "🪢"
+  },
+  {
+    "id": "p-lassi",
+    "riddle": {
+      "en": "Made from curd and churned with love, Haryana's favourite summer drink.",
+      "hinglish": "Dahi se bani, pyaar se biloyi, Haryana ki pasandida garmi ki drink."
+    },
+    "answer": {
+      "en": "Lassi",
+      "hinglish": "Lassi"
+    },
+    "emoji": "🥛"
+  },
+  {
+    "id": "p-maa",
+    "riddle": {
+      "en": "Who loves you even before she has seen your face?",
+      "hinglish": "Kaun tumhara chehra dekhe bina hi tumse pyaar karti hai?"
+    },
+    "answer": {
+      "en": "Maa (Mother)",
+      "hinglish": "Maa"
+    },
+    "emoji": "🤱"
+  },
+  {
+    "id": "p-anda",
+    "riddle": {
+      "en": "A white house with no doors, and yellow treasure inside.",
+      "hinglish": "Ek safed ghar jismein koi darwaza nahi, andar peela khazaana."
+    },
+    "answer": {
+      "en": "An egg",
+      "hinglish": "Anda"
+    },
+    "emoji": "🥚"
   }
 ]

@@ -178,5 +178,105 @@
       "en": "Add 2, 3, 4, then 5.",
       "hinglish": "2, 3, 4, phir 5 jodo."
     }
+  },
+  {
+    "id": "n19",
+    "sequence": [5, 10, 20, 40],
+    "answer": 80,
+    "options": [60, 80, 100],
+    "hint": {
+      "en": "Double each time.",
+      "hinglish": "Har baar dugna."
+    }
+  },
+  {
+    "id": "n20",
+    "sequence": [2, 5, 8, 11],
+    "answer": 14,
+    "options": [13, 14, 15],
+    "hint": {
+      "en": "Add 3 each time.",
+      "hinglish": "Har baar 3 jodo."
+    }
+  },
+  {
+    "id": "n21",
+    "sequence": [81, 27, 9, 3],
+    "answer": 1,
+    "options": [0, 1, 2],
+    "hint": {
+      "en": "Divide by 3 each time.",
+      "hinglish": "Har baar 3 se bhaag do."
+    }
+  },
+  {
+    "id": "n22",
+    "sequence": [1, 8, 27, 64],
+    "answer": 125,
+    "options": [100, 125, 128],
+    "hint": {
+      "en": "Cubes: 1×1×1, 2×2×2, 3×3×3…",
+      "hinglish": "Ghan: 1×1×1, 2×2×2, 3×3×3…"
+    }
+  },
+  {
+    "id": "n23",
+    "sequence": [6, 12, 18, 24],
+    "answer": 30,
+    "options": [28, 30, 32],
+    "hint": {
+      "en": "The 6 times table.",
+      "hinglish": "6 ka pahaada."
+    }
+  },
+  {
+    "id": "n24",
+    "sequence": [50, 45, 40, 35],
+    "answer": 30,
+    "options": [25, 30, 32],
+    "hint": {
+      "en": "Take away 5 each time.",
+      "hinglish": "Har baar 5 ghataao."
+    }
+  },
+  {
+    "id": "n25",
+    "sequence": [1, 4, 7, 10],
+    "answer": 13,
+    "options": [12, 13, 14],
+    "hint": {
+      "en": "Add 3 each time.",
+      "hinglish": "Har baar 3 jodo."
+    }
+  },
+  {
+    "id": "n26",
+    "sequence": [2, 4, 8, 14],
+    "answer": 22,
+    "options": [20, 22, 24],
+    "hint": {
+      "en": "Add 2, 4, 6, then 8.",
+      "hinglish": "2, 4, 6, phir 8 jodo."
+    }
+  },
+  {
+    "id": "n27",
+    "sequence": [9, 18, 27, 36],
+    "answer": 45,
+    "options": [42, 45, 48],
+    "hint": {
+      "en": "The 9 times table.",
+      "hinglish": "9 ka pahaada."
+    }
+  },
+  {
+    "id": "n28",
+    "sequence": [3, 9, 27],
+    "answer": 81,
+    "options": [54, 81, 90],
+    "hint": {
+      "en": "Multiply by 3 each time.",
+      "hinglish": "Har baar 3 se guna."
+    }
   }
 ]
