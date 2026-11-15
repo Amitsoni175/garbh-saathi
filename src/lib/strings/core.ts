@@ -4,10 +4,6 @@ import type { Translation } from '../i18n';
 export const coreStrings = {
   // App
   'app.name': { en: 'Garbh Saathi', hinglish: 'Garbh Saathi' },
-  'app.tagline': {
-    en: 'A calm space for you and your baby',
-    hinglish: 'Aapke aur baby ke liye ek shaant si jagah',
-  },
 
   // Tabs
   'tab.today': { en: 'Today', hinglish: 'Aaj' },
@@ -23,30 +19,6 @@ export const coreStrings = {
   'greeting.night': { en: 'Good night 🌙', hinglish: 'Ram Ram ji! Shubh ratri 🌙' },
 
   // Placeholders for upcoming phases
-  'today.comingTitle': {
-    en: "Today's Journey is on its way",
-    hinglish: 'Aaj ki yatra aa rahi hai',
-  },
-  'today.comingText': {
-    en: 'Soon you will set your dates here and see a gentle path of five small activities each day.',
-    hinglish:
-      'Jaldi hi aap yahan apni dates daalengi aur har din paanch chhoti si activities ka pyaara raasta dekhengi.',
-  },
-  'calendar.comingTitle': {
-    en: 'Your calendar will bloom here',
-    hinglish: 'Aapka calendar yahan khilega',
-  },
-  'calendar.comingText': {
-    en: 'Every story, game and letter will leave a soft dot on its day.',
-    hinglish: 'Har kahani, khel aur chitthi apne din par ek pyaara sa nishaan chhodegi.',
-  },
-  'play.comingTitle': { en: 'Little games are coming', hinglish: 'Chhote khel aa rahe hain' },
-  'play.comingText': {
-    en: 'Memory match, bubble maths, word garden and more. No losing, only smiles.',
-    hinglish: 'Memory match, bubble maths, word garden aur bhi bahut. Haarna nahi, bas muskaan.',
-  },
-  'play.tryPetals': { en: 'Try the petals 🌸', hinglish: 'Phool barsao 🌸' },
-  'feedback.wellDone': { en: 'Well done! 🌸', hinglish: 'Ghani badhiya! 🌸' },
 
   // Me / settings
   'me.title': { en: 'Me', hinglish: 'Main' },
@@ -121,8 +93,6 @@ export const coreStrings = {
   // Common UI
   'ui.close': { en: 'Close', hinglish: 'Band karein' },
   'ui.dismiss': { en: 'Dismiss', hinglish: 'Hatayein' },
-  'ui.on': { en: 'On', hinglish: 'On' },
-  'ui.off': { en: 'Off', hinglish: 'Off' },
   'ui.back': { en: 'Back', hinglish: 'Peeche' },
 
   // Debug panel (developer-facing, English is fine)

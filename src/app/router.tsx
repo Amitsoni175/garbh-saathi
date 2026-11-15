@@ -45,6 +45,22 @@ export const router = createHashRouter([
       { path: 'music/lokgeet', lazy: lazyScreen(() => import('@/features/music/LokGeetScreen')) },
       { path: 'music/sing/:id', lazy: lazyScreen(() => import('@/features/music/KaraokeScreen')) },
       { path: 'me', lazy: lazyScreen(() => import('@/features/settings/MeScreen')) },
+      { path: 'me/profile', lazy: lazyScreen(() => import('@/features/settings/ProfileScreen')) },
+      { path: 'me/help', lazy: lazyScreen(() => import('@/features/settings/HelpScreen')) },
+      {
+        path: 'bonding/kicks',
+        lazy: lazyScreen(() => import('@/features/bonding/KickCounterScreen')),
+      },
+      {
+        path: 'bonding/journal',
+        lazy: lazyScreen(() => import('@/features/bonding/JournalScreen')),
+      },
+      {
+        path: 'bonding/papa',
+        lazy: lazyScreen(() => import('@/features/bonding/PapaCornerScreen')),
+      },
+      { path: 'bonding/photos', lazy: lazyScreen(() => import('@/features/bonding/PhotosScreen')) },
+      { path: 'wellness', lazy: lazyScreen(() => import('@/features/wellness/WellnessScreen')) },
       { path: 'me/schedule', lazy: lazyScreen(() => import('@/features/schedule/ScheduleScreen')) },
       { path: 'me/debug', lazy: lazyScreen(() => import('@/features/settings/DebugPanel')) },
       { path: '*', element: <TodayScreen /> },

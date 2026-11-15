@@ -1,5 +1,35 @@
 # Changelog
 
+## 0.7.0 · Phase 7: Bonding + Wellness (2026-11-15)
+
+- **Kick counter**: a big pulsing tap button and a timer that starts at the first kick. It saves
+  "10 kicks in X minutes" automatically (or a shorter session on request), shows a soft line chart
+  of the last 14 sessions, and always shows the note "fewer movements than usual → call your
+  doctor right away".
+- **Letters to Baby**: a prompt of the day, text or voice letters, filters (letters / story thoughts
+  / talks) and a confirmed delete. Festival links can open the composer directly.
+- **Talk to baby** and **Papa's Corner**: daily prompts and short read-aloud tales for Papa, with
+  optional recording.
+- **Belly photos**: take or choose a photo. It is compressed to about 300 KB (JPEG, max 1280px) and
+  saved with the week. There is a gallery, a full-screen slideshow, and a Sanjhi-art tab for saved
+  Sanjhi designs.
+- **Wellness**:
+  - **Mood**: a one-tap check-in with 5 emoji, an optional note and a weekly strip. After 3 low
+    days in a row, a gentle card shows the Tele-MANAS 14416 call button and encourages talking to
+    family and the doctor.
+  - **Tablet and water**: an iron / calcium tablet tracker (one flower a day), and a water tracker
+    with a goal of 9 glasses, or 12 in April–June.
+  - **Food and seasonal tips**: food tips from the Haryanvi kitchen (season first, cautions marked,
+    "ask your doctor" for panjiri and gond laddoos), and seasonal tips.
+  - **Yoga**: yoga and pranayama cards for the current trimester, with "only with your doctor's
+    approval".
+- **Care row** on Today (tablet, water, mood, kicks), and the low-mood card on Today when needed.
+- **Help card**: tap-to-call 108, 104 and 14416, editable doctor and hospital numbers, and calm
+  danger signs.
+- **Profile**: edit names and the LMP/EDD (with validation). Every screen recomputes.
+- **Me tab is now a hub**: journey summary, bonding and care shortcuts, then settings (including the
+  relaxed game timer).
+
 ## 0.6.0 · Phase 6: Calendar + Schedule (2026-11-15)
 
 - **Month calendar**: soft dots for each day's stories, games, letters and kick counts. Markers for

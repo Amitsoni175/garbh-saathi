@@ -10,6 +10,8 @@ import { GardenSummarySheet } from '@/features/garden/GardenSummarySheet';
 import { GardenView } from '@/features/garden/GardenView';
 import { useGarden } from '@/features/garden/useGarden';
 import { UpNext } from '@/features/schedule/UpNext';
+import { CareRow } from '@/features/wellness/CareRow';
+import { LowMoodCard } from '@/features/wellness/CareCards';
 import { useCompletionsOn } from '@/lib/activity';
 import { getTodayISO } from '@/lib/clock';
 import { getPrompts, tx } from '@/lib/content';
@@ -79,6 +81,8 @@ export default function TodayScreen() {
         <TodayHeader state={state} />
         <div className="flex flex-col gap-4 px-4">
           <StageCard state={state} />
+          <LowMoodCard />
+          <CareRow />
 
           <section
             aria-labelledby="journey-title"

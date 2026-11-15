@@ -35,8 +35,6 @@ export const storyStrings = {
   'story.sayThis': { en: 'Say this to your baby', hinglish: 'Baby se yeh kahiye' },
   'story.listen': { en: 'Listen', hinglish: 'Suniye' },
   'story.pause': { en: 'Pause', hinglish: 'Rokiye' },
-  'story.choiceTitle': { en: 'What do you think?', hinglish: 'Aap kya sochti hain?' },
-  'story.continue': { en: 'Continue', hinglish: 'Aage badhiye' },
   'story.moral': { en: 'The lesson', hinglish: 'Seekh' },
   'story.reflection': { en: 'A thought for you', hinglish: 'Aapke liye ek sawaal' },
   'story.reflectionPlaceholder': {

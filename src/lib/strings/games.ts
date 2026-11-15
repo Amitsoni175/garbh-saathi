@@ -76,7 +76,6 @@ export const gameStrings = {
   'shell.howTo': { en: 'How to play', hinglish: 'Kaise khelein' },
   'shell.hint': { en: 'Hint', hinglish: 'Sanket' },
   'shell.start': { en: 'Start', hinglish: 'Shuru' },
-  'shell.back': { en: 'Back to games', hinglish: 'Khel par wapas' },
   'shell.finishTitle': { en: 'Shabaash! 🌸', hinglish: 'Shabaash! 🌸' },
   'shell.finishText': {
     en: 'A flower has bloomed in baby’s garden.',
@@ -86,7 +85,6 @@ export const gameStrings = {
   'shell.done': { en: 'Done', hinglish: 'Ho gaya' },
   'shell.timer': { en: '{sec}s', hinglish: '{sec} sec' },
   'shell.niceTry': { en: 'Almost! Try another one 💛', hinglish: 'Bas thoda sa! Ek aur try 💛' },
-  'shell.correct': { en: 'Ghani badhiya!', hinglish: 'Ghani badhiya!' },
   'shell.notFound': { en: 'This game isn’t available.', hinglish: 'Yeh khel uplabdh nahi hai.' },
 
   // Memory

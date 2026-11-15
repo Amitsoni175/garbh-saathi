@@ -1,18 +1,75 @@
+import { format } from 'date-fns';
 import { useRef, useState } from 'react';
 import { useNavigate } from 'react-router';
+import { useProfile } from '@/app/profile';
 import { useSettings, type AudioLang, type TextSize } from '@/app/settings';
+import { usePregnancy } from '@/app/usePregnancy';
 import { useT } from '@/app/useT';
-import { Card, ChipGroup, PageHeader, Toggle, useToast } from '@/components/ui';
+import { Button, Card, ChipGroup, PageHeader, Toggle, useToast } from '@/components/ui';
+import type { StringKey } from '@/lib/i18n';
+import { parseLocalDate } from '@/lib/pregnancy';
 import type { Lang } from '@/lib/i18n';
 import type { NightModeSetting } from '@/lib/timeOfDay';
 
 const DEBUG_TAPS = 7;
+
+const BONDING: { key: StringKey; emoji: string; to: string }[] = [
+  { key: 'me.link.journal', emoji: '💌', to: '/bonding/journal' },
+  { key: 'me.link.talk', emoji: '🗣️', to: '/talk' },
+  { key: 'me.link.papa', emoji: '💙', to: '/bonding/papa' },
+  { key: 'me.link.photos', emoji: '📸', to: '/bonding/photos' },
+  { key: 'me.link.kicks', emoji: '👣', to: '/bonding/kicks' },
+  { key: 'me.link.garden', emoji: '🌳', to: '/garden' },
+];
+
+const CARE: { key: StringKey; emoji: string; to: string }[] = [
+  { key: 'me.link.wellness', emoji: '🌿', to: '/wellness' },
+  { key: 'me.link.help', emoji: '🆘', to: '/me/help' },
+  { key: 'me.link.schedule', emoji: '⏰', to: '/me/schedule' },
+  { key: 'me.link.festivals', emoji: '🪔', to: '/festivals' },
+  { key: 'me.link.godhBharai', emoji: '🎉', to: '/me/godh-bharai' },
+  { key: 'me.link.keepsake', emoji: '🖨️', to: '/me/keepsake' },
+  { key: 'me.link.backup', emoji: '💾', to: '/me/backup' },
+];
+
+function LinkGrid({
+  items,
+  onGo,
+  label,
+}: {
+  items: { key: StringKey; emoji: string; to: string }[];
+  onGo: (to: string) => void;
+  label: string;
+}) {
+  const t = useT();
+  return (
+    <ul className="grid grid-cols-3 gap-2" aria-label={label}>
+      {items.map((item) => (
+        <li key={item.to}>
+          <button
+            type="button"
+            onClick={() => onGo(item.to)}
+            className="rounded-soft bg-background flex min-h-20 w-full flex-col items-center justify-center gap-1 px-1 py-2 text-center text-xs font-semibold"
+          >
+            <span className="text-2xl" aria-hidden="true">
+              {item.emoji}
+            </span>
+            {t(item.key)}
+          </button>
+        </li>
+      ))}
+    </ul>
+  );
+}
 
 export default function MeScreen() {
   const t = useT();
   const toast = useToast();
   const navigate = useNavigate();
   const { settings, update } = useSettings();
+  const { profile } = useProfile();
+  const state = usePregnancy();
+  const edd = profile ? parseLocalDate(profile.edd) : null;
   const [taps, setTaps] = useState(0);
   const resetTimer = useRef<number | undefined>(undefined);
 
@@ -34,7 +91,34 @@ export default function MeScreen() {
     <>
       <PageHeader title={t('me.title')} />
       <div className="flex flex-col gap-4 px-4 pb-6">
-        <Card index={0} ariaLabel={t('settings.textLang')}>
+        {profile && state && (
+          <Card tone="primary" ariaLabel={t('me.journey')}>
+            <p className="text-sm font-semibold">{t('me.journey')}</p>
+            <p className="text-xl font-bold">
+              {profile.motherName || t('today.defaultName')}
+              {profile.babyNickname ? ` & ${profile.babyNickname}` : ''} 🌸
+            </p>
+            <p>{t('today.weekDay', { week: state.weeks, day: state.days })}</p>
+            {edd && <p className="text-sm">{t('me.edd', { date: format(edd, 'd MMMM yyyy') })}</p>}
+            <Button
+              variant="secondary"
+              className="mt-3"
+              onClick={() => void navigate('/me/profile')}
+            >
+              ✏️ {t('me.edit')}
+            </Button>
+          </Card>
+        )}
+        <Card index={1}>
+          <h2 className="mb-2 font-bold">{t('me.bonding')}</h2>
+          <LinkGrid items={BONDING} onGo={(to) => void navigate(to)} label={t('me.bonding')} />
+        </Card>
+        <Card index={2}>
+          <h2 className="mb-2 font-bold">{t('me.care')}</h2>
+          <LinkGrid items={CARE} onGo={(to) => void navigate(to)} label={t('me.care')} />
+        </Card>
+        <h2 className="mt-2 text-lg font-bold">{t('me.settings')}</h2>
+        <Card index={3} ariaLabel={t('settings.textLang')}>
           <h2 className="mb-2 font-semibold">{t('settings.textLang')}</h2>
           <ChipGroup<Lang>
             label={t('settings.textLang')}
@@ -93,6 +177,12 @@ export default function MeScreen() {
             label={t('settings.vibration')}
             checked={settings.vibration}
             onChange={(vibration) => update({ vibration })}
+          />
+          <Toggle
+            label={t('settings.relaxedTimer')}
+            hint={t('settings.relaxedTimerHint')}
+            checked={settings.relaxedTimer}
+            onChange={(relaxedTimer) => update({ relaxedTimer })}
           />
         </Card>
 

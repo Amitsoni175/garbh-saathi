@@ -11,7 +11,6 @@ export const calendarStrings = {
   'cal.legend.game': { en: 'Game', hinglish: 'Khel' },
   'cal.legend.journal': { en: 'Letter', hinglish: 'Chitthi' },
   'cal.legend.kicks': { en: 'Kicks', hinglish: 'Laatein' },
-  'cal.dayLabel': { en: '{date}{extra}', hinglish: '{date}{extra}' },
   'cal.activities': { en: '{count} activities', hinglish: '{count} kaam' },
   'cal.exportIcs': {
     en: 'Add reminders to my phone calendar',
@@ -129,7 +128,6 @@ export const calendarStrings = {
     en: 'Suggested from week 28.',
     hinglish: 'Week 28 se suggest kiya jaata hai.',
   },
-  'sched.howTitle': { en: 'How reminders reach you', hinglish: 'Yaad aap tak kaise pahunchegi' },
   'sched.icsTitle': {
     en: 'Most reliable: add to your phone calendar',
     hinglish: 'Sabse pakka: phone ke calendar mein jodiye',
