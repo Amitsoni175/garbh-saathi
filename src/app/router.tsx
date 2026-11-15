@@ -61,6 +61,19 @@ export const router = createHashRouter([
       },
       { path: 'bonding/photos', lazy: lazyScreen(() => import('@/features/bonding/PhotosScreen')) },
       { path: 'wellness', lazy: lazyScreen(() => import('@/features/wellness/WellnessScreen')) },
+      { path: 'festival/:id', lazy: lazyScreen(() => import('@/features/haryana/FestivalScreen')) },
+      {
+        path: 'festivals',
+        lazy: lazyScreen(() => import('@/features/haryana/FestivalListScreen')),
+      },
+      {
+        path: 'me/godh-bharai',
+        lazy: lazyScreen(() => import('@/features/haryana/GodhBharaiScreen')),
+      },
+      {
+        path: 'after-birth',
+        lazy: lazyScreen(() => import('@/features/haryana/AfterBirthScreen')),
+      },
       { path: 'me/schedule', lazy: lazyScreen(() => import('@/features/schedule/ScheduleScreen')) },
       { path: 'me/debug', lazy: lazyScreen(() => import('@/features/settings/DebugPanel')) },
       { path: '*', element: <TodayScreen /> },

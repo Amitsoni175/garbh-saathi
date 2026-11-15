@@ -1,5 +1,33 @@
 # Changelog
 
+## 0.8.0 · Phase 8: Haryana layer + Festivals (2026-11-15)
+
+- **festivals.json** with 2026 and 2027 dates for Lohri, Makar Sankranti, Basant Panchami,
+  Holi/Dhulandi, Baisakhi, Hariyali Teej, Raksha Bandhan, Janmashtami, Navratri/Sanjhi, Dussehra,
+  Karva Chauth, Ahoi Ashtami, Diwali and Gita Jayanti (Kurukshetra). Dates are never computed. ⚠️
+  They were filled in from memory and must be checked against a panchang (README TODO).
+- **Festival banner** on Today on the day and up to 3 days before ("Aaj hai! 🎉" / "Kal" / "2 din
+  mein"), with a linked activity:
+  - Teej → swing and monsoon song
+  - Navratri → Sanjhi Decorator
+  - Ahoi Ashtami → letter to baby
+  - Gita Jayanti → Gita Week (and it unlocks the whole series)
+  - Diwali → rangoli
+  - Holi → Prahlad
+  - Janmashtami → Baby Krishna
+  - …and so on.
+- **Gentle festival care notes**: no fasting in pregnancy for Karva Chauth and Ahoi Ashtami (talk to
+  the doctor), distance from smoke and crackers, only a soft sit on the Teej swing, natural colours
+  for Holi.
+- **Festival pages**, including an animated Teej swing under a neem branch, and a **festival list**
+  with "N days away".
+- **Godh Bharai memories**: several photos (compressed) and family notes.
+- **After-birth placeholder**: congratulations, "coming soon: Kuan Pujan, Chhuchhak, Namkaran,
+  lullabies", and a button to mark that baby has arrived. It opens from the 42-week card.
+- Festival markers in the calendar and festival treasures in the garden (from Phase 6/2), now tested
+  against the real festival data.
+- Buttons with long labels now wrap instead of overflowing.
+
 ## 0.7.0 · Phase 7: Bonding + Wellness (2026-11-15)
 
 - **Kick counter**: a big pulsing tap button and a timer that starts at the first kick. It saves

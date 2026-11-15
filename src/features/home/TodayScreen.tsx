@@ -9,6 +9,7 @@ import { Button, Card } from '@/components/ui';
 import { GardenSummarySheet } from '@/features/garden/GardenSummarySheet';
 import { GardenView } from '@/features/garden/GardenView';
 import { useGarden } from '@/features/garden/useGarden';
+import { FestivalBanner } from '@/features/haryana/FestivalBanner';
 import { UpNext } from '@/features/schedule/UpNext';
 import { CareRow } from '@/features/wellness/CareRow';
 import { LowMoodCard } from '@/features/wellness/CareCards';
@@ -81,6 +82,7 @@ export default function TodayScreen() {
         <TodayHeader state={state} />
         <div className="flex flex-col gap-4 px-4">
           <StageCard state={state} />
+          <FestivalBanner />
           <LowMoodCard />
           <CareRow />
 
