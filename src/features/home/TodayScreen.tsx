@@ -9,6 +9,7 @@ import { Button, Card } from '@/components/ui';
 import { GardenSummarySheet } from '@/features/garden/GardenSummarySheet';
 import { GardenView } from '@/features/garden/GardenView';
 import { useGarden } from '@/features/garden/useGarden';
+import { UpNext } from '@/features/schedule/UpNext';
 import { useCompletionsOn } from '@/lib/activity';
 import { getTodayISO } from '@/lib/clock';
 import { getPrompts, tx } from '@/lib/content';
@@ -97,6 +98,7 @@ export default function TodayScreen() {
             </Card>
           )}
 
+          <UpNext index={1} />
           <BabySizeCard week={state.contentWeek} index={1} />
           <SeasonTipCard dayNumber={dayNumber} index={2} />
 

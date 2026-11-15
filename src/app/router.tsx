@@ -45,6 +45,7 @@ export const router = createHashRouter([
       { path: 'music/lokgeet', lazy: lazyScreen(() => import('@/features/music/LokGeetScreen')) },
       { path: 'music/sing/:id', lazy: lazyScreen(() => import('@/features/music/KaraokeScreen')) },
       { path: 'me', lazy: lazyScreen(() => import('@/features/settings/MeScreen')) },
+      { path: 'me/schedule', lazy: lazyScreen(() => import('@/features/schedule/ScheduleScreen')) },
       { path: 'me/debug', lazy: lazyScreen(() => import('@/features/settings/DebugPanel')) },
       { path: '*', element: <TodayScreen /> },
     ],

@@ -1,5 +1,6 @@
 import { createContext, useContext } from 'react';
 import type { Lang } from '@/lib/i18n';
+import { DEFAULT_SCHEDULE, normaliseSchedule, type ScheduleSettings } from '@/lib/schedule';
 import type { NightModeSetting } from '@/lib/timeOfDay';
 
 export type AudioLang = 'hi' | 'en';
@@ -14,6 +15,7 @@ export interface Settings {
   vibration: boolean;
   /** Show a relaxed count-up timer in games (off by default: no pressure). */
   relaxedTimer: boolean;
+  schedule: ScheduleSettings;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -24,6 +26,7 @@ export const DEFAULT_SETTINGS: Settings = {
   sounds: true,
   vibration: true,
   relaxedTimer: false,
+  schedule: DEFAULT_SCHEDULE,
 };
 
 /** Merge stored settings over defaults, ignoring unknown or wrongly-typed values. */
@@ -42,6 +45,7 @@ export function normaliseSettings(stored: unknown): Settings {
   if (typeof s.sounds === 'boolean') out.sounds = s.sounds;
   if (typeof s.vibration === 'boolean') out.vibration = s.vibration;
   if (typeof s.relaxedTimer === 'boolean') out.relaxedTimer = s.relaxedTimer;
+  out.schedule = normaliseSchedule(s.schedule);
   return out;
 }
 

@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.6.0 · Phase 6: Calendar + Schedule (2026-11-15)
+
+- **Month calendar**: soft dots for each day's stories, games, letters and kick counts. Markers for
+  trimester changes, week 20, week 28, week 37, the due date and Haryana festivals.
+- **Day sheet**: milestones and festivals, her events (with a confirmed delete), stories to replay,
+  games, tablet, mood, water, kick sessions, letters and voice notes, and photos.
+- **Own events**: doctor visits, scans, Godh Bharai or anything else, with an optional reminder
+  (an hour before, or at 8 AM for all-day events).
+- **Schedule & reminders** (Me → Schedule): the default rhythm (07:00 shloka and raga, 09:00
+  tablet, 13:00 story, 17:00 game, 21:00 lullaby/talk/journal). Each can be edited or switched off.
+  There are water reminders every 2 or 3 hours, and a kick-count reminder suggested from week 28.
+  The wording is always gentle.
+- **.ics export** ("Add to my phone calendar"): daily recurring events in IST with alarms (VALARM)
+  until two weeks after the EDD, plus her events. Lines are folded and text is escaped (RFC 5545),
+  and the file is checked with a standard iCalendar parser. Phones can share it straight to the
+  calendar app.
+- **In-app notifications**: she sees an explanation before the permission prompt, and a test
+  notification is available. If permission is denied there is clear help, and the app keeps
+  working. There is an honest note about iPhone (iOS 16.4+, added to the Home Screen).
+- **"Coming up next"** on Today, and an in-app reminder check every 30 seconds (a toast when she is
+  looking, a notification when the app is in the background).
+
 ## 0.5.0 · Phase 5: Music (2026-11-15)
 
 - **Music corner** (from the Play tab or the raga stone).

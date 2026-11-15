@@ -4,6 +4,7 @@ import { isStorageAvailable } from '@/lib/db';
 import { BottomTabBar } from './BottomTabBar';
 import { ErrorBoundary } from './ErrorBoundary';
 import { HindiVoiceNotice, MiniPlayer } from './MiniPlayer';
+import { ReminderScheduler } from './ReminderScheduler';
 import { useProfile } from './profile';
 import { useSettings } from './settings';
 import { useT } from './useT';
@@ -60,6 +61,7 @@ export function AppLayout() {
       </div>
       <MiniPlayer />
       <HindiVoiceNotice />
+      <ReminderScheduler />
       <BottomTabBar />
     </>
   );
