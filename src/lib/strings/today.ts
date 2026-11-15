@@ -26,7 +26,7 @@ export const todayStrings = {
   'onb.back': { en: 'Back', hinglish: 'Peeche' },
   'onb.aboutTitle': { en: 'A little about you', hinglish: 'Thoda aapke baare mein' },
   'onb.nameLabel': { en: 'Your name', hinglish: 'Aapka naam' },
-  'onb.namePlaceholder': { en: 'e.g. Sunita', hinglish: 'jaise Sunita' },
+  'onb.namePlaceholder': { en: 'e.g. Sukanya', hinglish: 'jaise Sukanya' },
   'onb.nickLabel': {
     en: 'Baby’s nickname (optional)',
     hinglish: 'Baby ka pyaar ka naam (zaroori nahi)',

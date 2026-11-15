@@ -28,7 +28,7 @@ test('onboarding → correct week → story → game → garden grows → data s
   await page.locator('input[type=date]').fill('2026-06-01');
   await expect(page.getByText(/Week 23 · Day 6/)).toBeVisible();
   await page.getByRole('button', { name: /Next/ }).click();
-  await page.getByLabel('Your name').fill('Sunita');
+  await page.getByLabel('Your name').fill('Sukanya');
   await page.getByRole('button', { name: /Start my journey/ }).click();
 
   // 2. Home shows the correct week
