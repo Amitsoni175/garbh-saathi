@@ -8,6 +8,7 @@ import { useT } from '@/app/useT';
 import { Button, ChipGroup } from '@/components/ui';
 import { inputClass } from '@/components/ui/styles';
 import { getToday, getTodayISO } from '@/lib/clock';
+import { requestPersistentStorage } from '@/lib/pwa';
 import type { Lang } from '@/lib/i18n';
 import {
   computePregnancy,
@@ -50,6 +51,7 @@ export default function OnboardingScreen() {
       startDate: getTodayISO(),
       createdAt: new Date().toISOString(),
     });
+    void requestPersistentStorage();
     void navigate('/', { replace: true });
   }
 

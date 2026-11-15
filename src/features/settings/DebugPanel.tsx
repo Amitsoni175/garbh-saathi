@@ -1,8 +1,16 @@
 import { useCallback, useEffect, useState, type ReactNode } from 'react';
+import { useProfile } from '@/app/profile';
+import { useSettings } from '@/app/settings';
+import { useRagaNow, useTodayPlan } from '@/app/useTodayPlan';
 import { useNavigate } from 'react-router';
 import { useNow } from '@/app/useClock';
 import { useT } from '@/app/useT';
-import { Button, Card, PageHeader, useToast } from '@/components/ui';
+import { BottomSheet, Button, Card, PageHeader, useToast } from '@/components/ui';
+import { getVoices, speakOnce } from '@/lib/audio';
+import { wipeAllData } from '@/lib/backup';
+import { validateAllContent, type ContentIssue } from '@/lib/content';
+import { showNotification, requestNotificationPermission } from '@/lib/notify';
+import { seasonForMonth } from '@/lib/season';
 import { getClockOverride, getToday, setDateOverride, setTimeOverride } from '@/lib/clock';
 import type { ErrorLogRow } from '@/lib/db';
 import { armCrash, crashIfArmed } from '@/lib/debugCrash';
@@ -51,9 +59,22 @@ export default function DebugPanel() {
   const [log, setLog] = useState<ErrorLogRow[]>([]);
   const [storage, setStorage] = useState<string>('…');
   const [, forceRender] = useState(0);
+  const { profile, clear } = useProfile();
+  const { settings } = useSettings();
+  const { plan, offset, dayNumber } = useTodayPlan();
+  const raga = useRagaNow(dayNumber, plan?.ragaSlot ?? null);
+  const [issues, setIssues] = useState<ContentIssue[] | null>(null);
+  const [voices, setVoices] = useState<SpeechSynthesisVoice[]>([]);
+  const [wipeStep, setWipeStep] = useState<0 | 1 | 2>(0);
+  const [wipeText, setWipeText] = useState('');
 
   const refreshLog = useCallback(() => {
     void getErrorLog().then(setLog);
+  }, []);
+
+  useEffect(() => {
+    void validateAllContent().then(setIssues);
+    void getVoices().then(setVoices);
   }, []);
 
   useEffect(() => {
@@ -68,8 +89,9 @@ export default function DebugPanel() {
       .catch(() => setStorage('Not available'));
   }, [refreshLog]);
 
-  const lmpValid = parseLocalDate(testLmp) !== null;
-  const state = lmpValid ? computePregnancy(testLmp, getToday()) : null;
+  const lmp = profile?.lmp ?? testLmp;
+  const lmpValid = parseLocalDate(lmp) !== null;
+  const state = lmpValid ? computePregnancy(lmp, getToday()) : null;
 
   function saveTestLmp(value: string) {
     setTestLmp(value);
@@ -145,16 +167,20 @@ export default function DebugPanel() {
               {t('debug.clear')}
             </Button>
           </div>
-          <label className="mb-1 block text-sm font-semibold" htmlFor="dbg-lmp">
-            {t('debug.testLmp')}
-          </label>
-          <input
-            id="dbg-lmp"
-            type="date"
-            className={`${inputClass} mb-3`}
-            value={testLmp}
-            onChange={(e) => saveTestLmp(e.target.value)}
-          />
+          {!profile && (
+            <>
+              <label className="mb-1 block text-sm font-semibold" htmlFor="dbg-lmp">
+                {t('debug.testLmp')}
+              </label>
+              <input
+                id="dbg-lmp"
+                type="date"
+                className={`${inputClass} mb-3`}
+                value={testLmp}
+                onChange={(e) => saveTestLmp(e.target.value)}
+              />
+            </>
+          )}
           {state && (
             <>
               <label className="mb-1 block text-sm font-semibold" htmlFor="dbg-week">
@@ -166,7 +192,7 @@ export default function DebugPanel() {
                 min={0}
                 max={43}
                 value={Math.min(43, state.weeks)}
-                onChange={(e) => setDateOverride(dateForWeek(testLmp, Number(e.target.value)))}
+                onChange={(e) => setDateOverride(dateForWeek(lmp, Number(e.target.value)))}
                 className="w-full accent-[var(--color-primary)]"
               />
             </>
@@ -186,6 +212,9 @@ export default function DebugPanel() {
                 ['Days to go', state.daysToGo],
                 ['Complete', `${state.percent}%`],
                 ['Stage', state.stage],
+                [t('debug.season'), seasonForMonth(now.getMonth() + 1)],
+                ['Journey offset', offset],
+                ['Text / audio', `${settings.textLang} / ${settings.audioLang}`],
               ].map(([k, v]) => (
                 <div key={String(k)} className="contents">
                   <dt className="text-text-muted">{k}</dt>
@@ -195,6 +224,43 @@ export default function DebugPanel() {
             </dl>
           ) : (
             <p className="text-text-muted text-sm">Enter a valid test LMP.</p>
+          )}
+        </Section>
+
+        <Section title={t('debug.plan')}>
+          <dl className="grid grid-cols-2 gap-x-4 gap-y-1 text-sm">
+            {[
+              ['Day number', dayNumber],
+              ['Story', plan?.storyId ?? '—'],
+              ['Shloka', plan?.shlokaId ?? '—'],
+              ['Game', plan?.gameType ?? '—'],
+              ['Raga', `${raga?.id ?? '—'} (${plan?.ragaSlot ?? 'by clock'})`],
+              ['Talk prompt', plan?.promptId ?? '—'],
+              ['Papa prompt', plan?.papaPromptId ?? '—'],
+              ['Journal prompt', plan?.journalPromptId ?? '—'],
+            ].map(([k, v]) => (
+              <div key={String(k)} className="contents">
+                <dt className="text-text-muted">{k}</dt>
+                <dd className="font-semibold break-all">{v}</dd>
+              </div>
+            ))}
+          </dl>
+        </Section>
+
+        <Section title={t('debug.validation')}>
+          {issues === null ? (
+            <p className="text-sm">…</p>
+          ) : issues.length === 0 ? (
+            <p className="text-sm">{t('debug.validationOk')}</p>
+          ) : (
+            <ul className="flex flex-col gap-1 text-sm">
+              {issues.map((i, n) => (
+                <li key={n} className="rounded-soft bg-accent/50 p-2">
+                  <strong>{i.file}</strong> [{String(i.index)}]{i.id ? ` "${i.id}"` : ''}:{' '}
+                  {i.reason}
+                </li>
+              ))}
+            </ul>
           )}
         </Section>
 
@@ -256,6 +322,37 @@ export default function DebugPanel() {
             >
               {t('debug.testToast')}
             </Button>
+            <Button
+              variant="secondary"
+              onClick={() => void speakOnce('नमस्ते, मैं आपकी गर्भ साथी हूँ।', 'hi', 'Hindi test')}
+            >
+              {t('debug.testHindi')}
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() => void speakOnce('Hello, I am your Garbh Saathi.', 'en', 'English test')}
+            >
+              {t('debug.testEnglish')}
+            </Button>
+            <Button
+              variant="secondary"
+              onClick={() =>
+                void requestNotificationPermission().then(async (perm) => {
+                  const ok =
+                    perm === 'granted' &&
+                    (await showNotification('Garbh Saathi', 'Test notification 🌸', 'gs-debug'));
+                  if (!ok) toast({ message: `Notification permission: ${perm}` });
+                })
+              }
+            >
+              {t('debug.testNotification')}
+            </Button>
+            <Button variant="ghost" onClick={() => void clear()}>
+              {t('debug.resetOnboarding')}
+            </Button>
+            <Button variant="accent" onClick={() => setWipeStep(1)}>
+              ⚠️ {t('debug.wipe')}
+            </Button>
           </div>
           <p className="mt-4 text-sm">
             <span className="font-semibold">{t('debug.storage')}:</span> {storage}
@@ -264,7 +361,59 @@ export default function DebugPanel() {
             <span className="font-semibold">Version:</span> {__APP_VERSION__}
           </p>
         </Section>
+        <Section title={t('debug.voices', { count: voices.length })}>
+          <ul className="max-h-48 overflow-y-auto text-xs">
+            {voices.map((v) => (
+              <li key={`${v.name}-${v.lang}`}>
+                {v.lang} · {v.name}
+                {v.localService ? '' : ' (online)'}
+              </li>
+            ))}
+          </ul>
+        </Section>
       </div>
+      <BottomSheet
+        open={wipeStep > 0}
+        onClose={() => setWipeStep(0)}
+        title={t('debug.wipe')}
+        closeLabel={t('ui.close')}
+      >
+        {wipeStep === 1 ? (
+          <div className="flex flex-col gap-3">
+            <p>{t('debug.wipeConfirm1')}</p>
+            <div className="flex gap-2">
+              <Button variant="accent" onClick={() => setWipeStep(2)}>
+                {t('rec.deleteYes')}
+              </Button>
+              <Button variant="ghost" onClick={() => setWipeStep(0)}>
+                {t('rec.keep')}
+              </Button>
+            </div>
+          </div>
+        ) : (
+          <div className="flex flex-col gap-3">
+            <p>{t('debug.wipeConfirm2')}</p>
+            <input
+              className={inputClass}
+              value={wipeText}
+              onChange={(e) => setWipeText(e.target.value)}
+              aria-label="DELETE"
+            />
+            <Button
+              variant="accent"
+              disabled={wipeText !== 'DELETE'}
+              onClick={() =>
+                void wipeAllData().then(() => {
+                  toast({ message: t('debug.wipeDone') });
+                  window.setTimeout(() => window.location.reload(), 800);
+                })
+              }
+            >
+              ⚠️ {t('debug.wipe')}
+            </Button>
+          </div>
+        )}
+      </BottomSheet>
     </>
   );
 }

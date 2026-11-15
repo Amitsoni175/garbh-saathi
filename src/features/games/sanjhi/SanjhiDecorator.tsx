@@ -126,7 +126,9 @@ async function renderToBlob(placed: Placed[]): Promise<Blob | null> {
   circle(50, 31, 2.2, RED);
   ctx.fillStyle = CLAY;
   ctx.beginPath();
-  ctx.roundRect(38 * k, 78 * k, 24 * k, 16 * k, 6 * k);
+  // roundRect is missing on older iPhones (Safari < 16): fall back to a plain rectangle.
+  if (typeof ctx.roundRect === 'function') ctx.roundRect(38 * k, 78 * k, 24 * k, 16 * k, 6 * k);
+  else ctx.rect(38 * k, 78 * k, 24 * k, 16 * k);
   ctx.fill();
   ctx.font = `${10 * k}px "Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji",sans-serif`;
   ctx.textAlign = 'center';

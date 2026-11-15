@@ -11,10 +11,11 @@ import { GardenView } from '@/features/garden/GardenView';
 import { useGarden } from '@/features/garden/useGarden';
 import { FestivalBanner } from '@/features/haryana/FestivalBanner';
 import { UpNext } from '@/features/schedule/UpNext';
+import { BackupReminder } from '@/features/settings/BackupReminder';
 import { CareRow } from '@/features/wellness/CareRow';
 import { LowMoodCard } from '@/features/wellness/CareCards';
 import { useCompletionsOn } from '@/lib/activity';
-import { getTodayISO } from '@/lib/clock';
+import { getNow, getTodayISO } from '@/lib/clock';
 import { getPrompts, tx } from '@/lib/content';
 import { BabySizeCard } from './BabySizeCard';
 import { JourneyPath, type Stone } from './JourneyPath';
@@ -83,6 +84,7 @@ export default function TodayScreen() {
         <div className="flex flex-col gap-4 px-4">
           <StageCard state={state} />
           <FestivalBanner />
+          <BackupReminder nowMs={getNow().getTime()} />
           <LowMoodCard />
           <CareRow />
 

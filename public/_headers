@@ -1,0 +1,11 @@
+# Netlify (and Cloudflare Pages) cache rules.
+# index.html, the service worker and the manifest must always be re-checked,
+# so updates reach her phone. Hashed assets can be cached forever.
+/index.html
+  Cache-Control: no-cache
+/sw.js
+  Cache-Control: no-cache
+/manifest.webmanifest
+  Cache-Control: no-cache
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable

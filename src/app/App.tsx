@@ -4,6 +4,7 @@ import { RouterProvider } from 'react-router';
 import { ToastProvider } from '@/components/ui/ToastProvider';
 import { CelebrationProvider } from './CelebrationProvider';
 import { ProfileProvider } from './ProfileProvider';
+import { PwaUpdater } from './PwaUpdater';
 import { router } from './router';
 import { SettingsProvider } from './SettingsProvider';
 import { useT } from './useT';
@@ -25,6 +26,7 @@ export default function App() {
             <LocalisedToasts>
               <CelebrationProvider>
                 <RouterProvider router={router} />
+                <PwaUpdater />
               </CelebrationProvider>
             </LocalisedToasts>
           </ProfileProvider>

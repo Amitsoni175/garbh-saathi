@@ -145,3 +145,19 @@ body {
     transition-duration: 0.01ms !important;
   }
 }
+
+/* Printing (keepsake letters): plain white page, no app chrome. */
+@media print {
+  html,
+  body {
+    background: #fff !important;
+    color: #2b2430 !important;
+  }
+  nav,
+  [role='status'] {
+    display: none !important;
+  }
+  .keepsake {
+    font-size: 12pt;
+  }
+}

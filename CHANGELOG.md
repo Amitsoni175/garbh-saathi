@@ -1,5 +1,43 @@
 # Changelog
 
+## 1.0.0 · Phase 9: PWA, backup, polish, deploy (2026-11-15)
+
+- **Offline and installable** (vite-plugin-pwa / Workbox):
+  - The app shell, every code chunk and the woff2 fonts are precached; audio and images are cached
+    the first time they are used. Checked by loading the app, going offline and opening Today,
+    stories, games, music, calendar and wellness.
+  - The manifest has 192/512 and maskable lotus icons, an apple-touch-icon and iOS meta tags.
+  - Relative paths (`base: './'`) make one build work on Netlify, Vercel and GitHub Pages.
+- **Updates and repair**:
+  - **Update toast**: "A new version is ready ✨ Refresh" (`registerType: 'prompt'`). The app checks
+    hourly, on pull-to-refresh and from Me → Refresh app.
+  - **Fix app**: after a confirmation it unregisters the service worker and clears caches. It keeps
+    all of her data.
+  - **Cache headers** (`public/_headers`, `vercel.json`) keep index.html, sw.js and the manifest from
+    being cached aggressively; hashed assets are cached for a year.
+- **Install**: an install button on Android Chrome, and step-by-step instructions on iPhone.
+  Persistent storage is requested after onboarding.
+- **Backup & restore**:
+  - One `garbh-saathi-backup-YYYY-MM-DD.json` file, with photos and recordings base64-encoded,
+    shared or downloaded.
+  - Restore checks the file first and shows a summary ("14 letters, 6 photos…"). It then replaces
+    the data in one all-or-nothing transaction.
+  - A gentle monthly backup reminder appears on Today.
+- **Keepsake letters**: a printable page of her letters (Print → Save as PDF).
+- **Debug panel finished**:
+  - today's plan IDs and the season
+  - the content validation report and the list of speech voices
+  - Hindi/English voice tests and a test notification
+  - reset onboarding, and wipe-all with two confirmations
+- **Playwright smoke test** (`npm run e2e`): onboarding with LMP → correct week → story → game →
+  the garden count goes up → still there after a reload.
+- **Lighthouse (mobile, onboarding screen)**: Performance 88, Accessibility 100, Best Practices 100.
+  The first-load JavaScript is about 94 KB gzipped (budget 250 KB).
+- **Docs**: full README (run, phone install, adding content with copy-paste examples, audio file
+  names, Netlify drag-and-drop / GitHub Pages / Vercel, backup, troubleshooting) and the
+  CONTENT_GUIDE. A GitHub Pages workflow is included.
+- Sanjhi image saving works on older iPhones (`roundRect` fallback).
+
 ## 0.8.0 · Phase 8: Haryana layer + Festivals (2026-11-15)
 
 - **festivals.json** with 2026 and 2027 dates for Lohri, Makar Sankranti, Basant Panchami,

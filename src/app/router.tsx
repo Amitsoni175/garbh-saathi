@@ -74,6 +74,8 @@ export const router = createHashRouter([
         path: 'after-birth',
         lazy: lazyScreen(() => import('@/features/haryana/AfterBirthScreen')),
       },
+      { path: 'me/backup', lazy: lazyScreen(() => import('@/features/settings/BackupScreen')) },
+      { path: 'me/keepsake', lazy: lazyScreen(() => import('@/features/settings/KeepsakeScreen')) },
       { path: 'me/schedule', lazy: lazyScreen(() => import('@/features/schedule/ScheduleScreen')) },
       { path: 'me/debug', lazy: lazyScreen(() => import('@/features/settings/DebugPanel')) },
       { path: '*', element: <TodayScreen /> },

@@ -8,6 +8,7 @@ import { useT } from '@/app/useT';
 import { Button, Card, ChipGroup, PageHeader, Toggle, useToast } from '@/components/ui';
 import type { StringKey } from '@/lib/i18n';
 import { parseLocalDate } from '@/lib/pregnancy';
+import { AppCareCard } from './AppCareCard';
 import type { Lang } from '@/lib/i18n';
 import type { NightModeSetting } from '@/lib/timeOfDay';
 
@@ -186,6 +187,7 @@ export default function MeScreen() {
           />
         </Card>
 
+        <AppCareCard index={3} />
         <Card index={3} ariaLabel={t('settings.about')}>
           <h2 className="font-semibold">{t('settings.about')}</h2>
           <p className="text-text-muted mt-1 text-sm">{t('settings.privacy')}</p>
