@@ -1,0 +1,147 @@
+@import 'tailwindcss';
+
+/* Self-hosted fonts (bundled from npm, so they work offline). */
+@import '@fontsource/nunito/400.css';
+@import '@fontsource/nunito/600.css';
+@import '@fontsource/nunito/700.css';
+@import '@fontsource/noto-sans-devanagari/400.css';
+@import '@fontsource/noto-sans-devanagari/600.css';
+
+/*
+ * Theme tokens. Night mode is applied with data-theme="night" on <html>
+ * (set by the app in Phase 1: auto after 8 PM / system setting / manual).
+ * Until then, the system dark setting is followed.
+ *
+ * Contrast (WCAG AA, checked): text-muted was darkened from the spec's
+ * #8C7F90 (3.6:1 on cream) to #6E6173 (5.5:1). Backgrounds are unchanged.
+ * --on-fill is the text colour used on pastel fills (buttons, chips).
+ */
+:root {
+  --gs-background: #fff8f3;
+  --gs-surface: #ffffff;
+  --gs-primary: #f4c2c2;
+  --gs-secondary: #d8ccf0;
+  --gs-accent: #ffd8b5;
+  --gs-calm: #cdebdd;
+  --gs-text: #5a4a5e;
+  --gs-text-muted: #6e6173;
+  --gs-on-fill: #5a4a5e;
+  --gs-shadow: 0 8px 24px rgba(90, 74, 94, 0.08);
+  color-scheme: light;
+}
+
+:root[data-theme='night'] {
+  --gs-background: #2b2840;
+  --gs-surface: #3a3654;
+  --gs-primary: #c99aa6;
+  --gs-secondary: #9c8fc4;
+  --gs-accent: #d9a97f;
+  --gs-calm: #7fb39a;
+  --gs-text: #ede6f2;
+  --gs-text-muted: #b8aec2;
+  --gs-on-fill: #2b2840;
+  --gs-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+  color-scheme: dark;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    --gs-background: #2b2840;
+    --gs-surface: #3a3654;
+    --gs-primary: #c99aa6;
+    --gs-secondary: #9c8fc4;
+    --gs-accent: #d9a97f;
+    --gs-calm: #7fb39a;
+    --gs-text: #ede6f2;
+    --gs-text-muted: #b8aec2;
+    --gs-on-fill: #2b2840;
+    --gs-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    color-scheme: dark;
+  }
+}
+
+@custom-variant night (&:where([data-theme='night'], [data-theme='night'] *));
+
+@theme inline {
+  --color-background: var(--gs-background);
+  --color-surface: var(--gs-surface);
+  --color-primary: var(--gs-primary);
+  --color-secondary: var(--gs-secondary);
+  --color-accent: var(--gs-accent);
+  --color-calm: var(--gs-calm);
+  --color-text: var(--gs-text);
+  --color-text-muted: var(--gs-text-muted);
+  --color-on-fill: var(--gs-on-fill);
+  --shadow-soft: var(--gs-shadow);
+}
+
+@theme {
+  --font-sans: 'Nunito', system-ui, sans-serif;
+  --font-deva: 'Noto Sans Devanagari', 'Nunito', sans-serif;
+  --radius-soft: 20px;
+  --radius-softer: 28px;
+  --ease-gentle: cubic-bezier(0.22, 1, 0.36, 1);
+  --animate-breathe: breathe 3.6s var(--ease-gentle) infinite;
+  --animate-float-in: float-in 420ms var(--ease-gentle) both;
+
+  @keyframes breathe {
+    0%,
+    100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.04);
+    }
+  }
+  @keyframes float-in {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+/* Text size setting (Phase 7/settings) changes this one value. */
+html {
+  font-size: 17px;
+  -webkit-text-size-adjust: 100%;
+}
+html[data-text-size='large'] {
+  font-size: 19px;
+}
+html[data-text-size='xl'] {
+  font-size: 21px;
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--gs-background);
+  color: var(--gs-text);
+  font-family: var(--font-sans);
+  line-height: 1.6;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    background-color 400ms ease-out,
+    color 400ms ease-out;
+}
+
+:focus-visible {
+  outline: 3px solid var(--gs-secondary);
+  outline-offset: 3px;
+  border-radius: 12px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
