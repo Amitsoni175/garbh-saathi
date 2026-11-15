@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.3.0 · Phase 3: Stories + Audio (2026-11-15)
+
+- **12 seed stories** in English and Hinglish: Abhimanyu (story #1, with Devanagari text for the
+  Hindi voice), Gita Week parts 1–3 (one Gita shloka each), Dhruva, Prahlad, Baby Krishna and the
+  butter (with Surdas' line), Eklavya, Kalpana Chawla, the Phogat sisters and Saina Nehwal, the
+  clever rabbit (Panchatantra) and Savitri.
+- **Story player**: swipeable cards (or buttons), a read-aloud mode with big text and "say this to
+  your baby" lines, gentle choice points where both answers teach something, a moral card, "Part N
+  tomorrow ✨" for series, and a reflection she can type or record (saved to her letters).
+- **Record in your voice**: Mummy, Papa, Dadi or Nani can record any story. The family voice
+  replaces the default audio, with a toggle to switch back.
+- **Audio system** (`src/lib/audio.ts`): family recording → MP3 file → phone voice (hi-IN / en-IN).
+  It falls back to English with a one-time "how to install a Hindi voice" notice. Missing MP3s are
+  detected properly (even when the server answers with index.html).
+- **Player**: play/pause, seek (by card for the phone voice), 0.75×/1× speed, a 10/20/30-minute sleep
+  timer, a mini-player above the tabs, lock-screen controls (Media Session), and a gentle "tap to
+  play" if iOS blocks autoplay.
+- **Story library**: every unlocked story (from the daily rotation, those already heard, and series
+  unlocked by festivals), with Today / Heard badges.
+- Tests: content validation (all shipped content is valid, malformed entries are skipped), voice
+  picking, sentence splitting, recording format.
+
 ## 0.2.0 · Phase 2: Onboarding + Today (2026-11-15)
 
 - **Onboarding** (3 screens): welcome with the language choice; last-period or due date with an

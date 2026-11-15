@@ -25,6 +25,11 @@ export const router = createHashRouter([
         lazy: lazyScreen(() => import('@/features/onboarding/OnboardingScreen')),
       },
       { path: 'shloka/:id?', lazy: lazyScreen(() => import('@/features/home/ShlokaScreen')) },
+      { path: 'stories', lazy: lazyScreen(() => import('@/features/stories/StoryLibraryScreen')) },
+      {
+        path: 'stories/:id',
+        lazy: lazyScreen(() => import('@/features/stories/StoryPlayerScreen')),
+      },
       { path: 'talk', lazy: lazyScreen(() => import('@/features/bonding/TalkScreen')) },
       { path: 'garden', lazy: lazyScreen(() => import('@/features/garden/GardenScreen')) },
       { path: 'calendar', lazy: lazyScreen(() => import('@/features/calendar/CalendarScreen')) },

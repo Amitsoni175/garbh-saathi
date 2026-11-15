@@ -41,7 +41,7 @@ export function Button({
       type={type}
       whileTap={{ scale: 0.96 }}
       transition={{ duration: 0.25, ease: 'easeOut' }}
-      className={`inline-flex items-center justify-center gap-2 rounded-full font-semibold transition-opacity disabled:opacity-50 ${variants[variant]} ${sizes[size]} ${breathe ? 'animate-breathe' : ''} ${className}`}
+      className={`inline-flex items-center justify-center gap-2 rounded-full font-semibold whitespace-nowrap transition-opacity disabled:opacity-50 ${variants[variant]} ${sizes[size]} ${breathe ? 'animate-breathe' : ''} ${className}`}
       {...rest}
     >
       {icon && <span aria-hidden="true">{icon}</span>}
