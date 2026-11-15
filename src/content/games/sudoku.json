@@ -1,0 +1,25 @@
+{
+  "_note": "Puzzles are generated from these settings (see src/features/games/sudoku/logic.ts). 'holes' = how many cells start empty.",
+  "levels": [
+    {
+      "id": "4-easy",
+      "size": 4,
+      "holes": 6
+    },
+    {
+      "id": "4-medium",
+      "size": 4,
+      "holes": 9
+    },
+    {
+      "id": "6-easy",
+      "size": 6,
+      "holes": 14
+    },
+    {
+      "id": "6-medium",
+      "size": 6,
+      "holes": 20
+    }
+  ]
+}

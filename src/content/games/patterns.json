@@ -1,0 +1,182 @@
+[
+  {
+    "id": "n1",
+    "sequence": [2, 4, 6, 8],
+    "answer": 10,
+    "options": [9, 10, 12],
+    "hint": {
+      "en": "Add 2 each time.",
+      "hinglish": "Har baar 2 jodo."
+    }
+  },
+  {
+    "id": "n2",
+    "sequence": [1, 3, 5, 7],
+    "answer": 9,
+    "options": [8, 9, 11],
+    "hint": {
+      "en": "Odd numbers, add 2.",
+      "hinglish": "Visham sankhya, 2 jodo."
+    }
+  },
+  {
+    "id": "n3",
+    "sequence": [5, 10, 15, 20],
+    "answer": 25,
+    "options": [25, 24, 30],
+    "hint": {
+      "en": "Count in fives.",
+      "hinglish": "Paanch-paanch karke gino."
+    }
+  },
+  {
+    "id": "n4",
+    "sequence": [1, 2, 4, 8],
+    "answer": 16,
+    "options": [10, 12, 16],
+    "hint": {
+      "en": "Double each time.",
+      "hinglish": "Har baar dugna."
+    }
+  },
+  {
+    "id": "n5",
+    "sequence": [2, 6, 12, 20],
+    "answer": 30,
+    "options": [28, 30, 32],
+    "hint": {
+      "en": "Add 4, 6, 8, then 10.",
+      "hinglish": "4, 6, 8, phir 10 jodo."
+    }
+  },
+  {
+    "id": "n6",
+    "sequence": [1, 4, 9, 16],
+    "answer": 25,
+    "options": [20, 25, 24],
+    "hint": {
+      "en": "Square numbers: 1×1, 2×2, 3×3…",
+      "hinglish": "Varg sankhya: 1×1, 2×2, 3×3…"
+    }
+  },
+  {
+    "id": "n7",
+    "sequence": [3, 6, 9, 12],
+    "answer": 15,
+    "options": [14, 15, 18],
+    "hint": {
+      "en": "The 3 times table.",
+      "hinglish": "3 ka pahaada."
+    }
+  },
+  {
+    "id": "n8",
+    "sequence": [100, 90, 80, 70],
+    "answer": 60,
+    "options": [60, 65, 50],
+    "hint": {
+      "en": "Take away 10 each time.",
+      "hinglish": "Har baar 10 ghataao."
+    }
+  },
+  {
+    "id": "n9",
+    "sequence": [1, 1, 2, 3, 5],
+    "answer": 8,
+    "options": [7, 8, 10],
+    "hint": {
+      "en": "Add the two numbers before.",
+      "hinglish": "Pichhli do sankhya jodo."
+    }
+  },
+  {
+    "id": "n10",
+    "sequence": [10, 20, 40, 80],
+    "answer": 160,
+    "options": [100, 120, 160],
+    "hint": {
+      "en": "Double each time.",
+      "hinglish": "Har baar dugna."
+    }
+  },
+  {
+    "id": "n11",
+    "sequence": [1, 2, 3, 5, 8],
+    "answer": 13,
+    "options": [11, 12, 13],
+    "hint": {
+      "en": "Add the two numbers before.",
+      "hinglish": "Pichhli do sankhya jodo."
+    }
+  },
+  {
+    "id": "n12",
+    "sequence": [7, 14, 21, 28],
+    "answer": 35,
+    "options": [35, 32, 36],
+    "hint": {
+      "en": "The 7 times table.",
+      "hinglish": "7 ka pahaada."
+    }
+  },
+  {
+    "id": "n13",
+    "sequence": [64, 32, 16, 8],
+    "answer": 4,
+    "options": [4, 6, 2],
+    "hint": {
+      "en": "Halve each time.",
+      "hinglish": "Har baar aadha."
+    }
+  },
+  {
+    "id": "n14",
+    "sequence": [2, 3, 5, 7, 11],
+    "answer": 13,
+    "options": [12, 13, 15],
+    "hint": {
+      "en": "Prime numbers!",
+      "hinglish": "Abhaajya sankhya!"
+    }
+  },
+  {
+    "id": "n15",
+    "sequence": [1, 10, 100],
+    "answer": 1000,
+    "options": [1000, 110, 200],
+    "hint": {
+      "en": "Multiply by 10.",
+      "hinglish": "10 se guna."
+    }
+  },
+  {
+    "id": "n16",
+    "sequence": [4, 8, 12, 16],
+    "answer": 20,
+    "options": [18, 20, 24],
+    "hint": {
+      "en": "The 4 times table.",
+      "hinglish": "4 ka pahaada."
+    }
+  },
+  {
+    "id": "n17",
+    "sequence": [11, 22, 33, 44],
+    "answer": 55,
+    "options": [50, 55, 66],
+    "hint": {
+      "en": "Count in elevens.",
+      "hinglish": "Gyaarah-gyaarah karke gino."
+    }
+  },
+  {
+    "id": "n18",
+    "sequence": [1, 3, 6, 10],
+    "answer": 15,
+    "options": [14, 15, 16],
+    "hint": {
+      "en": "Add 2, 3, 4, then 5.",
+      "hinglish": "2, 3, 4, phir 5 jodo."
+    }
+  }
+]

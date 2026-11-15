@@ -1,0 +1,291 @@
+{
+  "seasonal": {
+    "heat": {
+      "title": { "en": "Summer care ☀️", "hinglish": "Garmi ka khayal ☀️" },
+      "tips": [
+        {
+          "en": "Sip water through the day: nimbu-pani, chaach and coconut water help too.",
+          "hinglish": "Din bhar thoda-thoda paani piyein: nimbu-pani, chaach aur nariyal paani bhi achhe hain."
+        },
+        {
+          "en": "Try to stay indoors between 12 and 4 PM when the loo is strong.",
+          "hinglish": "Dopahar 12 se 4 baje tak, jab loo chalti hai, ghar ke andar rahein."
+        },
+        {
+          "en": "Keep ORS at home. If you feel dizzy or very tired, rest in the shade and drink fluids.",
+          "hinglish": "Ghar mein ORS rakhein. Chakkar ya thakaan lage to chhaanv mein aaraam karein aur paani piyein."
+        },
+        {
+          "en": "Wear loose cotton clothes and cover your head when you step out.",
+          "hinglish": "Dheele soot ke kapde pehnein aur bahar jaate samay sir dhakein."
+        }
+      ]
+    },
+    "monsoon": {
+      "title": { "en": "Monsoon care 🌧️", "hinglish": "Barsaat ka khayal 🌧️" },
+      "tips": [
+        {
+          "en": "Drink boiled or filtered water, and wash fruit and vegetables well.",
+          "hinglish": "Ubla ya filter kiya paani piyein, aur phal-sabzi achhi tarah dhoyein."
+        },
+        {
+          "en": "Keep mosquitoes away: nets, full sleeves, and no standing water near the house.",
+          "hinglish": "Machhar door rakhein: machhardaani, poori baanh ke kapde, aur ghar ke paas paani jama na hone dein."
+        },
+        {
+          "en": "Avoid street food in the rains; fresh home food is best.",
+          "hinglish": "Barsaat mein bahar ka khaana na khaayein; ghar ka taaza khaana sabse achha."
+        },
+        {
+          "en": "Walk carefully on wet floors and muddy paths.",
+          "hinglish": "Geele farsh aur keechad wale raaston par dhyaan se chalein."
+        }
+      ]
+    },
+    "fog": {
+      "title": { "en": "Winter and fog care 🌫️", "hinglish": "Sardi aur kohre ka khayal 🌫️" },
+      "tips": [
+        {
+          "en": "Dress in layers and keep your feet warm.",
+          "hinglish": "Kai parat kapde pehnein aur pair garam rakhein."
+        },
+        {
+          "en": "Avoid travelling early in the morning when the fog is thick.",
+          "hinglish": "Subah-subah ghane kohre mein safar na karein."
+        },
+        {
+          "en": "If it's too cold outside, walk indoors or on the terrace in the afternoon sun.",
+          "hinglish": "Bahar zyada thand ho to ghar ke andar ya dopahar ki dhoop mein chhat par tahlein."
+        },
+        {
+          "en": "Keep the room airy if you use an angithi or heater; never sleep with a coal fire in a closed room.",
+          "hinglish": "Angithi ya heater ho to kamre mein hawa aane dein; band kamre mein koyle ki aag ke saath kabhi na soyein."
+        }
+      ]
+    },
+    "spring": {
+      "title": { "en": "Spring days 🌼", "hinglish": "Basant ke din 🌼" },
+      "tips": [
+        {
+          "en": "A gentle evening walk in the fresh air is lovely this season.",
+          "hinglish": "Is mausam mein shaam ki halki sair bahut achhi lagti hai."
+        },
+        {
+          "en": "Enjoy seasonal fruit like oranges, guavas and ber, washed well.",
+          "hinglish": "Santra, amrood aur ber jaise mausami phal achhi tarah dhokar khaayein."
+        },
+        {
+          "en": "Pollen can bring sneezes; wash your face and hands after being outside.",
+          "hinglish": "Phoolon ke paraag se chheenk aa sakti hai; bahar se aakar haath-munh dhoyein."
+        }
+      ]
+    },
+    "autumn": {
+      "title": { "en": "Festive season 🪔", "hinglish": "Tyohaaron ka mausam 🪔" },
+      "tips": [
+        {
+          "en": "Enjoy the festivals, and take rest breaks between the cooking and cleaning.",
+          "hinglish": "Tyohaar manaaiye, aur khaana-safaai ke beech aaraam bhi kijiye."
+        },
+        {
+          "en": "Stay away from smoke and loud crackers, and keep a window open for fresh air.",
+          "hinglish": "Dhuein aur tez pataakhon se door rahein, aur taazi hawa ke liye khidki khuli rakhein."
+        },
+        {
+          "en": "Mithai is lovely in small amounts; fruit and roasted chana make good snacks too.",
+          "hinglish": "Mithai thodi si achhi hai; phal aur bhuna chana bhi badhiya naashta hain."
+        }
+      ]
+    }
+  },
+  "food": [
+    {
+      "id": "f-bajra",
+      "text": {
+        "en": "Winter: bajra or makki roti with sarson ka saag gives warmth and iron.",
+        "hinglish": "Sardi: bajre ya makki ki roti aur sarson ka saag garmi aur iron dete hain."
+      },
+      "season": "fog"
+    },
+    {
+      "id": "f-kadhi",
+      "text": {
+        "en": "Kadhi-chawal and dal give comforting protein.",
+        "hinglish": "Kadhi-chawal aur daal se pyaara protein milta hai."
+      }
+    },
+    {
+      "id": "f-lassi",
+      "text": {
+        "en": "Lassi and chaach are cooling and good for digestion. Choose fresh, home-made ones.",
+        "hinglish": "Lassi aur chaach thandak dete hain aur pet ke liye achhe hain. Ghar ke taaze wale lein."
+      }
+    },
+    {
+      "id": "f-chana-gur",
+      "text": {
+        "en": "A small handful of roasted chana with a little gur is a lovely iron-rich snack.",
+        "hinglish": "Mutthi bhar bhuna chana aur thoda gur, iron se bhara pyaara naashta hai."
+      }
+    },
+    {
+      "id": "f-fruit",
+      "text": {
+        "en": "Eat fruit of the season: guava, orange, banana, papaya (ripe) and more, washed well.",
+        "hinglish": "Mausami phal khaayein: amrood, santra, kela, paka papita, sab dhokar."
+      }
+    },
+    {
+      "id": "f-greens",
+      "text": {
+        "en": "Green leafy sabzi like palak, methi and bathua help with iron.",
+        "hinglish": "Palak, methi, bathua jaisi hari sabziyan iron mein madad karti hain."
+      }
+    },
+    {
+      "id": "f-milk",
+      "text": {
+        "en": "Milk, dahi and paneer give calcium for baby's bones.",
+        "hinglish": "Doodh, dahi aur paneer baby ki haddiyon ke liye calcium dete hain."
+      }
+    },
+    {
+      "id": "f-ghee",
+      "text": {
+        "en": "A little ghee is fine, but too much ghee and sweets add extra weight. Keep portions small.",
+        "hinglish": "Thoda ghee theek hai, par zyada ghee aur mithai se vazan badhta hai. Maatra kam rakhein."
+      },
+      "caution": true
+    },
+    {
+      "id": "f-panjiri",
+      "text": {
+        "en": "Panjiri and gond laddoos are a family tradition. They are very rich, so ask your doctor how much and when.",
+        "hinglish": "Panjiri aur gond ke laddoo ghar ki parampara hain. Yeh bahut bhaari hote hain, isliye doctor se poochhein kitna aur kab."
+      },
+      "caution": true,
+      "askDoctor": true
+    },
+    {
+      "id": "f-tea",
+      "text": {
+        "en": "Keep chai to one or two cups a day, and not right with meals (it reduces iron absorption).",
+        "hinglish": "Chai din mein ek-do cup rakhein, aur khaane ke saath nahi (isse iron kam milta hai)."
+      },
+      "caution": true
+    },
+    {
+      "id": "f-lemon",
+      "text": {
+        "en": "Have a little nimbu or amla with meals: vitamin C helps your body take in iron.",
+        "hinglish": "Khaane ke saath thoda nimbu ya amla lein: vitamin C iron lene mein madad karta hai."
+      }
+    },
+    {
+      "id": "f-small-meals",
+      "text": {
+        "en": "Several small meals are easier than three big ones, especially later in pregnancy.",
+        "hinglish": "Teen bade khaane ki jagah kai chhote khaane aasaan rehte hain, khaaskar baad ke mahino mein."
+      }
+    }
+  ],
+  "yoga": {
+    "1": [
+      {
+        "id": "y1-breath",
+        "title": { "en": "Deep belly breathing", "hinglish": "Gehri pet ki saans" },
+        "steps": {
+          "en": "Sit comfortably. Breathe in slowly through the nose for 4, out for 4. Feel your belly rise and fall. 5 rounds.",
+          "hinglish": "Aaraam se baithein. Naak se 4 tak saans lein, 4 tak chhodein. Pet ko uthte-girte mehsoos karein. 5 baar."
+        }
+      },
+      {
+        "id": "y1-bhramari",
+        "title": { "en": "Bhramari (humming bee)", "hinglish": "Bhramari (bhanwre ki gunjan)" },
+        "steps": {
+          "en": "Sit tall, close your eyes, breathe in, and hum softly like a bee as you breathe out. 5 rounds. Very calming.",
+          "hinglish": "Seedhe baithein, aankhein band, saans lein, aur chhodte samay bhanwre jaisi halki gunjan karein. 5 baar. Bahut shaanti deta hai."
+        }
+      },
+      {
+        "id": "y1-neck",
+        "title": { "en": "Gentle neck rolls", "hinglish": "Halke gardan ke ghumaav" },
+        "steps": {
+          "en": "Slowly tilt your head side to side, then gently circle. 5 times each way.",
+          "hinglish": "Dheere se sir ko idhar-udhar jhukaayein, phir halke se ghumaayein. Har taraf 5 baar."
+        }
+      }
+    ],
+    "2": [
+      {
+        "id": "y2-anulom",
+        "title": { "en": "Anulom Vilom (gentle)", "hinglish": "Anulom Vilom (halka)" },
+        "steps": {
+          "en": "Breathe in through one nostril and out through the other, slowly, without holding the breath. 5 minutes.",
+          "hinglish": "Ek naak se saans lein, doosre se chhodein, dheere-dheere, saans roke bina. 5 minute."
+        }
+      },
+      {
+        "id": "y2-butterfly",
+        "title": {
+          "en": "Butterfly (Baddha Konasana)",
+          "hinglish": "Titli aasan (Baddha Konasana)"
+        },
+        "steps": {
+          "en": "Sit with soles of the feet together and gently move the knees up and down like wings. 1 minute.",
+          "hinglish": "Pairon ke talve milaakar baithein aur ghutnon ko titli ke pankh jaisa halke se hilaayein. 1 minute."
+        }
+      },
+      {
+        "id": "y2-cat",
+        "title": { "en": "Cat-cow stretch", "hinglish": "Billi-gaay khinchaav" },
+        "steps": {
+          "en": "On hands and knees, gently round your back, then softly let it dip. Move with your breath. 5 rounds.",
+          "hinglish": "Haathon aur ghutnon par aakar peeth ko halke se upar golaai dein, phir dheere se neeche. Saans ke saath. 5 baar."
+        }
+      },
+      {
+        "id": "y2-walk",
+        "title": { "en": "Slow walk", "hinglish": "Dheemi sair" },
+        "steps": {
+          "en": "A 15–20 minute easy walk at a pace where you can still talk comfortably.",
+          "hinglish": "15–20 minute ki aasaan sair, itni raftaar se ki aaraam se baat kar sakein."
+        }
+      }
+    ],
+    "3": [
+      {
+        "id": "y3-bhramari",
+        "title": { "en": "Bhramari before sleep", "hinglish": "Sone se pehle Bhramari" },
+        "steps": {
+          "en": "Humming breath for 3–5 rounds helps the mind settle at night.",
+          "hinglish": "3–5 baar gunjan wali saans raat ko mann shaant karti hai."
+        }
+      },
+      {
+        "id": "y3-side",
+        "title": { "en": "Rest on your left side", "hinglish": "Baayein karvat aaraam" },
+        "steps": {
+          "en": "Lie on your left side with a pillow between your knees and one under your belly. Breathe slowly.",
+          "hinglish": "Baayein karvat lettein, ghutnon ke beech aur pet ke neeche takiya rakhein. Dheere saans lein."
+        }
+      },
+      {
+        "id": "y3-squat",
+        "title": { "en": "Supported squat", "hinglish": "Sahaare wala squat" },
+        "steps": {
+          "en": "Holding a chair or wall, lower gently into a squat for a few breaths, then rise slowly. Only if comfortable.",
+          "hinglish": "Kursi ya deewar pakad kar dheere se baithein, kuch saans tak rukein, phir dheere uthein. Sirf aaraam ho to."
+        }
+      },
+      {
+        "id": "y3-shoulders",
+        "title": { "en": "Shoulder circles", "hinglish": "Kandhon ke ghere" },
+        "steps": {
+          "en": "Sit tall and roll your shoulders backwards slowly, 10 times.",
+          "hinglish": "Seedhe baithkar kandhon ko peeche ki taraf dheere ghumaayein, 10 baar."
+        }
+      }
+    ]
+  }
+}

@@ -1,10 +1,8 @@
-import 'fake-indexeddb/auto';
-import { __resetStorageForTests, db, initStorage, kvGet, kvSet } from './db';
+import { db, initStorage, kvGet, kvSet } from './db';
 import { clearErrorLog, getErrorLog, logError, MAX_LOG_ENTRIES } from './logger';
 
 describe('db + logger', () => {
   beforeAll(async () => {
-    __resetStorageForTests();
     expect(await initStorage()).toBe(true);
   });
 

@@ -1,0 +1,460 @@
+{
+  "talk": [
+    {
+      "id": "t-village",
+      "text": {
+        "en": "Tell your baby about your favourite place in your village.",
+        "hinglish": "Baby ko apne gaon ki sabse pyaari jagah ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "t-name",
+      "text": {
+        "en": "Tell your baby how you and the family are thinking about names.",
+        "hinglish": "Baby ko bataiye ki ghar mein naam ke baare mein kya baatein ho rahi hain."
+      }
+    },
+    {
+      "id": "t-morning",
+      "text": {
+        "en": "Describe this morning to your baby: the light, the sounds, the chai.",
+        "hinglish": "Aaj ki subah baby ko sunaiye: roshni, awaazein, chai ki khushboo."
+      }
+    },
+    {
+      "id": "t-dadi",
+      "text": {
+        "en": "Tell your baby one thing about Dadi or Nani that makes you smile.",
+        "hinglish": "Dadi ya Nani ki ek baat bataiye jo aapko muskura deti hai."
+      }
+    },
+    {
+      "id": "t-food",
+      "text": {
+        "en": "Tell your baby what you ate today and how it tasted.",
+        "hinglish": "Baby ko bataiye aaj aapne kya khaaya aur kaisa laga."
+      }
+    },
+    {
+      "id": "t-song",
+      "text": {
+        "en": "Hum your favourite song from childhood to your baby.",
+        "hinglish": "Bachpan ka apna pasandida gaana baby ke liye gungunaaiye."
+      }
+    },
+    {
+      "id": "t-promise",
+      "text": {
+        "en": "Make one small promise to your baby.",
+        "hinglish": "Baby se ek chhota sa vaada kijiye."
+      }
+    },
+    {
+      "id": "t-fields",
+      "text": {
+        "en": "Tell your baby about the fields: wheat in winter, the smell of rain on soil.",
+        "hinglish": "Baby ko kheton ke baare mein bataiye: sardi mein gehun, baarish mein mitti ki khushboo."
+      }
+    },
+    {
+      "id": "t-papa",
+      "text": {
+        "en": "Tell your baby one sweet thing about Papa.",
+        "hinglish": "Baby ko Papa ki ek pyaari baat bataiye."
+      }
+    },
+    {
+      "id": "t-today",
+      "text": {
+        "en": "Tell your baby one thing that went well today, however small.",
+        "hinglish": "Baby ko aaj ki ek achhi baat bataiye, chahe chhoti si ho."
+      }
+    },
+    {
+      "id": "t-sky",
+      "text": {
+        "en": "Step outside and describe the sky to your baby.",
+        "hinglish": "Bahar jaakar baby ko aasmaan ka haal sunaiye."
+      }
+    },
+    {
+      "id": "t-thanks",
+      "text": {
+        "en": "Tell your baby three things you are grateful for.",
+        "hinglish": "Baby ko teen cheezein bataiye jinke liye aap shukraguzaar hain."
+      }
+    },
+    {
+      "id": "t-festival",
+      "text": {
+        "en": "Tell your baby about your favourite festival and how your family celebrates it.",
+        "hinglish": "Baby ko apna pasandida tyohaar aur use manaane ka tareeka bataiye."
+      }
+    },
+    {
+      "id": "t-school",
+      "text": {
+        "en": "Tell your baby a funny story from your school days.",
+        "hinglish": "Baby ko school ke dino ki ek mazedaar kahani sunaiye."
+      }
+    },
+    {
+      "id": "t-dream",
+      "text": {
+        "en": "Tell your baby one dream you have for your family.",
+        "hinglish": "Baby ko apne parivaar ke liye ek sapna bataiye."
+      }
+    },
+    {
+      "id": "t-hands",
+      "text": {
+        "en": "Rest your hands on your belly and simply say: I am here, I love you.",
+        "hinglish": "Pet par haath rakhkar bas kahiye: main yahan hoon, mujhe tumse pyaar hai."
+      }
+    },
+    {
+      "id": "t-animals",
+      "text": {
+        "en": "Tell your baby about the cows, the peacocks or the sparrows near your home.",
+        "hinglish": "Baby ko ghar ke paas ki gaay, mor ya chidiyon ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "t-colours",
+      "text": {
+        "en": "Name all the colours you can see right now for your baby.",
+        "hinglish": "Abhi jitne rang dikh rahe hain, baby ko ek-ek karke bataiye."
+      }
+    },
+    {
+      "id": "t-mother",
+      "text": {
+        "en": "Tell your baby something your own mother taught you.",
+        "hinglish": "Baby ko woh baat bataiye jo aapki maa ne aapko sikhaayi."
+      }
+    },
+    {
+      "id": "t-rain",
+      "text": {
+        "en": "Tell your baby what rain feels like on your face.",
+        "hinglish": "Baby ko bataiye ki chehre par baarish ki boondein kaisi lagti hain."
+      }
+    },
+    {
+      "id": "t-kitchen",
+      "text": {
+        "en": "Tell your baby about the smells of your kitchen.",
+        "hinglish": "Baby ko apni rasoi ki khushbuon ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "t-courage",
+      "text": {
+        "en": "Tell your baby about a time you were brave.",
+        "hinglish": "Baby ko woh pal bataiye jab aapne himmat dikhaayi."
+      }
+    },
+    {
+      "id": "t-lullaby",
+      "text": {
+        "en": "Sing your baby the first line of any lori you remember.",
+        "hinglish": "Koi bhi yaad lori ki pehli line baby ko gaakar sunaiye."
+      }
+    },
+    {
+      "id": "t-friends",
+      "text": {
+        "en": "Tell your baby about your best friend.",
+        "hinglish": "Baby ko apni sabse pakki saheli ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "t-home",
+      "text": {
+        "en": "Walk around your home and tell your baby about each room.",
+        "hinglish": "Ghar mein ghoomte hue baby ko har kamre ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "t-stars",
+      "text": {
+        "en": "Tonight, tell your baby about the moon and the stars.",
+        "hinglish": "Aaj raat baby ko chaand-taaron ki baat sunaiye."
+      }
+    },
+    {
+      "id": "t-learn",
+      "text": {
+        "en": "Tell your baby something new you learned this week.",
+        "hinglish": "Baby ko is hafte seekhi koi nayi baat bataiye."
+      }
+    },
+    {
+      "id": "t-calm",
+      "text": {
+        "en": "Take three slow breaths and tell your baby how calm feels.",
+        "hinglish": "Teen dheemi saansein lijiye aur baby ko bataiye ki sukoon kaisa lagta hai."
+      }
+    },
+    {
+      "id": "t-welcome",
+      "text": {
+        "en": "Tell your baby how the family will welcome them home.",
+        "hinglish": "Baby ko bataiye ki ghar mein unka swagat kaise hoga."
+      }
+    },
+    {
+      "id": "t-kind",
+      "text": {
+        "en": "Tell your baby about a kind thing someone did for you.",
+        "hinglish": "Baby ko bataiye ki kisi ne aapke liye kab pyaara kaam kiya."
+      }
+    }
+  ],
+  "papa": [
+    {
+      "id": "p-hello",
+      "text": {
+        "en": "Put your hand on the belly and say: Hello little one, this is Papa. I can't wait to meet you.",
+        "hinglish": "Pet par haath rakhkar kahiye: Hello chhote, main Papa hoon. Tumse milne ka intezaar hai."
+      }
+    },
+    {
+      "id": "p-work",
+      "text": {
+        "en": "Tell baby what you did at work or in the fields today.",
+        "hinglish": "Baby ko bataiye ki aaj kaam par ya khet mein kya kiya."
+      }
+    },
+    {
+      "id": "p-cricket",
+      "text": {
+        "en": "Tell baby about the first game you will play together.",
+        "hinglish": "Baby ko bataiye ki aap dono milkar pehla kaun sa khel khelenge."
+      }
+    },
+    {
+      "id": "p-mummy",
+      "text": {
+        "en": "Tell baby three things you love about Mummy, out loud so she hears too.",
+        "hinglish": "Zor se baby ko Mummy ki teen pyaari baatein bataiye, taaki Mummy bhi sune."
+      }
+    },
+    {
+      "id": "p-story-sparrow",
+      "text": {
+        "en": "Read this: A little sparrow carried one drop of water at a time to put out a forest fire. When the elephant laughed, she said, 'I am doing my part.' Be like the sparrow, little one.",
+        "hinglish": "Yeh padhiye: Ek nanhi chidiya jungle ki aag bujhaane ke liye ek-ek boond paani laati rahi. Haathi hansa to boli, 'Main apna hissa kar rahi hoon.' Chidiya jaise banna, chhote."
+      }
+    },
+    {
+      "id": "p-childhood",
+      "text": {
+        "en": "Tell baby about your favourite childhood game.",
+        "hinglish": "Baby ko apne bachpan ka pasandida khel bataiye."
+      }
+    },
+    {
+      "id": "p-promise",
+      "text": {
+        "en": "Make baby one promise as a father.",
+        "hinglish": "Ek pita ke roop mein baby se ek vaada kijiye."
+      }
+    },
+    {
+      "id": "p-song",
+      "text": {
+        "en": "Sing or hum any song to the belly. Baby loves deep voices!",
+        "hinglish": "Pet ke paas koi bhi gaana gaaiye ya gungunaaiye. Baby ko bhaari awaaz pasand aati hai!"
+      }
+    },
+    {
+      "id": "p-story-crow",
+      "text": {
+        "en": "Read this: A thirsty crow found a pot with a little water at the bottom. He dropped pebbles in, one by one, until the water rose. Never give up, little one.",
+        "hinglish": "Yeh padhiye: Ek pyaase kauve ko matke mein thoda sa paani mila. Usne ek-ek kankad daala aur paani upar aa gaya. Kabhi haar mat maanna, chhote."
+      }
+    },
+    {
+      "id": "p-village",
+      "text": {
+        "en": "Tell baby about the village chaupal and the people there.",
+        "hinglish": "Baby ko gaon ki chaupal aur wahan ke logon ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "p-massage",
+      "text": {
+        "en": "Offer Mummy a gentle foot or shoulder rub tonight, and tell baby you are looking after Mummy.",
+        "hinglish": "Aaj raat Mummy ke pair ya kandhe dabaaiye, aur baby ko bataiye ki aap Mummy ka khayal rakh rahe hain."
+      }
+    },
+    {
+      "id": "p-dad",
+      "text": {
+        "en": "Tell baby something your own father taught you.",
+        "hinglish": "Baby ko woh baat bataiye jo aapke pita ji ne aapko sikhaayi."
+      }
+    },
+    {
+      "id": "p-story-tortoise",
+      "text": {
+        "en": "Read this: The hare ran fast and napped. The tortoise walked slowly but never stopped, and won the race. Slow and steady, little one.",
+        "hinglish": "Yeh padhiye: Khargosh tez bhaaga aur so gaya. Kachhua dheere chala par ruka nahi, aur race jeet gaya. Dheere aur lagaataar, chhote."
+      }
+    },
+    {
+      "id": "p-tractor",
+      "text": {
+        "en": "Tell baby about the first ride you will take them on: cycle, scooter or tractor!",
+        "hinglish": "Baby ko bataiye ki pehli sawaari kis par karenge: cycle, scooter ya tractor!"
+      }
+    },
+    {
+      "id": "p-proud",
+      "text": {
+        "en": "Tell baby what makes you proud of your family.",
+        "hinglish": "Baby ko bataiye ki aapko apne parivaar par kis baat ka garv hai."
+      }
+    },
+    {
+      "id": "p-goodnight",
+      "text": {
+        "en": "Say a goodnight to baby: Shubh ratri, sweet dreams, Papa is here.",
+        "hinglish": "Baby ko kahiye: Shubh ratri, meethe sapne, Papa yahan hai."
+      }
+    },
+    {
+      "id": "p-help",
+      "text": {
+        "en": "Do one household job today without being asked, and tell baby about it.",
+        "hinglish": "Aaj bina kahe ghar ka ek kaam kijiye, aur baby ko bataiye."
+      }
+    },
+    {
+      "id": "p-story-ant",
+      "text": {
+        "en": "Read this: An ant was drowning, and a dove dropped a leaf to save it. Later the ant saved the dove from a hunter. Kindness comes back, little one.",
+        "hinglish": "Yeh padhiye: Ek cheenti doob rahi thi, kabootar ne patta girakar bachaaya. Baad mein cheenti ne kabootar ko shikaari se bachaaya. Bhalaai laut kar aati hai, chhote."
+      }
+    },
+    {
+      "id": "p-stars",
+      "text": {
+        "en": "Tell baby about the night sky over the fields.",
+        "hinglish": "Baby ko kheton ke upar ke raat ke aasmaan ke baare mein bataiye."
+      }
+    },
+    {
+      "id": "p-hands",
+      "text": {
+        "en": "Wait for a kick with your hand on the belly. Tell baby: I felt you!",
+        "hinglish": "Pet par haath rakhkar laat ka intezaar kijiye. Baby ko kahiye: maine tumhe mehsoos kiya!"
+      }
+    }
+  ],
+  "journal": [
+    {
+      "id": "j-feel",
+      "text": {
+        "en": "How are you feeling today, really?",
+        "hinglish": "Aaj aap sach mein kaisa mehsoos kar rahi hain?"
+      }
+    },
+    {
+      "id": "j-first-kick",
+      "text": {
+        "en": "Write about a moment you felt your baby move.",
+        "hinglish": "Woh pal likhiye jab aapne baby ki harkat mehsoos ki."
+      }
+    },
+    {
+      "id": "j-hope",
+      "text": {
+        "en": "What do you hope your baby will love?",
+        "hinglish": "Aap chahti hain baby ko kya pasand aaye?"
+      }
+    },
+    {
+      "id": "j-learned",
+      "text": {
+        "en": "What has this pregnancy taught you so far?",
+        "hinglish": "Is safar ne aapko ab tak kya sikhaaya?"
+      }
+    },
+    {
+      "id": "j-today",
+      "text": { "en": "Dear baby, today I…", "hinglish": "Pyaare baby, aaj maine…" }
+    },
+    {
+      "id": "j-family",
+      "text": {
+        "en": "Who in the family is most excited to meet you, and why?",
+        "hinglish": "Ghar mein tumse milne ko sabse zyada utsuk kaun hai, aur kyon?"
+      }
+    },
+    {
+      "id": "j-wish",
+      "text": {
+        "en": "Write one wish for your baby's first year.",
+        "hinglish": "Baby ke pehle saal ke liye ek dua likhiye."
+      }
+    },
+    {
+      "id": "j-strong",
+      "text": {
+        "en": "Write about something that made you feel strong.",
+        "hinglish": "Woh baat likhiye jisne aapko majboot mehsoos karaaya."
+      }
+    },
+    {
+      "id": "j-season",
+      "text": {
+        "en": "Describe today's weather for your baby to read one day.",
+        "hinglish": "Aaj ka mausam likhiye, taaki baby ek din padhe."
+      }
+    },
+    {
+      "id": "j-thanks",
+      "text": {
+        "en": "Thank someone who helped you this week, in writing.",
+        "hinglish": "Is hafte jisne madad ki, unhe likh kar shukriya kahiye."
+      }
+    },
+    {
+      "id": "j-dream",
+      "text": {
+        "en": "Did you have a dream about your baby? Write it down.",
+        "hinglish": "Kya baby ka koi sapna aaya? Likh lijiye."
+      }
+    },
+    {
+      "id": "j-letter",
+      "text": {
+        "en": "Write a letter your child can open on their 18th birthday.",
+        "hinglish": "Ek chitthi likhiye jo baby 18 saal ka hone par khole."
+      }
+    },
+    {
+      "id": "j-food",
+      "text": {
+        "en": "What food have you been craving? Write about it!",
+        "hinglish": "Aajkal kya khaane ka mann karta hai? Likhiye!"
+      }
+    },
+    {
+      "id": "j-name",
+      "text": {
+        "en": "Write about the names you love and why.",
+        "hinglish": "Jo naam pasand hain unhe aur unki wajah likhiye."
+      }
+    },
+    {
+      "id": "j-calm",
+      "text": {
+        "en": "What helps you feel calm? Write it so you remember.",
+        "hinglish": "Aapko sukoon kis se milta hai? Likhiye taaki yaad rahe."
+      }
+    }
+  ]
+}

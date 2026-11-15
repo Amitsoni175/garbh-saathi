@@ -1,0 +1,742 @@
+[
+  {
+    "week": 4,
+    "emoji": "🌱",
+    "name": {
+      "en": "Poppy seed",
+      "hinglish": "khus khus ka daana"
+    },
+    "lengthCm": 0.1,
+    "weightG": 1,
+    "development": [
+      {
+        "en": "A tiny ball of cells has settled in, snug and safe.",
+        "hinglish": "Ek nanha sa beej aaram se apni jagah baith gaya hai."
+      },
+      {
+        "en": "The placenta, baby's food line, is beginning to form.",
+        "hinglish": "Placenta, yaani baby ki khuraak ki dor, banna shuru ho rahi hai."
+      }
+    ]
+  },
+  {
+    "week": 5,
+    "emoji": "🌱",
+    "name": {
+      "en": "Sesame seed",
+      "hinglish": "til ka daana"
+    },
+    "lengthCm": 0.2,
+    "weightG": 1,
+    "development": [
+      {
+        "en": "The tiny heart is beginning to form.",
+        "hinglish": "Nanha sa dil banna shuru ho raha hai."
+      },
+      {
+        "en": "The neural tube, the start of the brain and spine, is forming.",
+        "hinglish": "Dimaag aur reedh ki haddi ki shuruaat ho rahi hai."
+      }
+    ]
+  },
+  {
+    "week": 6,
+    "emoji": "🫘",
+    "name": {
+      "en": "Lentil",
+      "hinglish": "masoor ki daal"
+    },
+    "lengthCm": 0.6,
+    "weightG": 1,
+    "development": [
+      {
+        "en": "A little heartbeat may be seen on a scan.",
+        "hinglish": "Scan mein chhoti si dhadkan dikh sakti hai."
+      },
+      {
+        "en": "Small buds that will become arms and legs appear.",
+        "hinglish": "Haath-pair banne wale chhote ankur dikhne lage hain."
+      }
+    ]
+  },
+  {
+    "week": 7,
+    "emoji": "🫘",
+    "name": {
+      "en": "Rajma bean",
+      "hinglish": "rajma"
+    },
+    "lengthCm": 1.3,
+    "weightG": 1,
+    "development": [
+      {
+        "en": "Baby's brain is growing quickly.",
+        "hinglish": "Baby ka dimaag tezi se badh raha hai."
+      },
+      {
+        "en": "Tiny hands and feet are forming, like little paddles.",
+        "hinglish": "Chhote haath aur pair ban rahe hain."
+      }
+    ]
+  },
+  {
+    "week": 8,
+    "emoji": "🫐",
+    "name": {
+      "en": "Jamun",
+      "hinglish": "jamun"
+    },
+    "lengthCm": 1.6,
+    "weightG": 1,
+    "development": [
+      {
+        "en": "Fingers and toes are beginning to form.",
+        "hinglish": "Ungliyan banne lagi hain."
+      },
+      {
+        "en": "Baby makes tiny movements you can't feel yet.",
+        "hinglish": "Baby halki si harkat karta hai, jo abhi mehsoos nahi hoti."
+      }
+    ]
+  },
+  {
+    "week": 9,
+    "emoji": "🍇",
+    "name": {
+      "en": "Grape",
+      "hinglish": "angoor"
+    },
+    "lengthCm": 2.3,
+    "weightG": 2,
+    "development": [
+      {
+        "en": "Little earlobes and the tip of the nose are forming.",
+        "hinglish": "Chhote kaan aur naak ki nok ban rahi hai."
+      },
+      {
+        "en": "All the major organs have begun to form.",
+        "hinglish": "Saare mukhya ang banna shuru ho gaye hain."
+      }
+    ]
+  },
+  {
+    "week": 10,
+    "emoji": "🫒",
+    "name": {
+      "en": "Ber",
+      "hinglish": "ber"
+    },
+    "lengthCm": 3.1,
+    "weightG": 4,
+    "development": [
+      {
+        "en": "Tiny nails are beginning to form.",
+        "hinglish": "Nanhe naakhoon banne lage hain."
+      },
+      {
+        "en": "Baby's bones are starting to harden.",
+        "hinglish": "Baby ki haddiyan majboot hone lagi hain."
+      }
+    ]
+  },
+  {
+    "week": 11,
+    "emoji": "🌰",
+    "name": {
+      "en": "Walnut",
+      "hinglish": "akhrot"
+    },
+    "lengthCm": 4.1,
+    "weightG": 7,
+    "development": [
+      {
+        "en": "Baby can open and close tiny fists.",
+        "hinglish": "Baby nanhi mutthi khol aur band kar sakta hai."
+      },
+      {
+        "en": "The head is still big compared to the body.",
+        "hinglish": "Sir abhi sharir ke mukable bada hai."
+      }
+    ]
+  },
+  {
+    "week": 12,
+    "emoji": "🍋",
+    "name": {
+      "en": "Lime",
+      "hinglish": "nimbu"
+    },
+    "lengthCm": 5.4,
+    "weightG": 14,
+    "development": [
+      {
+        "en": "Reflexes are developing: little fingers can curl.",
+        "hinglish": "Ungliyan mudne lagi hain."
+      },
+      {
+        "en": "The kidneys are starting to work.",
+        "hinglish": "Kidney kaam karna shuru kar rahi hai."
+      }
+    ]
+  },
+  {
+    "week": 13,
+    "emoji": "🫛",
+    "name": {
+      "en": "Pea pod",
+      "hinglish": "matar ki phali"
+    },
+    "lengthCm": 7.4,
+    "weightG": 23,
+    "development": [
+      {
+        "en": "Tiny fingerprints are forming.",
+        "hinglish": "Nanhi ungliyon ke nishaan ban rahe hain."
+      },
+      {
+        "en": "The vocal cords are developing.",
+        "hinglish": "Awaaz ki naliyan ban rahi hain."
+      }
+    ]
+  },
+  {
+    "week": 14,
+    "emoji": "🍑",
+    "name": {
+      "en": "Peach",
+      "hinglish": "aadu"
+    },
+    "lengthCm": 8.7,
+    "weightG": 43,
+    "development": [
+      {
+        "en": "Baby can make faces: a squint, a frown, maybe a tiny smile.",
+        "hinglish": "Baby chehre bana sakta hai, shayad ek nanhi muskaan bhi."
+      },
+      {
+        "en": "Soft fine hair begins to cover the skin.",
+        "hinglish": "Tvacha par mulayam baal aane lage hain."
+      }
+    ]
+  },
+  {
+    "week": 15,
+    "emoji": "🍎",
+    "name": {
+      "en": "Apple",
+      "hinglish": "seb"
+    },
+    "lengthCm": 10.1,
+    "weightG": 70,
+    "development": [
+      {
+        "en": "Baby can sense light through closed eyelids.",
+        "hinglish": "Band palkon se bhi baby roshni mehsoos karta hai."
+      },
+      {
+        "en": "Bones are getting stronger.",
+        "hinglish": "Haddiyan aur majboot ho rahi hain."
+      }
+    ]
+  },
+  {
+    "week": 16,
+    "emoji": "🍐",
+    "name": {
+      "en": "Pear",
+      "hinglish": "nashpati"
+    },
+    "lengthCm": 11.6,
+    "weightG": 100,
+    "development": [
+      {
+        "en": "Little eye movements begin.",
+        "hinglish": "Aankhon ki halki harkat shuru ho gayi hai."
+      },
+      {
+        "en": "Baby's heart is pumping strongly every day.",
+        "hinglish": "Baby ka dil roz zor se dhadak raha hai."
+      }
+    ]
+  },
+  {
+    "week": 17,
+    "emoji": "🧅",
+    "name": {
+      "en": "Onion",
+      "hinglish": "pyaaz"
+    },
+    "lengthCm": 13.0,
+    "weightG": 140,
+    "development": [
+      {
+        "en": "A protective coating starts forming on the skin.",
+        "hinglish": "Tvacha par suraksha ki parat banne lagi hai."
+      },
+      {
+        "en": "Soft cartilage is turning into bone.",
+        "hinglish": "Naram haddi pakki haddi ban rahi hai."
+      }
+    ]
+  },
+  {
+    "week": 18,
+    "emoji": "🫑",
+    "name": {
+      "en": "Bell pepper",
+      "hinglish": "shimla mirch"
+    },
+    "lengthCm": 14.2,
+    "weightG": 190,
+    "development": [
+      {
+        "en": "Baby's ears are in place and may begin to hear sounds.",
+        "hinglish": "Kaan apni jagah aa gaye hain, baby awaaz sunne laga hai."
+      },
+      {
+        "en": "Yawns and hiccups may happen.",
+        "hinglish": "Baby ubaasi aur hichki bhi le sakta hai."
+      }
+    ]
+  },
+  {
+    "week": 19,
+    "emoji": "🥭",
+    "name": {
+      "en": "Mango",
+      "hinglish": "aam"
+    },
+    "lengthCm": 15.3,
+    "weightG": 240,
+    "development": [
+      {
+        "en": "Baby may be hearing your voice now.",
+        "hinglish": "Baby shayad ab aapki awaaz sun raha hai."
+      },
+      {
+        "en": "A creamy coating (vernix) protects baby's skin.",
+        "hinglish": "Ek malaai jaisi parat baby ki tvacha ki raksha karti hai."
+      }
+    ]
+  },
+  {
+    "week": 20,
+    "emoji": "🍌",
+    "name": {
+      "en": "Banana",
+      "hinglish": "kela"
+    },
+    "lengthCm": 25.6,
+    "weightG": 300,
+    "development": [
+      {
+        "en": "Halfway there! You may start to feel little flutters.",
+        "hinglish": "Aadha safar poora! Aapko halki phadphadahat mehsoos ho sakti hai."
+      },
+      {
+        "en": "Baby swallows and practises for life outside.",
+        "hinglish": "Baby nigalna seekh raha hai."
+      }
+    ]
+  },
+  {
+    "week": 21,
+    "emoji": "🥕",
+    "name": {
+      "en": "Carrot",
+      "hinglish": "gajar"
+    },
+    "lengthCm": 26.7,
+    "weightG": 360,
+    "development": [
+      {
+        "en": "Movements are getting stronger.",
+        "hinglish": "Harkatein ab aur pakki ho rahi hain."
+      },
+      {
+        "en": "Baby has little eyebrows now.",
+        "hinglish": "Baby ki nanhi bhaunhein aa gayi hain."
+      }
+    ]
+  },
+  {
+    "week": 22,
+    "emoji": "🥒",
+    "name": {
+      "en": "Cucumber",
+      "hinglish": "kheera"
+    },
+    "lengthCm": 27.8,
+    "weightG": 430,
+    "development": [
+      {
+        "en": "Baby's sense of touch is developing.",
+        "hinglish": "Baby chhoone ko mehsoos karna seekh raha hai."
+      },
+      {
+        "en": "Lips and eyes are more defined.",
+        "hinglish": "Hoth aur aankhein saaf banne lage hain."
+      }
+    ]
+  },
+  {
+    "week": 23,
+    "emoji": "🍠",
+    "name": {
+      "en": "Sweet potato",
+      "hinglish": "shakarkandi"
+    },
+    "lengthCm": 28.9,
+    "weightG": 500,
+    "development": [
+      {
+        "en": "Baby may react to loud sounds.",
+        "hinglish": "Tez awaaz par baby harkat kar sakta hai."
+      },
+      {
+        "en": "The skin is still a little wrinkly.",
+        "hinglish": "Tvacha abhi thodi si jhurridaar hai."
+      }
+    ]
+  },
+  {
+    "week": 24,
+    "emoji": "🌽",
+    "name": {
+      "en": "Corn cob",
+      "hinglish": "makki ka bhutta"
+    },
+    "lengthCm": 30.0,
+    "weightG": 600,
+    "development": [
+      {
+        "en": "The lungs are developing.",
+        "hinglish": "Phephde ban rahe hain."
+      },
+      {
+        "en": "Baby has a regular pattern of sleeping and waking.",
+        "hinglish": "Baby ka sone-jaagne ka samay banne laga hai."
+      }
+    ]
+  },
+  {
+    "week": 25,
+    "emoji": "🥦",
+    "name": {
+      "en": "Cauliflower",
+      "hinglish": "phool gobhi"
+    },
+    "lengthCm": 34.6,
+    "weightG": 660,
+    "development": [
+      {
+        "en": "Baby may respond to your voice.",
+        "hinglish": "Baby aapki awaaz par jawab de sakta hai."
+      },
+      {
+        "en": "Hair is growing on the head.",
+        "hinglish": "Sir par baal aa rahe hain."
+      }
+    ]
+  },
+  {
+    "week": 26,
+    "emoji": "🥬",
+    "name": {
+      "en": "Cabbage",
+      "hinglish": "patta gobhi"
+    },
+    "lengthCm": 35.6,
+    "weightG": 760,
+    "development": [
+      {
+        "en": "Baby's eyes begin to open.",
+        "hinglish": "Baby ki aankhein khulne lagi hain."
+      },
+      {
+        "en": "Baby is practising breathing movements.",
+        "hinglish": "Baby saans lene ka abhyaas kar raha hai."
+      }
+    ]
+  },
+  {
+    "week": 27,
+    "emoji": "🍆",
+    "name": {
+      "en": "Brinjal",
+      "hinglish": "bada baingan"
+    },
+    "lengthCm": 36.6,
+    "weightG": 875,
+    "development": [
+      {
+        "en": "Baby's brain is very busy.",
+        "hinglish": "Baby ka dimaag bahut vyast hai."
+      },
+      {
+        "en": "Little hiccups may feel like gentle rhythmic jumps.",
+        "hinglish": "Hichki halki taal wali uchhal jaisi lagti hai."
+      }
+    ]
+  },
+  {
+    "week": 28,
+    "emoji": "🥥",
+    "name": {
+      "en": "Coconut",
+      "hinglish": "nariyal"
+    },
+    "lengthCm": 37.6,
+    "weightG": 1000,
+    "development": [
+      {
+        "en": "Baby can blink.",
+        "hinglish": "Baby palkein jhapka sakta hai."
+      },
+      {
+        "en": "The third trimester begins: baby is putting on soft fat.",
+        "hinglish": "Teesri timahi shuru: baby mulayam charbi bana raha hai."
+      }
+    ]
+  },
+  {
+    "week": 29,
+    "emoji": "🥒",
+    "name": {
+      "en": "Bottle gourd",
+      "hinglish": "lauki"
+    },
+    "lengthCm": 38.6,
+    "weightG": 1150,
+    "development": [
+      {
+        "en": "Muscles and lungs keep maturing.",
+        "hinglish": "Maaspeshiyan aur phephde pakke ho rahe hain."
+      },
+      {
+        "en": "Kicks may feel strong and clear.",
+        "hinglish": "Laatein ab saaf aur zor se mehsoos hoti hain."
+      }
+    ]
+  },
+  {
+    "week": 30,
+    "emoji": "🍍",
+    "name": {
+      "en": "Pineapple",
+      "hinglish": "anaanas"
+    },
+    "lengthCm": 39.9,
+    "weightG": 1300,
+    "development": [
+      {
+        "en": "Baby's brain is growing fast.",
+        "hinglish": "Baby ka dimaag tezi se badh raha hai."
+      },
+      {
+        "en": "Baby may know your voice well now.",
+        "hinglish": "Baby aapki awaaz achhi tarah pehchanta hai."
+      }
+    ]
+  },
+  {
+    "week": 31,
+    "emoji": "🍊",
+    "name": {
+      "en": "Pomelo",
+      "hinglish": "chakotra"
+    },
+    "lengthCm": 41.1,
+    "weightG": 1500,
+    "development": [
+      {
+        "en": "Baby can turn the head from side to side.",
+        "hinglish": "Baby sir idhar-udhar ghuma sakta hai."
+      },
+      {
+        "en": "All five senses are working.",
+        "hinglish": "Paanchon indriyan kaam kar rahi hain."
+      }
+    ]
+  },
+  {
+    "week": 32,
+    "emoji": "🍈",
+    "name": {
+      "en": "Muskmelon",
+      "hinglish": "kharbooja"
+    },
+    "lengthCm": 42.4,
+    "weightG": 1700,
+    "development": [
+      {
+        "en": "Toenails and fingernails are formed.",
+        "hinglish": "Haath-pair ke naakhoon ban gaye hain."
+      },
+      {
+        "en": "Baby practises breathing and swallowing.",
+        "hinglish": "Baby saans aur nigalne ka abhyaas karta hai."
+      }
+    ]
+  },
+  {
+    "week": 33,
+    "emoji": "🥒",
+    "name": {
+      "en": "Ash gourd",
+      "hinglish": "petha"
+    },
+    "lengthCm": 43.7,
+    "weightG": 1900,
+    "development": [
+      {
+        "en": "Bones are hardening, but the head stays soft for birth.",
+        "hinglish": "Haddiyan pakki ho rahi hain, par sir janm ke liye naram rehta hai."
+      },
+      {
+        "en": "Baby's immune system is developing.",
+        "hinglish": "Baby ki rog-pratirodhak shakti ban rahi hai."
+      }
+    ]
+  },
+  {
+    "week": 34,
+    "emoji": "🎃",
+    "name": {
+      "en": "Pumpkin",
+      "hinglish": "kaddu"
+    },
+    "lengthCm": 45.0,
+    "weightG": 2100,
+    "development": [
+      {
+        "en": "Baby is getting chubbier.",
+        "hinglish": "Baby gol-matol ho raha hai."
+      },
+      {
+        "en": "The nervous system is maturing.",
+        "hinglish": "Tantrika tantra pakka ho raha hai."
+      }
+    ]
+  },
+  {
+    "week": 35,
+    "emoji": "🍈",
+    "name": {
+      "en": "Big muskmelon",
+      "hinglish": "bada kharbooja"
+    },
+    "lengthCm": 46.2,
+    "weightG": 2400,
+    "development": [
+      {
+        "en": "Space is cosy now; you may feel rolls and stretches.",
+        "hinglish": "Jagah tang hai, ab baby ghoomta aur angdaai leta mehsoos hota hai."
+      },
+      {
+        "en": "The kidneys are fully developed.",
+        "hinglish": "Kidney poori tarah ban gayi hai."
+      }
+    ]
+  },
+  {
+    "week": 36,
+    "emoji": "🍈",
+    "name": {
+      "en": "Small jackfruit",
+      "hinglish": "chhota kathal"
+    },
+    "lengthCm": 47.4,
+    "weightG": 2600,
+    "development": [
+      {
+        "en": "Baby may settle head-down.",
+        "hinglish": "Baby sir neeche karke baith sakta hai."
+      },
+      {
+        "en": "The soft body hair (lanugo) is shedding.",
+        "hinglish": "Sharir ke mulayam baal jhad rahe hain."
+      }
+    ]
+  },
+  {
+    "week": 37,
+    "emoji": "🥒",
+    "name": {
+      "en": "Big bottle gourd",
+      "hinglish": "badi lauki"
+    },
+    "lengthCm": 48.6,
+    "weightG": 2900,
+    "development": [
+      {
+        "en": "Full term is near: baby keeps gaining weight.",
+        "hinglish": "Poora samay paas hai: baby ka vazan badh raha hai."
+      },
+      {
+        "en": "Baby practises gripping.",
+        "hinglish": "Baby pakadna seekh raha hai."
+      }
+    ]
+  },
+  {
+    "week": 38,
+    "emoji": "🎃",
+    "name": {
+      "en": "Big pumpkin",
+      "hinglish": "bada kaddu"
+    },
+    "lengthCm": 49.8,
+    "weightG": 3100,
+    "development": [
+      {
+        "en": "Baby's organs are ready for the outside world.",
+        "hinglish": "Baby ke ang bahar ki duniya ke liye taiyaar hain."
+      },
+      {
+        "en": "Baby can grasp firmly.",
+        "hinglish": "Baby mazboot pakad bana sakta hai."
+      }
+    ]
+  },
+  {
+    "week": 39,
+    "emoji": "🍉",
+    "name": {
+      "en": "Small watermelon",
+      "hinglish": "chhota tarbooz"
+    },
+    "lengthCm": 50.7,
+    "weightG": 3300,
+    "development": [
+      {
+        "en": "Baby is full term!",
+        "hinglish": "Baby poore samay ka ho gaya hai!"
+      },
+      {
+        "en": "Baby is building fat to stay warm.",
+        "hinglish": "Baby garmi ke liye charbi bana raha hai."
+      }
+    ]
+  },
+  {
+    "week": 40,
+    "emoji": "🍉",
+    "name": {
+      "en": "Watermelon",
+      "hinglish": "tarbooz"
+    },
+    "lengthCm": 51.2,
+    "weightG": 3500,
+    "development": [
+      {
+        "en": "Any day now, your little one is ready to meet you.",
+        "hinglish": "Kabhi bhi, aapka laadla/laado aapse milne ko taiyaar hai."
+      },
+      {
+        "en": "Baby is waiting for just the right moment.",
+        "hinglish": "Baby sahi pal ka intezaar kar raha hai."
+      }
+    ]
+  }
+]

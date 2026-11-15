@@ -1,0 +1,18 @@
+{
+  "_note": "Optional explicit plan by day number (1-280). Any day not listed here rotates through the content automatically (see src/lib/plan.ts). Every ID must exist, or the entry is skipped and the rotation is used.",
+  "days": {
+    "140": {
+      "gameType": "babySize",
+      "promptId": "t-hands"
+    },
+    "196": {
+      "storyId": "kalpana",
+      "promptId": "t-stars"
+    },
+    "259": {
+      "storyId": "krishna-makhan",
+      "gameType": "memory",
+      "promptId": "t-welcome"
+    }
+  }
+}

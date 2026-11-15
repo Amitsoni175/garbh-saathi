@@ -1,0 +1,77 @@
+[
+  {
+    "id": "bhairav",
+    "slot": "morning",
+    "emoji": "🌅",
+    "name": { "en": "Raga Bhairav", "hinglish": "Raag Bhairav" },
+    "mood": {
+      "en": "Devotional, serious, awakening",
+      "hinglish": "Bhakti bhara, gambheer, jagaane wala"
+    },
+    "time": { "en": "Dawn", "hinglish": "Bhor" },
+    "note": {
+      "en": "One of the oldest morning ragas. Its deep, prayerful notes feel like the first light touching the fields.",
+      "hinglish": "Subah ke sabse puraane raagon mein se ek. Iske gehre, prarthana jaise sur kheton par pehli roshni jaise lagte hain."
+    }
+  },
+  {
+    "id": "ahir-bhairav",
+    "slot": "morning",
+    "emoji": "🌤️",
+    "name": { "en": "Raga Ahir Bhairav", "hinglish": "Raag Ahir Bhairav" },
+    "mood": { "en": "Tender, peaceful, hopeful", "hinglish": "Komal, shaant, ummeed bhara" },
+    "time": { "en": "Early morning", "hinglish": "Subah-subah" },
+    "note": {
+      "en": "Soft and gentle, like a mother waking her child. A lovely way to begin the day together.",
+      "hinglish": "Narm aur pyaara, jaise maa apne bachche ko jagaati hai. Din ki shuruaat ke liye bahut sundar."
+    }
+  },
+  {
+    "id": "bhimpalasi",
+    "slot": "afternoon",
+    "emoji": "☀️",
+    "name": { "en": "Raga Bhimpalasi", "hinglish": "Raag Bhimpalasi" },
+    "mood": { "en": "Sweet, longing, restful", "hinglish": "Meetha, intezaar bhara, aaraamdeh" },
+    "time": { "en": "Afternoon", "hinglish": "Dopahar" },
+    "note": {
+      "en": "A warm afternoon raga with a sweet ache of waiting. Perfect with a rest after lunch.",
+      "hinglish": "Dopahar ka garm raag, jismein intezaar ki meethi kasak hai. Khaane ke baad aaraam ke saath badhiya."
+    }
+  },
+  {
+    "id": "yaman",
+    "slot": "evening",
+    "emoji": "🌇",
+    "name": { "en": "Raga Yaman", "hinglish": "Raag Yaman" },
+    "mood": { "en": "Calm, loving, prayerful", "hinglish": "Shaant, pyaar bhara, prarthana jaisa" },
+    "time": { "en": "Evening, after sunset", "hinglish": "Shaam, suraj dhalne ke baad" },
+    "note": {
+      "en": "Often the first raga music students learn. Its gentle evening glow feels like lighting a diya.",
+      "hinglish": "Aksar sangeet seekhne wale isse shuru karte hain. Iski shaam ki roshni diya jalaane jaisi lagti hai."
+    }
+  },
+  {
+    "id": "bageshree",
+    "slot": "night",
+    "emoji": "🌙",
+    "name": { "en": "Raga Bageshree", "hinglish": "Raag Bageshree" },
+    "mood": { "en": "Loving, quiet, dreamy", "hinglish": "Pyaar bhara, shaant, sapnon jaisa" },
+    "time": { "en": "Late night", "hinglish": "Der raat" },
+    "note": {
+      "en": "A tender night raga full of love. Lovely to listen to while lying on your left side before sleep.",
+      "hinglish": "Pyaar se bhara raat ka komal raag. Sone se pehle baayein karvat let kar sunne ke liye sundar."
+    }
+  },
+  {
+    "id": "darbari",
+    "slot": "night",
+    "emoji": "✨",
+    "name": { "en": "Raga Darbari Kanada", "hinglish": "Raag Darbari Kanada" },
+    "mood": { "en": "Deep, majestic, still", "hinglish": "Gehra, shaahi, thehra hua" },
+    "time": { "en": "Around midnight", "hinglish": "Aadhi raat ke aas-paas" },
+    "note": {
+      "en": "Slow and grand, like the quiet night sky. It helps a busy mind settle.",
+      "hinglish": "Dheema aur bhavya, jaise shaant raat ka aasmaan. Bechain mann ko thehrata hai."
+    }
+  }
+]

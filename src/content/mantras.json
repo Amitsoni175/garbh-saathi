@@ -1,0 +1,44 @@
+[
+  {
+    "id": "om",
+    "name": {
+      "en": "Om",
+      "hinglish": "Om"
+    },
+    "devanagari": "ॐ",
+    "transliteration": "Om",
+    "meaning": {
+      "en": "The sound of the universe. Feel it vibrate gently in your chest; babies can feel it too.",
+      "hinglish": "Brahmand ki dhvani. Chhaati mein iski halki goonj mehsoos karein; baby bhi mehsoos karta hai."
+    },
+    "audio": "mantra-om"
+  },
+  {
+    "id": "gayatri",
+    "name": {
+      "en": "Gayatri mantra",
+      "hinglish": "Gayatri mantra"
+    },
+    "devanagari": "ॐ भूर्भुवः स्वः । तत्सवितुर्वरेण्यं । भर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+    "transliteration": "Om bhur bhuvah svah, tat savitur varenyam, bhargo devasya dhimahi, dhiyo yo nah prachodayat",
+    "meaning": {
+      "en": "May the bright light of the sun awaken and guide our minds.",
+      "hinglish": "Suraj ki pavitra roshni hamari buddhi ko jagaaye aur raah dikhaaye."
+    },
+    "audio": "mantra-gayatri"
+  },
+  {
+    "id": "mahamrityunjaya",
+    "name": {
+      "en": "Mahamrityunjaya mantra",
+      "hinglish": "Mahamrityunjaya mantra"
+    },
+    "devanagari": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् । उर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥",
+    "transliteration": "Om tryambakam yajamahe sugandhim pushtivardhanam, urvarukam iva bandhanan mrityor mukshiya mamritat",
+    "meaning": {
+      "en": "A prayer to Shiva for health, strength and peace for the whole family.",
+      "hinglish": "Poore parivaar ki sehat, shakti aur shaanti ke liye Shiv ki prarthana."
+    },
+    "audio": "mantra-mahamrityunjaya"
+  }
+]

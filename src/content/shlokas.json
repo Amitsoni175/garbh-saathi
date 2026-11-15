@@ -1,0 +1,164 @@
+[
+  {
+    "id": "karagre",
+    "title": { "en": "Morning palms", "hinglish": "Subah ki hatheli" },
+    "devanagari": "कराग्रे वसते लक्ष्मीः करमध्ये सरस्वती ।\nकरमूले तु गोविन्दः प्रभाते करदर्शनम् ॥",
+    "transliteration": "Karāgre vasate Lakṣmīḥ karamadhye Sarasvatī,\nkaramūle tu Govindaḥ prabhāte karadarśanam.",
+    "simple": "Karagre vasate Lakshmih karamadhye Sarasvati, karamule tu Govindah prabhate karadarshanam",
+    "meaning": {
+      "en": "At the tips of my fingers lives Lakshmi, in the middle Saraswati, at the base Govinda. In the morning, I look at my hands with gratitude.",
+      "hinglish": "Ungliyon ke sire par Lakshmi, beech mein Saraswati, aur jad mein Govind basate hain. Subah apne haathon ko shukriya ke saath dekhein."
+    },
+    "audio": "karagre"
+  },
+  {
+    "id": "saha-navavatu",
+    "title": { "en": "Together, protected", "hinglish": "Saath mein surakshit" },
+    "devanagari": "ॐ सह नाववतु । सह नौ भुनक्तु ।\nसह वीर्यं करवावहै । तेजस्वि नावधीतमस्तु ।\nमा विद्विषावहै ॥ ॐ शान्तिः शान्तिः शान्तिः ॥",
+    "transliteration": "Om saha nāvavatu, saha nau bhunaktu,\nsaha vīryaṁ karavāvahai, tejasvi nāvadhītam astu,\nmā vidviṣāvahai. Om śāntiḥ śāntiḥ śāntiḥ.",
+    "simple": "Om saha navavatu saha nau bhunaktu saha viryam karavavahai tejasvi navadhitam astu ma vidvishavahai",
+    "meaning": {
+      "en": "May we be protected together, nourished together, and grow strong together. May our learning shine, and may there be only love between us. Peace, peace, peace.",
+      "hinglish": "Hum saath mein surakshit rahein, saath mein poshit hon, saath mein shakti badhaayein. Hamara gyaan chamke, aur hamare beech sirf prem rahe. Shanti, shanti, shanti."
+    },
+    "audio": "saha-navavatu"
+  },
+  {
+    "id": "sarve-bhavantu",
+    "title": { "en": "May all be happy", "hinglish": "Sab sukhi rahein" },
+    "devanagari": "सर्वे भवन्तु सुखिनः । सर्वे सन्तु निरामयाः ।\nसर्वे भद्राणि पश्यन्तु । मा कश्चिद्दुःखभाग्भवेत् ॥",
+    "transliteration": "Sarve bhavantu sukhinaḥ, sarve santu nirāmayāḥ,\nsarve bhadrāṇi paśyantu, mā kaścid duḥkha-bhāg bhavet.",
+    "simple": "Sarve bhavantu sukhinah sarve santu niramayah sarve bhadrani pashyantu ma kashchid duhkha bhag bhavet",
+    "meaning": {
+      "en": "May everyone be happy. May everyone be healthy. May everyone see goodness. May no one suffer.",
+      "hinglish": "Sab sukhi rahein. Sab swasth rahein. Sab achha dekhein. Kisi ko dukh na ho."
+    },
+    "audio": "sarve-bhavantu"
+  },
+  {
+    "id": "asato-ma",
+    "title": { "en": "Lead me to light", "hinglish": "Mujhe roshni ki or le chalo" },
+    "devanagari": "असतो मा सद्गमय । तमसो मा ज्योतिर्गमय ।\nमृत्योर्मा अमृतं गमय ॥",
+    "transliteration": "Asato mā sad gamaya, tamaso mā jyotir gamaya,\nmṛtyor mā amṛtaṁ gamaya.",
+    "simple": "Asato ma sad gamaya tamaso ma jyotir gamaya mrityor ma amritam gamaya",
+    "meaning": {
+      "en": "Lead me from the untrue to the true, from darkness to light, from the passing to the everlasting.",
+      "hinglish": "Mujhe asatya se satya ki or, andhere se roshni ki or, aur naashvaan se amar ki or le chalo."
+    },
+    "audio": "asato-ma"
+  },
+  {
+    "id": "vakratunda",
+    "title": { "en": "For a smooth path", "hinglish": "Aasaan raaste ke liye" },
+    "devanagari": "वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ ।\nनिर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा ॥",
+    "transliteration": "Vakratuṇḍa mahākāya sūryakoṭi samaprabha,\nnirvighnaṁ kuru me deva sarvakāryeṣu sarvadā.",
+    "simple": "Vakratunda mahakaya suryakoti samaprabha nirvighnam kuru me deva sarvakaryeshu sarvada",
+    "meaning": {
+      "en": "O Ganesha, with the curved trunk and great form, bright as a million suns, please make all my work smooth, always.",
+      "hinglish": "He Ganesh ji, mudi soond aur vishaal roop wale, karodon suraj jaise tejasvi, mere har kaam ko hamesha nirvighn banaiye."
+    },
+    "audio": "vakratunda"
+  },
+  {
+    "id": "saraswati",
+    "title": { "en": "A prayer to Saraswati", "hinglish": "Saraswati vandana" },
+    "devanagari": "सरस्वति नमस्तुभ्यं वरदे कामरूपिणि ।\nविद्यारम्भं करिष्यामि सिद्धिर्भवतु मे सदा ॥",
+    "transliteration": "Sarasvati namastubhyaṁ varade kāmarūpiṇi,\nvidyārambhaṁ kariṣyāmi siddhir bhavatu me sadā.",
+    "simple": "Sarasvati namastubhyam varade kamarupini vidyarambham karishyami siddhir bhavatu me sada",
+    "meaning": {
+      "en": "Saraswati, giver of blessings, I bow to you. As I begin to learn, may I always find success.",
+      "hinglish": "He vardaayini Saraswati, aapko pranaam. Main seekhna shuru karti hoon, mujhe hamesha safalta mile."
+    },
+    "audio": "saraswati"
+  },
+  {
+    "id": "purnamadah",
+    "title": { "en": "Whole from whole", "hinglish": "Poorn se poorn" },
+    "devanagari": "ॐ पूर्णमदः पूर्णमिदं पूर्णात्पूर्णमुदच्यते ।\nपूर्णस्य पूर्णमादाय पूर्णमेवावशिष्यते ॥",
+    "transliteration": "Om pūrṇam adaḥ pūrṇam idaṁ pūrṇāt pūrṇam udacyate,\npūrṇasya pūrṇam ādāya pūrṇam evāvaśiṣyate.",
+    "simple": "Om purnam adah purnam idam purnat purnam udachyate purnasya purnam adaya purnam evavashishyate",
+    "meaning": {
+      "en": "That is whole, this is whole. From the whole comes the whole. Take the whole from the whole, and the whole still remains. Like a mother's love: it never runs out.",
+      "hinglish": "Woh poorn hai, yeh poorn hai. Poorn se poorn nikalta hai, phir bhi poorn hi bachta hai. Bilkul maa ke pyaar jaisa: kabhi kam nahi hota."
+    },
+    "audio": "purnamadah"
+  },
+  {
+    "id": "twameva-mata",
+    "title": { "en": "You are everything", "hinglish": "Tum hi sab kuch ho" },
+    "devanagari": "त्वमेव माता च पिता त्वमेव । त्वमेव बन्धुश्च सखा त्वमेव ।\nत्वमेव विद्या द्रविणं त्वमेव । त्वमेव सर्वं मम देव देव ॥",
+    "transliteration": "Tvam eva mātā ca pitā tvam eva, tvam eva bandhuś ca sakhā tvam eva,\ntvam eva vidyā draviṇaṁ tvam eva, tvam eva sarvaṁ mama deva deva.",
+    "simple": "Tvam eva mata cha pita tvam eva tvam eva bandhush cha sakha tvam eva tvam eva vidya dravinam tvam eva tvam eva sarvam mama deva deva",
+    "meaning": {
+      "en": "You are my mother and my father, my family and my friend, my learning and my wealth. You are everything to me.",
+      "hinglish": "Tum hi meri maa ho, tum hi pita, tum hi parivaar aur dost, tum hi vidya aur dhan. Tum hi mera sab kuch ho."
+    },
+    "audio": "twameva-mata"
+  },
+  {
+    "id": "gayatri",
+    "title": { "en": "Gayatri mantra", "hinglish": "Gayatri mantra" },
+    "devanagari": "ॐ भूर्भुवः स्वः । तत्सवितुर्वरेण्यं ।\nभर्गो देवस्य धीमहि । धियो यो नः प्रचोदयात् ॥",
+    "transliteration": "Om bhūr bhuvaḥ svaḥ, tat savitur vareṇyaṁ,\nbhargo devasya dhīmahi, dhiyo yo naḥ pracodayāt.",
+    "simple": "Om bhur bhuvah svah tat savitur varenyam bhargo devasya dhimahi dhiyo yo nah prachodayat",
+    "meaning": {
+      "en": "We meditate on the bright, loving light of the sun. May it awaken and guide our minds.",
+      "hinglish": "Hum suraj ki pavitra, pyaari roshni ka dhyaan karte hain. Woh hamari buddhi ko jagaaye aur raah dikhaaye."
+    },
+    "audio": "gayatri"
+  },
+  {
+    "id": "mahamrityunjaya",
+    "title": { "en": "Mahamrityunjaya mantra", "hinglish": "Mahamrityunjaya mantra" },
+    "devanagari": "ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवर्धनम् ।\nउर्वारुकमिव बन्धनान्मृत्योर्मुक्षीय माऽमृतात् ॥",
+    "transliteration": "Om tryambakaṁ yajāmahe sugandhiṁ puṣṭi-vardhanam,\nurvārukam iva bandhanān mṛtyor mukṣīya māmṛtāt.",
+    "simple": "Om tryambakam yajamahe sugandhim pushtivardhanam urvarukam iva bandhanan mrityor mukshiya mamritat",
+    "meaning": {
+      "en": "We pray to Shiva, fragrant and nourishing. Like a ripe fruit gently leaving the vine, may we be free and full of life.",
+      "hinglish": "Hum sugandhit aur poshan dene wale Shiv ki aaradhana karte hain. Jaise paka phal aaraam se bel se alag hota hai, waise hum mukt aur jeevan se bhare rahein."
+    },
+    "audio": "mahamrityunjaya"
+  },
+  {
+    "id": "gita-2-14",
+    "title": {
+      "en": "Feelings come and go (Gita 2.14)",
+      "hinglish": "Bhaav aate-jaate hain (Gita 2.14)"
+    },
+    "devanagari": "मात्रास्पर्शास्तु कौन्तेय शीतोष्णसुखदुःखदाः ।\nआगमापायिनोऽनित्यास्तांस्तितिक्षस्व भारत ॥",
+    "transliteration": "Mātrā-sparśās tu kaunteya śītoṣṇa-sukha-duḥkha-dāḥ,\nāgamāpāyino 'nityās tāṁs titikṣasva bhārata.",
+    "simple": "Matra sparshas tu kaunteya shitoshna sukha duhkha dah agamapayino nityas tams titikshasva bharata",
+    "meaning": {
+      "en": "Cold and heat, joy and sorrow: they come and they go. They do not stay. Meet them with patience.",
+      "hinglish": "Sardi-garmi, sukh-dukh aate hain aur chale jaate hain. Yeh tikte nahi. Inhe dheeraj se sahiye."
+    },
+    "audio": "gita-2-14"
+  },
+  {
+    "id": "gita-2-48",
+    "title": { "en": "Steady and calm (Gita 2.48)", "hinglish": "Sthir aur shaant (Gita 2.48)" },
+    "devanagari": "योगस्थः कुरु कर्माणि सङ्गं त्यक्त्वा धनञ्जय ।\nसिद्ध्यसिद्ध्योः समो भूत्वा समत्वं योग उच्यते ॥",
+    "transliteration": "Yoga-sthaḥ kuru karmāṇi saṅgaṁ tyaktvā dhanañjaya,\nsiddhy-asiddhyoḥ samo bhūtvā samatvaṁ yoga ucyate.",
+    "simple": "Yogasthah kuru karmani sangam tyaktva dhananjaya siddhy asiddhyoh samo bhutva samatvam yoga uchyate",
+    "meaning": {
+      "en": "Stay steady and do your work without clinging. Be calm in success and in failure. This calm balance is called yoga.",
+      "hinglish": "Sthir rehkar, moh chhodkar apna kaam karo. Safalta aur asafalta mein ek samaan raho. Isi santulan ko yog kehte hain."
+    },
+    "audio": "gita-2-48"
+  },
+  {
+    "id": "gita-2-47",
+    "title": {
+      "en": "Do your best, let go (Gita 2.47)",
+      "hinglish": "Apna best karo, phal chhodo (Gita 2.47)"
+    },
+    "devanagari": "कर्मण्येवाधिकारस्ते मा फलेषु कदाचन ।\nमा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्मणि ॥",
+    "transliteration": "Karmaṇy evādhikāras te mā phaleṣu kadācana,\nmā karma-phala-hetur bhūr mā te saṅgo 'stv akarmaṇi.",
+    "simple": "Karmany evadhikaras te ma phaleshu kadachana ma karma phala hetur bhur ma te sango stv akarmani",
+    "meaning": {
+      "en": "Your part is the doing, not the result. Don't work only for the reward, and don't give up working either.",
+      "hinglish": "Tumhara haq sirf karm par hai, phal par nahi. Sirf inaam ke liye kaam mat karo, aur kaam chhodo bhi mat."
+    },
+    "audio": "gita-2-47"
+  }
+]

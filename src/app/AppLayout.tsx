@@ -1,17 +1,16 @@
-import { useEffect, useState } from 'react';
-import { Outlet, useLocation } from 'react-router';
-import { initStorage } from '@/lib/db';
+import { useEffect } from 'react';
+import { Navigate, Outlet, useLocation } from 'react-router';
+import { isStorageAvailable } from '@/lib/db';
 import { BottomTabBar } from './BottomTabBar';
 import { ErrorBoundary } from './ErrorBoundary';
+import { HindiVoiceNotice, MiniPlayer } from './MiniPlayer';
+import { useProfile } from './profile';
+import { useSettings } from './settings';
 import { useT } from './useT';
 
 function StorageBanner() {
   const t = useT();
-  const [unavailable, setUnavailable] = useState(false);
-  useEffect(() => {
-    void initStorage().then((ok) => setUnavailable(!ok));
-  }, []);
-  if (!unavailable) return null;
+  if (isStorageAvailable()) return null;
   return (
     <p role="status" className="rounded-soft bg-accent text-on-fill mx-4 mt-4 p-4 text-sm">
       💛 {t('storage.unavailable')}
@@ -19,21 +18,48 @@ function StorageBanner() {
   );
 }
 
-/** Shell around every tab: storage banner, error boundary per screen, bottom tabs. */
+export function Splash() {
+  return (
+    <div className="flex min-h-dvh items-center justify-center text-5xl" aria-hidden="true">
+      <span className="animate-breathe">🌸</span>
+    </div>
+  );
+}
+
+/** Shell around every screen: onboarding gate, storage banner, error boundary, mini-player, tabs. */
 export function AppLayout() {
   const { pathname } = useLocation();
+  const { profile, ready } = useProfile();
+  const { ready: settingsReady } = useSettings();
+
   useEffect(() => {
     window.scrollTo({ top: 0 });
   }, [pathname]);
 
+  if (!ready || !settingsReady) return <Splash />;
+  const onOnboarding = pathname === '/onboarding';
+  if (!profile && !onOnboarding) return <Navigate to="/onboarding" replace />;
+  if (profile && onOnboarding) return <Navigate to="/" replace />;
+
+  if (onOnboarding) {
+    return (
+      <ErrorBoundary>
+        <StorageBanner />
+        <Outlet />
+      </ErrorBoundary>
+    );
+  }
+
   return (
     <>
-      <div className="mx-auto min-h-dvh max-w-md pt-[env(safe-area-inset-top)] pb-[calc(5rem+env(safe-area-inset-bottom))]">
+      <div className="mx-auto min-h-dvh max-w-md pt-[env(safe-area-inset-top)] pb-[calc(9rem+env(safe-area-inset-bottom))]">
         <StorageBanner />
         <ErrorBoundary>
           <Outlet />
         </ErrorBoundary>
       </div>
+      <MiniPlayer />
+      <HindiVoiceNotice />
       <BottomTabBar />
     </>
   );

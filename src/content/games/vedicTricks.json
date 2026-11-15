@@ -1,0 +1,137 @@
+[
+  {
+    "id": "square-5",
+    "kind": "squareEnding5",
+    "name": {
+      "en": "Squaring numbers ending in 5 (Ekadhikena Purvena)",
+      "hinglish": "5 par khatam hone wali sankhya ka varg (Ekadhikena Purvena)"
+    },
+    "sutra": "Ekādhikena Pūrveṇa",
+    "steps": [
+      {
+        "en": "Take 35 × 35.",
+        "hinglish": "35 × 35 lijiye."
+      },
+      {
+        "en": "Take the first digit (3) and multiply it by one more than itself: 3 × 4 = 12.",
+        "hinglish": "Pehla ank (3) lijiye aur use usse ek zyada se guna karein: 3 × 4 = 12."
+      },
+      {
+        "en": "Write 25 at the end.",
+        "hinglish": "Aakhir mein 25 likh dijiye."
+      },
+      {
+        "en": "Answer: 1225! ✨",
+        "hinglish": "Jawaab: 1225! ✨"
+      }
+    ]
+  },
+  {
+    "id": "times-11",
+    "kind": "times11",
+    "name": {
+      "en": "Multiplying by 11",
+      "hinglish": "11 se guna"
+    },
+    "sutra": "Antyayor Daśake'pi (pattern)",
+    "steps": [
+      {
+        "en": "Take 43 × 11.",
+        "hinglish": "43 × 11 lijiye."
+      },
+      {
+        "en": "Split the digits: 4 _ 3.",
+        "hinglish": "Ank alag karein: 4 _ 3."
+      },
+      {
+        "en": "Add them and put the sum in the middle: 4 + 3 = 7.",
+        "hinglish": "Inhe jodkar beech mein rakhein: 4 + 3 = 7."
+      },
+      {
+        "en": "Answer: 473! (If the sum is 10 or more, carry the 1.)",
+        "hinglish": "Jawaab: 473! (Jod 10 ya zyada ho to 1 aage le jaayein.)"
+      }
+    ]
+  },
+  {
+    "id": "near-100",
+    "kind": "near100",
+    "name": {
+      "en": "Multiplying numbers near 100 (Nikhilam)",
+      "hinglish": "100 ke paas ki sankhyaon ka guna (Nikhilam)"
+    },
+    "sutra": "Nikhilam Navataś Caramaṁ Daśataḥ",
+    "steps": [
+      {
+        "en": "Take 97 × 96.",
+        "hinglish": "97 × 96 lijiye."
+      },
+      {
+        "en": "How far from 100? 97 is 3 short, 96 is 4 short.",
+        "hinglish": "100 se kitna door? 97 mein 3 kam, 96 mein 4 kam."
+      },
+      {
+        "en": "Cross-subtract: 97 − 4 = 93 (left part).",
+        "hinglish": "Tirchha ghataayein: 97 − 4 = 93 (baayaan hissa)."
+      },
+      {
+        "en": "Multiply the gaps: 3 × 4 = 12 (right part). Answer: 9312! ✨",
+        "hinglish": "Kami ka guna: 3 × 4 = 12 (daayaan hissa). Jawaab: 9312! ✨"
+      }
+    ]
+  },
+  {
+    "id": "times-5",
+    "kind": "times5",
+    "name": {
+      "en": "Multiplying by 5",
+      "hinglish": "5 se guna"
+    },
+    "sutra": "Halve and ×10",
+    "steps": [
+      {
+        "en": "Take 48 × 5.",
+        "hinglish": "48 × 5 lijiye."
+      },
+      {
+        "en": "5 is half of 10, so halve 48: 24.",
+        "hinglish": "5, 10 ka aadha hai, to 48 ka aadha: 24."
+      },
+      {
+        "en": "Multiply by 10 (add a zero).",
+        "hinglish": "10 se guna karein (ek zero lagaayein)."
+      },
+      {
+        "en": "Answer: 240! ✨",
+        "hinglish": "Jawaab: 240! ✨"
+      }
+    ]
+  },
+  {
+    "id": "add-9",
+    "kind": "add9",
+    "name": {
+      "en": "Adding 9 quickly",
+      "hinglish": "9 jaldi jodna"
+    },
+    "sutra": "Add 10, take 1",
+    "steps": [
+      {
+        "en": "Take 47 + 9.",
+        "hinglish": "47 + 9 lijiye."
+      },
+      {
+        "en": "Adding 9 is the same as adding 10 and taking away 1.",
+        "hinglish": "9 jodna yaani 10 jodo aur 1 ghataao."
+      },
+      {
+        "en": "47 + 10 = 57, then 57 − 1.",
+        "hinglish": "47 + 10 = 57, phir 57 − 1."
+      },
+      {
+        "en": "Answer: 56! ✨",
+        "hinglish": "Jawaab: 56! ✨"
+      }
+    ]
+  }
+]

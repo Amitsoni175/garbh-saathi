@@ -1,0 +1,284 @@
+{
+  "_note": "Lunar festival dates change every year. These were filled in from memory and MUST be checked against a panchang (see README TODO). Format: YYYY-MM-DD, local date.",
+  "dates": {
+    "2026": {
+      "lohri": "2026-01-13",
+      "makar-sankranti": "2026-01-14",
+      "basant-panchami": "2026-01-23",
+      "holi": "2026-03-04",
+      "baisakhi": "2026-04-14",
+      "hariyali-teej": "2026-08-15",
+      "raksha-bandhan": "2026-08-28",
+      "janmashtami": "2026-09-04",
+      "navratri": "2026-10-11",
+      "dussehra": "2026-10-20",
+      "karva-chauth": "2026-10-29",
+      "ahoi-ashtami": "2026-11-02",
+      "diwali": "2026-11-08",
+      "gita-jayanti": "2026-12-20"
+    },
+    "2027": {
+      "lohri": "2027-01-13",
+      "makar-sankranti": "2027-01-14",
+      "basant-panchami": "2027-02-11",
+      "holi": "2027-03-22",
+      "baisakhi": "2027-04-14",
+      "hariyali-teej": "2027-08-05",
+      "raksha-bandhan": "2027-08-17",
+      "janmashtami": "2027-08-25",
+      "navratri": "2027-09-30",
+      "dussehra": "2027-10-09",
+      "karva-chauth": "2027-10-18",
+      "ahoi-ashtami": "2027-10-22",
+      "diwali": "2027-10-29",
+      "gita-jayanti": "2027-12-10"
+    }
+  },
+  "festivals": [
+    {
+      "id": "lohri",
+      "emoji": "🔥",
+      "name": { "en": "Lohri", "hinglish": "Lohri" },
+      "blurb": {
+        "en": "The winter bonfire festival: rewri, moongphali and warm songs.",
+        "hinglish": "Sardi ka alaav wala tyohaar: rewri, moongphali aur garmaagaram geet."
+      },
+      "activity": {
+        "kind": "song",
+        "label": {
+          "en": "Sing a song for baby by the fire",
+          "hinglish": "Aag ke paas baby ke liye geet gaaiye"
+        },
+        "to": "/music/lokgeet"
+      },
+      "caution": {
+        "en": "Sit a safe distance from the fire and smoke.",
+        "hinglish": "Aag aur dhuein se surakshit doori par baithein."
+      }
+    },
+    {
+      "id": "makar-sankranti",
+      "emoji": "🪁",
+      "name": { "en": "Makar Sankranti", "hinglish": "Makar Sankranti" },
+      "blurb": {
+        "en": "Til-gur, khichdi and the sun moving north.",
+        "hinglish": "Til-gur, khichdi aur suraj ka uttarayan."
+      },
+      "activity": {
+        "kind": "shloka",
+        "label": {
+          "en": "Greet the sun with the Gayatri mantra",
+          "hinglish": "Gayatri mantra se suraj ko pranaam"
+        },
+        "to": "/music/mantra/gayatri"
+      }
+    },
+    {
+      "id": "basant-panchami",
+      "emoji": "💛",
+      "name": { "en": "Basant Panchami", "hinglish": "Basant Panchami" },
+      "blurb": {
+        "en": "Yellow mustard fields and a prayer to Saraswati for learning.",
+        "hinglish": "Peele sarson ke khet aur gyaan ke liye Saraswati vandana."
+      },
+      "activity": {
+        "kind": "shloka",
+        "label": { "en": "Say the Saraswati prayer", "hinglish": "Saraswati vandana kahiye" },
+        "to": "/shloka/saraswati"
+      }
+    },
+    {
+      "id": "holi",
+      "emoji": "🌈",
+      "name": { "en": "Holi / Dhulandi", "hinglish": "Holi / Dhulandi" },
+      "blurb": {
+        "en": "Colours, gujiya and the story of brave Prahlad.",
+        "hinglish": "Rang, gujiya aur bahadur Prahlad ki kahani."
+      },
+      "activity": {
+        "kind": "story",
+        "label": { "en": "Read Prahlad's story", "hinglish": "Prahlad ki kahani padhiye" },
+        "to": "/stories/prahlad"
+      },
+      "caution": {
+        "en": "Use only gentle natural colours, and stay away from rough play.",
+        "hinglish": "Sirf halke prakritik rang lagaayein, aur dhakka-mukki se door rahein."
+      }
+    },
+    {
+      "id": "baisakhi",
+      "emoji": "🌾",
+      "name": { "en": "Baisakhi", "hinglish": "Baisakhi" },
+      "blurb": {
+        "en": "The golden wheat harvest. Thank the earth that feeds us.",
+        "hinglish": "Sunehri gehun ki fasal. Dharti ka shukriya jo hume khilaati hai."
+      },
+      "activity": {
+        "kind": "talk",
+        "label": {
+          "en": "Tell baby about the harvest",
+          "hinglish": "Baby ko fasal ke baare mein bataiye"
+        },
+        "to": "/talk"
+      }
+    },
+    {
+      "id": "hariyali-teej",
+      "emoji": "🌿",
+      "name": { "en": "Hariyali Teej", "hinglish": "Hariyali Teej" },
+      "blurb": {
+        "en": "Swings on the neem tree, mehendi, ghevar and monsoon songs.",
+        "hinglish": "Neem par jhoole, mehendi, ghevar aur saawan ke geet."
+      },
+      "activity": {
+        "kind": "swing",
+        "label": { "en": "Open the Teej swing and sing", "hinglish": "Teej ka jhoola aur geet" },
+        "to": "/festival/hariyali-teej"
+      },
+      "caution": {
+        "en": "Enjoy a gentle sit on the swing only; no high swinging this year.",
+        "hinglish": "Is saal jhoole par sirf halke se baithein; ooncha jhoola nahi."
+      }
+    },
+    {
+      "id": "raksha-bandhan",
+      "emoji": "🧵",
+      "name": { "en": "Raksha Bandhan", "hinglish": "Raksha Bandhan" },
+      "blurb": {
+        "en": "A thread of love and care between siblings.",
+        "hinglish": "Bhai-behen ke beech pyaar aur raksha ka dhaaga."
+      },
+      "activity": {
+        "kind": "talk",
+        "label": {
+          "en": "Tell baby about your brothers and sisters",
+          "hinglish": "Baby ko apne bhai-behenon ke baare mein bataiye"
+        },
+        "to": "/talk"
+      }
+    },
+    {
+      "id": "janmashtami",
+      "emoji": "🦚",
+      "name": { "en": "Janmashtami", "hinglish": "Janmashtami" },
+      "blurb": {
+        "en": "Baby Krishna's birthday: makhan, mor pankh and jhaanki.",
+        "hinglish": "Baal Krishna ka janmdin: makhan, mor pankh aur jhaanki."
+      },
+      "activity": {
+        "kind": "story",
+        "label": {
+          "en": "Read Baby Krishna and the butter",
+          "hinglish": "Baal Krishna aur makhan ki kahani"
+        },
+        "to": "/stories/krishna-makhan"
+      }
+    },
+    {
+      "id": "navratri",
+      "emoji": "🌺",
+      "name": { "en": "Navratri and Sanjhi", "hinglish": "Navratri aur Sanjhi" },
+      "blurb": {
+        "en": "Nine nights of Devi, and the Haryanvi Sanjhi made of clay stars on the wall.",
+        "hinglish": "Devi ki nau raatein, aur deewar par mitti ke sitaaron wali Haryanvi Sanjhi."
+      },
+      "activity": {
+        "kind": "sanjhi",
+        "label": { "en": "Decorate your own Sanjhi", "hinglish": "Apni Sanjhi sajaaiye" },
+        "to": "/play/sanjhi"
+      }
+    },
+    {
+      "id": "dussehra",
+      "emoji": "🏹",
+      "name": { "en": "Dussehra", "hinglish": "Dussehra" },
+      "blurb": { "en": "Goodness wins over pride.", "hinglish": "Achhaai ki ahankaar par jeet." },
+      "activity": {
+        "kind": "story",
+        "label": { "en": "Read a story of courage", "hinglish": "Himmat ki ek kahani padhiye" },
+        "to": "/stories/dhruva"
+      },
+      "caution": {
+        "en": "Watch the Ravan dahan from far away, away from crowds and smoke.",
+        "hinglish": "Ravan dahan door se dekhein, bheed aur dhuein se alag."
+      }
+    },
+    {
+      "id": "karva-chauth",
+      "emoji": "🌕",
+      "name": { "en": "Karva Chauth", "hinglish": "Karva Chauth" },
+      "blurb": {
+        "en": "A day of love under the moon.",
+        "hinglish": "Chaand ke neeche pyaar ka din."
+      },
+      "activity": {
+        "kind": "talk",
+        "label": {
+          "en": "Tell baby the story of the moon tonight",
+          "hinglish": "Aaj raat baby ko chaand ki kahani sunaiye"
+        },
+        "to": "/talk"
+      },
+      "caution": {
+        "en": "Fasting during pregnancy is not advised. Please talk to your doctor and keep eating and drinking; love is in the prayer, not the fast.",
+        "hinglish": "Garbhavastha mein vrat ki salaah nahi di jaati. Doctor se baat karein aur khaana-paani lete rahein; pyaar puja mein hai, bhookh mein nahi."
+      }
+    },
+    {
+      "id": "ahoi-ashtami",
+      "emoji": "⭐",
+      "name": { "en": "Ahoi Ashtami", "hinglish": "Ahoi Ashtami" },
+      "blurb": {
+        "en": "Mothers pray for their children's wellbeing under the stars.",
+        "hinglish": "Maayein taaron ke neeche bachchon ki khushhaali ki dua karti hain."
+      },
+      "activity": {
+        "kind": "letter",
+        "label": { "en": "Write a letter to your baby", "hinglish": "Baby ko ek chitthi likhiye" },
+        "to": "/bonding/journal?new=1"
+      },
+      "caution": {
+        "en": "Please don't fast during pregnancy. Pray with a full tummy, with your doctor's advice.",
+        "hinglish": "Garbhavastha mein vrat na rakhein. Doctor ki salaah se, pet bhar kar puja kijiye."
+      }
+    },
+    {
+      "id": "diwali",
+      "emoji": "🪔",
+      "name": { "en": "Diwali", "hinglish": "Diwali" },
+      "blurb": {
+        "en": "Diyas, rangoli and light for the new life coming.",
+        "hinglish": "Diye, rangoli aur aane wale nanhe jeevan ke liye roshni."
+      },
+      "activity": {
+        "kind": "rangoli",
+        "label": { "en": "Make a rangoli", "hinglish": "Rangoli banaaiye" },
+        "to": "/play/rangoli"
+      },
+      "caution": {
+        "en": "Stay indoors away from cracker smoke and loud bangs.",
+        "hinglish": "Pataakhon ke dhuein aur tez awaaz se door, ghar ke andar rahein."
+      }
+    },
+    {
+      "id": "gita-jayanti",
+      "emoji": "📜",
+      "name": {
+        "en": "Gita Jayanti (International Gita Mahotsav, Kurukshetra)",
+        "hinglish": "Gita Jayanti (Antarrashtriya Gita Mahotsav, Kurukshetra)"
+      },
+      "blurb": {
+        "en": "The day the Gita was spoken at Kurukshetra, in our own Haryana.",
+        "hinglish": "Woh din jab Kurukshetra mein, hamare Haryana mein, Gita kahi gayi."
+      },
+      "activity": {
+        "kind": "story",
+        "label": {
+          "en": "Start the Gita Week stories",
+          "hinglish": "Gita Week ki kahaniyan shuru kijiye"
+        },
+        "to": "/stories/gita-1"
+      }
+    }
+  ]
+}

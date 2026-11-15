@@ -2,6 +2,8 @@ import { LazyMotion, MotionConfig } from 'motion/react';
 import type { ReactNode } from 'react';
 import { RouterProvider } from 'react-router';
 import { ToastProvider } from '@/components/ui/ToastProvider';
+import { CelebrationProvider } from './CelebrationProvider';
+import { ProfileProvider } from './ProfileProvider';
 import { router } from './router';
 import { SettingsProvider } from './SettingsProvider';
 import { useT } from './useT';
@@ -19,9 +21,13 @@ export default function App() {
     <LazyMotion features={loadMotionFeatures} strict>
       <MotionConfig reducedMotion="user">
         <SettingsProvider>
-          <LocalisedToasts>
-            <RouterProvider router={router} />
-          </LocalisedToasts>
+          <ProfileProvider>
+            <LocalisedToasts>
+              <CelebrationProvider>
+                <RouterProvider router={router} />
+              </CelebrationProvider>
+            </LocalisedToasts>
+          </ProfileProvider>
         </SettingsProvider>
       </MotionConfig>
     </LazyMotion>

@@ -1,7 +1,7 @@
 {
   "name": "garbh-saathi",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A calm, private, offline-first pregnancy companion for one family in Haryana.",
   "type": "module",
   "scripts": {
@@ -21,6 +21,7 @@
     "@fontsource/nunito": "^5.3.0",
     "date-fns": "^4.4.0",
     "dexie": "^4.4.7",
+    "dexie-react-hooks": "^4.4.0",
     "motion": "^14.14.0",
     "react": "^19.3.1",
     "react-dom": "^19.3.1",

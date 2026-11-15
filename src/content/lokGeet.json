@@ -1,0 +1,108 @@
+[
+  {
+    "id": "chanda-mama",
+    "type": "lori",
+    "emoji": "🌙",
+    "title": {
+      "en": "Chanda Mama (traditional lori)",
+      "hinglish": "Chanda Mama (paaramparik lori)"
+    },
+    "about": {
+      "en": "A traditional nursery rhyme sung across North India.",
+      "hinglish": "Uttar Bharat mein gaayi jaane wali paaramparik lori."
+    },
+    "lines": [
+      "Chanda mama door ke,",
+      "pue pakaaye boor ke,",
+      "aap khaayein thaali mein,",
+      "munne ko dein pyaali mein.",
+      "Pyaali gayi toot,",
+      "munna gaya rooth,",
+      "laayenge nayi pyaliyan,",
+      "bajaa bajaa ke taaliyan,",
+      "munne ko manaayenge,",
+      "doodh malaai khilaayenge."
+    ]
+  },
+  {
+    "id": "lalla-lori",
+    "type": "lori",
+    "emoji": "🍼",
+    "title": {
+      "en": "Lalla lalla lori (traditional)",
+      "hinglish": "Lalla lalla lori (paaramparik)"
+    },
+    "about": {
+      "en": "A soft traditional lori, often sung while rocking the cradle.",
+      "hinglish": "Paalna jhulaate samay gaayi jaane wali komal paaramparik lori."
+    },
+    "lines": [
+      "Lalla lalla lori,",
+      "doodh ki katori,",
+      "doodh mein bataasha,",
+      "munni kare tamaasha.",
+      "Lalla lalla lori,",
+      "chanda ki chakori,",
+      "so ja meri raani,",
+      "sapnon ki kahaani."
+    ]
+  },
+  {
+    "id": "mhari-laado",
+    "type": "lori",
+    "emoji": "💛",
+    "title": {
+      "en": "Mhari laado / mhara laadla (written for this app)",
+      "hinglish": "Mhari laado / mhara laadla (is app ke liye likhi)"
+    },
+    "about": {
+      "en": "A new, simple Haryanvi-flavoured lori written for Garbh Saathi. Change the words however you like!",
+      "hinglish": "Garbh Saathi ke liye likhi ek nayi, saral Haryanvi lori. Shabd jaise chahein badal lijiye!"
+    },
+    "lines": [
+      "So ja mhari laado, so ja mhare laal,",
+      "neem tale jhoola, thandi chaale baal (hawa).",
+      "Khet mein sarson, peeli-peeli dhoop,",
+      "Dadi sunaave kahani, Papa gaave khoob.",
+      "Chaand chadhya chaubaare, taare kare baat,",
+      "Mummy ka dil gaave, saari-saari raat.",
+      "So ja mhari laado, so ja mhare laal,",
+      "sapnon mein khelaange, sang mein saalon saal."
+    ]
+  },
+  {
+    "id": "saawan-teej",
+    "type": "lokgeet",
+    "emoji": "🌿",
+    "title": {
+      "en": "Saawan ka jhoola (Teej song, written for this app)",
+      "hinglish": "Saawan ka jhoola (Teej geet, is app ke liye likha)"
+    },
+    "about": {
+      "en": "A simple monsoon swing song for Hariyali Teej. Sing it to any tune you know!",
+      "hinglish": "Hariyali Teej ke liye saawan ka saral jhoola geet. Kisi bhi jaani-pehchaani dhun mein gaaiye!"
+    },
+    "lines": [
+      "Aaya saawan jhoom ke, neem pe pad gaya jhool,",
+      "haath rachi mehendi, baalon mein champa phool.",
+      "Rimjhim barse badra, mor machaave shor,",
+      "mhara nanha saathi sune, pet mein karke jor.",
+      "Dheere jhoolo saheli, dheere gaao geet,",
+      "aane wala laadla, sabka manmeet."
+    ]
+  },
+  {
+    "id": "jachcha-placeholder",
+    "type": "jachcha",
+    "emoji": "🎶",
+    "title": {
+      "en": "Jachcha geet: record Dadi or Nani",
+      "hinglish": "Jachcha geet: Dadi ya Nani ki awaaz mein"
+    },
+    "about": {
+      "en": "Jachcha geet are the traditional songs the women of the family sing for a new mother and baby. Every family's words are different and precious. Ask Dadi, Nani or Maasi to sing one and record it here with the button below.",
+      "hinglish": "Jachcha geet woh paaramparik geet hain jo ghar ki auratein nayi maa aur baby ke liye gaati hain. Har parivaar ke shabd alag aur anmol hote hain. Dadi, Nani ya Maasi se gaane ko kahiye aur neeche ke button se yahan record kijiye."
+    },
+    "lines": []
+  }
+]

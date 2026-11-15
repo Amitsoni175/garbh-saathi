@@ -1,0 +1,194 @@
+[
+  {
+    "id": "p-diya",
+    "riddle": {
+      "en": "I have no mouth but I drink oil, I have no feet but I chase the dark. What am I?",
+      "hinglish": "Munh nahi par tel peeta hoon, pair nahi par andhera bhagaata hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A diya",
+      "hinglish": "Diya"
+    },
+    "emoji": "🪔"
+  },
+  {
+    "id": "p-shadow",
+    "riddle": {
+      "en": "I follow you all day, but disappear at night. What am I?",
+      "hinglish": "Din bhar tumhare peeche chalti hoon, raat ko gaayab. Main kaun?"
+    },
+    "answer": {
+      "en": "Your shadow",
+      "hinglish": "Parchhaai"
+    },
+    "emoji": "👤"
+  },
+  {
+    "id": "p-onion",
+    "riddle": {
+      "en": "I have many layers and I make you cry, yet everyone wants me in the kitchen. What am I?",
+      "hinglish": "Meri kai parat hain, main rulaata hoon, phir bhi rasoi mein sabko chahiye. Main kaun?"
+    },
+    "answer": {
+      "en": "An onion",
+      "hinglish": "Pyaaz"
+    },
+    "emoji": "🧅"
+  },
+  {
+    "id": "p-peacock",
+    "riddle": {
+      "en": "I wear a crown and dance in the rain, my feathers have eyes. Who am I?",
+      "hinglish": "Sir par mukut, baarish mein naachta hoon, mere pankhon mein aankhein hain. Main kaun?"
+    },
+    "answer": {
+      "en": "A peacock",
+      "hinglish": "Mor"
+    },
+    "emoji": "🦚"
+  },
+  {
+    "id": "p-matka",
+    "riddle": {
+      "en": "I am round and made of clay. In summer I keep water cool. What am I?",
+      "hinglish": "Gol hoon, mitti ka bana hoon. Garmi mein paani thanda rakhta hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A matka",
+      "hinglish": "Matka"
+    },
+    "emoji": "🏺"
+  },
+  {
+    "id": "p-moon",
+    "riddle": {
+      "en": "I grow fat and thin every month, but I never eat. What am I?",
+      "hinglish": "Har mahine mota-patla hota hoon, par kabhi khaata nahi. Main kaun?"
+    },
+    "answer": {
+      "en": "The moon",
+      "hinglish": "Chaand"
+    },
+    "emoji": "🌙"
+  },
+  {
+    "id": "p-umbrella",
+    "riddle": {
+      "en": "I open when it rains and close when it stops. What am I?",
+      "hinglish": "Baarish mein khulta hoon, rukte hi band. Main kaun?"
+    },
+    "answer": {
+      "en": "An umbrella",
+      "hinglish": "Chhaata"
+    },
+    "emoji": "☂️"
+  },
+  {
+    "id": "p-coconut",
+    "riddle": {
+      "en": "Hard outside, soft white inside, with sweet water hidden in me. What am I?",
+      "hinglish": "Bahar se sakht, andar safed aur naram, mere andar meetha paani chhupa hai. Main kaun?"
+    },
+    "answer": {
+      "en": "A coconut",
+      "hinglish": "Nariyal"
+    },
+    "emoji": "🥥"
+  },
+  {
+    "id": "p-cow",
+    "riddle": {
+      "en": "I give milk, I say 'moo', and Gopal loved me. Who am I?",
+      "hinglish": "Doodh deti hoon, 'baa' bolti hoon, Gopal ki pyaari hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A cow",
+      "hinglish": "Gaay"
+    },
+    "emoji": "🐄"
+  },
+  {
+    "id": "p-egg",
+    "riddle": {
+      "en": "I can be broken without being touched with a hammer, just by saying a word. What am I?",
+      "hinglish": "Bina chhooye, sirf ek shabd bolne se toot jaata hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A promise",
+      "hinglish": "Vaada"
+    },
+    "emoji": "🤝"
+  },
+  {
+    "id": "p-clock",
+    "riddle": {
+      "en": "I have hands but cannot clap, a face but cannot smile. What am I?",
+      "hinglish": "Haath hain par taali nahi bajaati, chehra hai par muskuraati nahi. Main kaun?"
+    },
+    "answer": {
+      "en": "A clock",
+      "hinglish": "Ghadi"
+    },
+    "emoji": "🕰️"
+  },
+  {
+    "id": "p-sun",
+    "riddle": {
+      "en": "I wake up the whole village but I never use an alarm. Who am I?",
+      "hinglish": "Poore gaon ko jagaata hoon par alarm nahi lagaata. Main kaun?"
+    },
+    "answer": {
+      "en": "The sun",
+      "hinglish": "Suraj"
+    },
+    "emoji": "☀️"
+  },
+  {
+    "id": "p-chulha",
+    "riddle": {
+      "en": "I eat wood and give you roti. What am I?",
+      "hinglish": "Lakdi khaata hoon aur tumhe roti deta hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A chulha",
+      "hinglish": "Chulha"
+    },
+    "emoji": "🔥"
+  },
+  {
+    "id": "p-rainbow",
+    "riddle": {
+      "en": "I appear after rain with seven colours, but you can never touch me. What am I?",
+      "hinglish": "Baarish ke baad saat rangon mein aata hoon, par mujhe koi chhoo nahi sakta. Main kaun?"
+    },
+    "answer": {
+      "en": "A rainbow",
+      "hinglish": "Indradhanush"
+    },
+    "emoji": "🌈"
+  },
+  {
+    "id": "p-baby",
+    "riddle": {
+      "en": "I am not here yet, but already everyone loves me. Who am I?",
+      "hinglish": "Abhi aaya nahi, par sab mujhse pyaar karte hain. Main kaun?"
+    },
+    "answer": {
+      "en": "Your baby!",
+      "hinglish": "Aapka baby!"
+    },
+    "emoji": "👶"
+  },
+  {
+    "id": "p-needle",
+    "riddle": {
+      "en": "I have one eye but cannot see, I help you sew. What am I?",
+      "hinglish": "Ek aankh hai par dekh nahi sakti, silaai mein madad karti hoon. Main kaun?"
+    },
+    "answer": {
+      "en": "A needle",
+      "hinglish": "Sui"
+    },
+    "emoji": "🪡"
+  }
+]

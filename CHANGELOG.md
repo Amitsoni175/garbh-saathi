@@ -1,5 +1,29 @@
 # Changelog
 
+## 0.2.0 · Phase 2: Onboarding + Today (2026-11-15)
+
+- **Onboarding** (3 screens): welcome with the language choice; last-period or due date with an
+  instant "Week X · Day Y, baby due on…" result and gentle validation; name, baby nickname and audio
+  language (skippable).
+- **Today**: Haryanvi Hinglish greeting by time of day, Week · Day, trimester, a progress ring with
+  days to go, and stage cards (any day now at 40 weeks, "has your little one arrived?" at 42 weeks,
+  and a before-the-journey note).
+- **Journey path**: 5 stones on a winding path (shloka, story, game, raga, talk to baby). They can be
+  done in any order. Done stones glow and get a ✓, petals fall, a chime plays and a flower is added.
+  A celebration card appears when all 5 are done.
+- **Baby size card** (weeks 4–40, Indian fruit and vegetables) and a **seasonal tip card**.
+- **Garden for Baby**: grows from a seed to a tree in bloom by week. One flower per activity, weekly
+  visitors (ladybird, butterfly, sparrow, peacock…) and festival treasures. It never shrinks. Tapping
+  it shows the week's summary.
+- **Shloka screen**: Devanagari, transliteration, meaning and Listen. **Talk to baby**: a prompt
+  of the day with optional voice recording, saved to her letters.
+- **Content system**: typed JSON with runtime validation (bad entries are skipped and reported). The
+  daily plan uses explicit entries plus a deterministic rotation counted from her first day, so story
+  #1 is always Abhimanyu and Gita Week parts arrive on consecutive days.
+- **Database v2** migration (recordings, journal, kicks, photos, daily, events). If IndexedDB is
+  blocked, an in-memory fallback keeps the whole app working.
+- **Pull to refresh** on Today.
+
 ## 0.1.0 · Phase 1: Foundation (2026-11-15)
 
 - **Pregnancy dates (`src/lib/pregnancy.ts`)**: pure, fully tested functions.

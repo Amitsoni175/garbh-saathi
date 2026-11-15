@@ -1,0 +1,197 @@
+[
+  {
+    "id": "haryana",
+    "name": {
+      "en": "Haryana treasures",
+      "hinglish": "Haryana ke khazaane"
+    },
+    "items": [
+      {
+        "emoji": "🦚",
+        "label": {
+          "en": "Peacock",
+          "hinglish": "Mor"
+        }
+      },
+      {
+        "emoji": "🪈",
+        "label": {
+          "en": "Flute",
+          "hinglish": "Bansuri"
+        }
+      },
+      {
+        "emoji": "🪷",
+        "label": {
+          "en": "Lotus",
+          "hinglish": "Kamal"
+        }
+      },
+      {
+        "emoji": "🪔",
+        "label": {
+          "en": "Diya",
+          "hinglish": "Diya"
+        }
+      },
+      {
+        "emoji": "🌝",
+        "label": {
+          "en": "Sanjhi face",
+          "hinglish": "Sanjhi ka chehra"
+        }
+      },
+      {
+        "emoji": "🪶",
+        "label": {
+          "en": "Mor pankh",
+          "hinglish": "Mor pankh"
+        }
+      },
+      {
+        "emoji": "🏺",
+        "label": {
+          "en": "Matka",
+          "hinglish": "Matka"
+        }
+      },
+      {
+        "emoji": "☸️",
+        "label": {
+          "en": "Chakra",
+          "hinglish": "Chakra"
+        }
+      }
+    ]
+  },
+  {
+    "id": "kitchen",
+    "name": {
+      "en": "Haryanvi kitchen",
+      "hinglish": "Haryanvi rasoi"
+    },
+    "items": [
+      {
+        "emoji": "🥛",
+        "label": {
+          "en": "Lassi",
+          "hinglish": "Lassi"
+        }
+      },
+      {
+        "emoji": "🧈",
+        "label": {
+          "en": "Makhan",
+          "hinglish": "Makhan"
+        }
+      },
+      {
+        "emoji": "🌽",
+        "label": {
+          "en": "Makki",
+          "hinglish": "Makki"
+        }
+      },
+      {
+        "emoji": "🥬",
+        "label": {
+          "en": "Saag",
+          "hinglish": "Saag"
+        }
+      },
+      {
+        "emoji": "🍯",
+        "label": {
+          "en": "Gur",
+          "hinglish": "Gur"
+        }
+      },
+      {
+        "emoji": "🫘",
+        "label": {
+          "en": "Chana",
+          "hinglish": "Chana"
+        }
+      },
+      {
+        "emoji": "🥭",
+        "label": {
+          "en": "Aam",
+          "hinglish": "Aam"
+        }
+      },
+      {
+        "emoji": "🍋",
+        "label": {
+          "en": "Nimbu",
+          "hinglish": "Nimbu"
+        }
+      }
+    ]
+  },
+  {
+    "id": "nature",
+    "name": {
+      "en": "Village nature",
+      "hinglish": "Gaon ki prakriti"
+    },
+    "items": [
+      {
+        "emoji": "🐄",
+        "label": {
+          "en": "Cow",
+          "hinglish": "Gaay"
+        }
+      },
+      {
+        "emoji": "🌾",
+        "label": {
+          "en": "Wheat",
+          "hinglish": "Gehun"
+        }
+      },
+      {
+        "emoji": "🌳",
+        "label": {
+          "en": "Banyan",
+          "hinglish": "Bargad"
+        }
+      },
+      {
+        "emoji": "🐦",
+        "label": {
+          "en": "Sparrow",
+          "hinglish": "Chidiya"
+        }
+      },
+      {
+        "emoji": "🌙",
+        "label": {
+          "en": "Moon",
+          "hinglish": "Chaand"
+        }
+      },
+      {
+        "emoji": "🌻",
+        "label": {
+          "en": "Sunflower",
+          "hinglish": "Surajmukhi"
+        }
+      },
+      {
+        "emoji": "🦋",
+        "label": {
+          "en": "Butterfly",
+          "hinglish": "Titli"
+        }
+      },
+      {
+        "emoji": "🌧️",
+        "label": {
+          "en": "Rain",
+          "hinglish": "Baarish"
+        }
+      }
+    ]
+  }
+]
