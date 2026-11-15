@@ -1,7 +1,7 @@
 {
   "name": "garbh-saathi",
   "private": true,
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "A calm, private, offline-first pregnancy companion for one family in Haryana.",
   "type": "module",
   "scripts": {
@@ -19,8 +19,12 @@
   "dependencies": {
     "@fontsource/noto-sans-devanagari": "^5.3.0",
     "@fontsource/nunito": "^5.3.0",
+    "date-fns": "^4.4.0",
+    "dexie": "^4.4.7",
+    "motion": "^14.14.0",
     "react": "^19.3.1",
-    "react-dom": "^19.3.1"
+    "react-dom": "^19.3.1",
+    "react-router": "^8.5.1"
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
@@ -35,6 +39,7 @@
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-react-hooks": "^7.1.1",
     "eslint-plugin-react-refresh": "^0.5.8",
+    "fake-indexeddb": "^6.2.8",
     "globals": "^17.14.0",
     "jsdom": "^31.0.1",
     "prettier": "^3.10.1",

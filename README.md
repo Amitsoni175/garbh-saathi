@@ -8,7 +8,7 @@ habits. Everything is about **bonding, calm and joy**. It makes **no IQ claims**
 - **Private:** all data stays on the phone. There is no login, server, analytics or trackers.
 - **Offline-first:** an installable PWA that works on low-cost Android phones and iPhone Safari.
 
-> Status: **Phase 0 (setup)**. See [CHANGELOG.md](CHANGELOG.md).
+> Status: **Phase 1 (foundation)**. See [CHANGELOG.md](CHANGELOG.md).
 
 ## Run it
 
@@ -49,6 +49,21 @@ public/
 Colours are CSS variables in `src/index.css`, exposed as Tailwind tokens (`bg-primary`,
 `text-text-muted`, `bg-surface`, `shadow-soft`, `rounded-softer`…). Night mode is set with
 `data-theme="night"` on `<html>`. Text sizes come from `data-text-size="large" | "xl"`.
+
+## Debug panel
+
+Me → About → tap the version number **7 times**. There you can pretend today is any date or time,
+jump to any pregnancy week, see the computed state, view, copy or export the error log, and
+simulate errors.
+
+## Code rules worth knowing
+
+- Never call `new Date()` for app logic: use `getToday()` / `getNow()` from `src/lib/clock.ts`
+  (or the `useNow()` hook), so the debug override works everywhere.
+- Never use `new Date('YYYY-MM-DD')` or `toISOString()` for calendar dates: use `parseLocalDate` /
+  `toLocalISO` from `src/lib/pregnancy.ts`.
+- Animations use `m.div` (not `motion.div`) inside the app-wide `LazyMotion`.
+- Database changes: add a new `this.version(n)` block in `src/lib/db.ts` and never edit an old one.
 
 ## Install on a phone
 
