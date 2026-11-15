@@ -1,5 +1,36 @@
 # Changelog
 
+## 0.4.0 · Phase 4: Games (2026-11-15)
+
+- **GameShell** shared by every game: title, how-to-play sheet, hint button, an optional relaxed
+  count-up timer (off by default, never a countdown), a finish card with "Shabaash!" and a flower
+  for the garden. There are no scores, no leaderboards and no losing.
+- **11 games**, each lazy-loaded and wrapped in its own error boundary:
+  - **Memory Match**: 3×4, then 4×4 after two games. Matched cards wiggle and glow; the hint wiggles
+    a pair.
+  - **Bubble Maths**: a Vedic trick of the day with step-by-step "how it works" (squares ending in 5 /
+    Ekadhikena Purvena, ×11, Nikhilam near 100, ×5, +9), then 5 floating bubbles to pop. Wrong
+    bubbles just drift away.
+  - **Story Quiz Swipe**: true/false cards about yesterday's story (swipe or buttons), with a gentle
+    correction when an answer is wrong.
+  - **Word Garden**: tap letter tiles to spell 3 words from the story. Each word grows a tulip, and the
+    hint lights up the next letter.
+  - **Baby Size Guess**: this week's fruit against a far-off one, then a cute reveal.
+  - **Paheli of the Day**: 16 riddles, revealed with a canvas scratch card (or a button).
+  - **Mini Sudoku**: generated 4×4 / 6×6 puzzles, pencil marks, soft clash colours, and a hint that
+    fills a square.
+  - **Number Patterns**: 3 sequences per round, with the hint shown after a miss.
+  - **Rangoli Tap**: tap the glowing dot to draw a star, diamond, lotus or hexagram. A wrong tap only
+    nudges the glow.
+  - **Sanjhi Decorator**: drag 14 stickers onto a Haryanvi Sanjhi face, save it to the in-app
+    gallery, and download it as a PNG.
+  - **Shloka Fill-in**: find the missing word in shlokas she has already heard.
+- **Play tab**: game of the day, all games (with "played N×"), and links to the music corner and the
+  story library.
+- Unit tests for the game logic: seeded shuffle, memory pairing and levels, bubble questions for every
+  trick, Sudoku generation/clashes/validity, word scramble and check, rangoli paths and shloka
+  fill-in.
+
 ## 0.3.0 · Phase 3: Stories + Audio (2026-11-15)
 
 - **12 seed stories** in English and Hinglish: Abhimanyu (story #1, with Devanagari text for the

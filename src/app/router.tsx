@@ -34,6 +34,7 @@ export const router = createHashRouter([
       { path: 'garden', lazy: lazyScreen(() => import('@/features/garden/GardenScreen')) },
       { path: 'calendar', lazy: lazyScreen(() => import('@/features/calendar/CalendarScreen')) },
       { path: 'play', lazy: lazyScreen(() => import('@/features/games/PlayScreen')) },
+      { path: 'play/:gameId', lazy: lazyScreen(() => import('@/features/games/GameScreen')) },
       { path: 'me', lazy: lazyScreen(() => import('@/features/settings/MeScreen')) },
       { path: 'me/debug', lazy: lazyScreen(() => import('@/features/settings/DebugPanel')) },
       { path: '*', element: <TodayScreen /> },

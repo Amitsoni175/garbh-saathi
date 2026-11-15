@@ -8,3 +8,4 @@ export { ProgressRing } from './ProgressRing';
 export { Toggle } from './Toggle';
 export { useToast } from './toastContext';
 export { PageHeader } from './PageHeader';
+export { BlobImage } from './BlobImage';

@@ -12,6 +12,8 @@ export interface Settings {
   textSize: TextSize;
   sounds: boolean;
   vibration: boolean;
+  /** Show a relaxed count-up timer in games (off by default: no pressure). */
+  relaxedTimer: boolean;
 }
 
 export const DEFAULT_SETTINGS: Settings = {
@@ -21,6 +23,7 @@ export const DEFAULT_SETTINGS: Settings = {
   textSize: 'normal',
   sounds: true,
   vibration: true,
+  relaxedTimer: false,
 };
 
 /** Merge stored settings over defaults, ignoring unknown or wrongly-typed values. */
@@ -38,6 +41,7 @@ export function normaliseSettings(stored: unknown): Settings {
   }
   if (typeof s.sounds === 'boolean') out.sounds = s.sounds;
   if (typeof s.vibration === 'boolean') out.vibration = s.vibration;
+  if (typeof s.relaxedTimer === 'boolean') out.relaxedTimer = s.relaxedTimer;
   return out;
 }
 
