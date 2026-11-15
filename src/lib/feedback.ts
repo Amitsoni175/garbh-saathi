@@ -56,3 +56,33 @@ export function celebrate(): void {
   chime();
   vibrate();
 }
+
+/** A soft temple-bell sound, for the end of a mantra round. */
+export function bell(): void {
+  if (!soundsOn) return;
+  try {
+    const AC =
+      window.AudioContext ??
+      (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+    if (!AC) return;
+    ctx ??= new AC();
+    if (ctx.state === 'suspended') void ctx.resume().catch(() => undefined);
+    const now = ctx.currentTime;
+    [523.25, 1046.5, 1568, 2093].forEach((freq, i) => {
+      if (!ctx) return;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      const peak = 0.07 / (i + 1);
+      gain.gain.setValueAtTime(0.0001, now);
+      gain.gain.exponentialRampToValueAtTime(peak, now + 0.01);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + 3.2 - i * 0.5);
+      osc.connect(gain).connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + 3.3);
+    });
+  } catch {
+    // stay quiet
+  }
+}

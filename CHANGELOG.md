@@ -1,5 +1,24 @@
 # Changelog
 
+## 0.5.0 · Phase 5: Music (2026-11-15)
+
+- **Music corner** (from the Play tab or the raga stone).
+- **Raga of the moment**: Bhairav / Ahir Bhairav in the morning, Bhimpalasi in the afternoon, Yaman
+  in the evening, Bageshree / Darbari at night. It follows the clock, including the debug time
+  override, and alternates by day. Each raga card shows the mood, best time and a short note. If the
+  MP3 is missing, a friendly "Add an audio file" note says exactly where to put
+  `public/audio/ragas/<id>.mp3`.
+- **Mantra counter**: Om, Gayatri and Mahamrityunjaya with a big tap button, a progress ring,
+  11 / 21 / 108 repetitions, a soft synthesised temple bell at the end, and an optional looping
+  mantra audio.
+- **Breathing bubble**: 4-in / 4-out for 1, 3 or 5 minutes, optionally over the raga (if its file
+  exists). The circle still works with reduced motion.
+- **Lok Geet shelf**: traditional loris (Chanda Mama, Lalla lalla lori), a Haryanvi-flavoured lori
+  and a Teej song written for the app, and a jachcha geet card that invites Dadi or Nani to record.
+  There is a big "Record a song" button, recordings per song, and family songs.
+- **Sing to Baby** (karaoke): lyrics scroll line by line at a slow or normal pace, she can tap any
+  line, with optional background audio (family recording or MP3).
+
 ## 0.4.0 · Phase 4: Games (2026-11-15)
 
 - **GameShell** shared by every game: title, how-to-play sheet, hint button, an optional relaxed
