@@ -1,7 +1,7 @@
 # Our story (draft for the About page and the website)
 
 Status: approved idea, draft text. To be used in the app's Me → About and on the website's
-"Our story" page at launch (see LAUNCH_PLAN.md). Names left out on purpose (public page).
+"Our story" page at launch (see LAUNCH_PLAN.md). No names, photos or personal details (decided by the family).
 
 ## English
 
@@ -45,7 +45,7 @@ and it's made with love.
 
 ### हमारी कहानी: Wombtales कैसे शुरू हुआ
 
-जब मेरी पत्नी गर्भवती हुईं, हमने वही किया जो सब करते हैं। प्रेग्नेंसी ऐप डाउनलोड किए, एक के बाद एक,
+जब मेरी पत्नी प्रेग्नेंट हुईं, हमने वही किया जो सब करते हैं। प्रेग्नेंसी ऐप डाउनलोड किए, एक के बाद एक,
 दस से भी ज़्यादा।
 
 हर ऐप कुछ न कुछ माँगता था: फ़ोन नंबर, साइन-अप, प्रोफ़ाइल। हर जगह ढेर सारे लेख, चार्ट, विज्ञापन,
@@ -74,5 +74,4 @@ and it's made with love.
 ## Notes
 
 - Other apps are described as "asking for your data", not "selling" it: fair and not contestable.
-- Optional: add the founder's first name ("built by ___ for his wife") and a photo, if the family
-  is comfortable with it.
+- Decided: no names, no photos and no personal details on the public page.
