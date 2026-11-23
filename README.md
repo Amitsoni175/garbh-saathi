@@ -5,6 +5,9 @@ It offers daily stories (Vedic, Puranic, Mahabharata and true stories), ragas, m
 geet, small puzzle games and gentle wellness habits. Everything is about **bonding, calm and joy for
 the mother**. It makes **no IQ claims** and does **no gender prediction**.
 
+**Live:** https://garbh-saathi.netlify.app (also https://amitsoni175.github.io/garbh-saathi/). Each
+address keeps its own data on the phone, so pick one to install.
+
 - **Private:** all data stays on the phone. There is no login, server, analytics or trackers.
 - **Works offline:** after the first visit it works in airplane mode. It is installable on Android
   and iPhone.
@@ -308,6 +311,14 @@ plays, so it works offline afterwards.
 ## Deploy
 
 It's a static site: `npm run build` creates `dist/`, and that folder is the whole app.
+
+### Netlify (current setup)
+
+The live Netlify project `garbh-saathi` was created and deployed by upload (not linked to GitHub),
+so it is redeployed by hand after changes. To make it update itself on every push: Netlify →
+**garbh-saathi → Project configuration → Build & deploy → Link repository** and pick this repo.
+On the free plan Netlify shows a "Powered by Netlify" badge; the app keeps its bottom bar and
+buttons above it (`gs-host-badge` in `src/main.tsx` / `src/index.css`).
 
 ### Netlify from GitHub (updates itself)
 
