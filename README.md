@@ -309,6 +309,17 @@ plays, so it works offline afterwards.
 
 It's a static site: `npm run build` creates `dist/`, and that folder is the whole app.
 
+### Netlify from GitHub (updates itself)
+
+1. Sign in at [app.netlify.com](https://app.netlify.com) with GitHub.
+2. **Add new project → Import an existing project → GitHub →** pick `garbh-saathi`.
+3. The build settings fill in from `netlify.toml` (`npm run build`, publish `dist`, Node 22). Click
+   **Deploy**.
+4. Optional: **Site configuration → Change site name** (e.g. `garbh-saathi` gives
+   `garbh-saathi.netlify.app`).
+
+Every push to `main` then redeploys Netlify and GitHub Pages together.
+
 ### Netlify (drag and drop, easiest)
 
 1. Run `npm run build`.
