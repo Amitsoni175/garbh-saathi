@@ -38,7 +38,10 @@ test('onboarding → correct week → story → game → garden grows → data s
   // 3. Open today's story (Abhimanyu, story #1) and finish it
   await page.getByRole('button', { name: /^Story: Abhimanyu/ }).click();
   await expect(page.getByRole('heading', { name: /Abhimanyu/ })).toBeVisible();
-  for (let i = 0; i < 7; i++) await page.getByRole('button', { name: /^Next/ }).click();
+  // Cards, lesson, quick check, reflection: tap Next until the story can be finished.
+  const finishBtn = page.getByRole('button', { name: /Finish story/ });
+  for (let i = 0; i < 12 && !(await finishBtn.isVisible()); i++)
+    await page.getByRole('button', { name: /^Next/ }).click();
   await page.getByRole('button', { name: /Finish story/ }).click();
   await expect(page.getByText(/1 flowers so far/)).toBeVisible();
 

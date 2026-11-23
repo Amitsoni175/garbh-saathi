@@ -11,21 +11,27 @@ import { useT } from '@/app/useT';
 import { RecordingList } from '@/components/audio/RecordingList';
 import { VoiceRecorder } from '@/components/audio/VoiceRecorder';
 import { Button, Card, EmptyState, Toggle, useToast } from '@/components/ui';
+import { useFloatBurst } from '@/components/ui/FloatBurst';
 import { textareaClass } from '@/components/ui/styles';
 import { player } from '@/lib/audio';
 import { tx, type Story } from '@/lib/content';
 import { db } from '@/lib/db';
+import { celebrate, chime, vibrate } from '@/lib/feedback';
 import { addJournalEntry } from '@/lib/journal';
 
-type Step = { kind: 'card'; index: number } | { kind: 'moral' } | { kind: 'reflection' };
+type Step =
+  { kind: 'card'; index: number } | { kind: 'moral' } | { kind: 'check' } | { kind: 'reflection' };
 
 function buildSteps(story: Story): Step[] {
   return [
     ...story.cards.map((_, index) => ({ kind: 'card' as const, index })),
     { kind: 'moral' },
+    ...(story.quiz.length > 0 ? [{ kind: 'check' as const }] : []),
     { kind: 'reflection' },
   ];
 }
+
+const REACTIONS = ['💛', '😊', '😮', '🙏'];
 
 /** Card-by-card story with swipe, read-aloud mode, choices, moral, reflection and family voice. */
 export default function StoryPlayerScreen() {
@@ -48,6 +54,11 @@ export default function StoryPlayerScreen() {
   const [reflectionSaved, setReflectionSaved] = useState(false);
   const [showRecorder, setShowRecorder] = useState(false);
   const [useFamilyVoice, setUseFamilyVoice] = useState(true);
+  const [said, setSaid] = useState<Record<number, boolean>>({});
+  const [reacted, setReacted] = useState<Record<number, string>>({});
+  const [checkAnswer, setCheckAnswer] = useState<boolean | null>(null);
+  const [wiggle, setWiggle] = useState(0);
+  const { burst, layer } = useFloatBurst();
 
   const refId = `story:${id ?? ''}`;
   const familyCount =
@@ -208,6 +219,7 @@ export default function StoryPlayerScreen() {
 
         {/* The card */}
         <div className="relative min-h-[22rem] overflow-hidden">
+          {layer}
           <AnimatePresence mode="popLayout" initial={false} custom={direction}>
             <m.article
               key={stepIndex}
@@ -233,12 +245,27 @@ export default function StoryPlayerScreen() {
                   const picked = choices[step.index];
                   return (
                     <>
-                      <div
-                        className="bg-secondary/50 mx-auto mb-4 flex h-24 w-24 items-center justify-center rounded-full text-5xl"
-                        aria-hidden="true"
+                      <m.button
+                        type="button"
+                        key={wiggle}
+                        onClick={() => {
+                          setWiggle((w) => w + 1);
+                          burst(['✨', card.image ?? story.emoji, '💫'], 5);
+                          vibrate(10);
+                        }}
+                        animate={wiggle ? { rotate: [0, -10, 10, -6, 0], scale: [1, 1.15, 1] } : {}}
+                        transition={{ duration: 0.5 }}
+                        className="bg-secondary/50 mx-auto mb-1 flex h-24 w-24 items-center justify-center rounded-full text-5xl"
+                        aria-label={t('story.tapPicture')}
                       >
-                        {card.image ?? story.emoji}
-                      </div>
+                        <span aria-hidden="true">{card.image ?? story.emoji}</span>
+                      </m.button>
+                      {step.index === 0 && (
+                        <p className="text-text-muted mb-3 text-center text-xs">
+                          👆 {t('story.tapPicture')}
+                        </p>
+                      )}
+                      {step.index > 0 && <div className="mb-3" />}
                       <p className={textSize}>{tx(card.text, lang)}</p>
                       {card.say && (
                         <div
@@ -246,6 +273,17 @@ export default function StoryPlayerScreen() {
                         >
                           <p className="text-sm font-semibold">💛 {t('story.sayThis')}</p>
                           <p className="mt-1 font-semibold">{tx(card.say, lang)}</p>
+                          <Button
+                            variant={said[step.index] ? 'primary' : 'ghost'}
+                            className="bg-surface mt-3"
+                            onClick={() => {
+                              if (!said[step.index]) chime();
+                              setSaid((s) => ({ ...s, [step.index]: true }));
+                              burst(['💛', '💗', '🌸'], 7);
+                            }}
+                          >
+                            {said[step.index] ? `💛 ${t('story.saidIt')}` : t('story.iSaidIt')}
+                          </Button>
                         </div>
                       )}
                       {card.choice && (
@@ -274,6 +312,28 @@ export default function StoryPlayerScreen() {
                           )}
                         </div>
                       )}
+                      <div
+                        className="mt-4 flex items-center justify-center gap-2"
+                        role="group"
+                        aria-label={t('story.howFeel')}
+                      >
+                        {REACTIONS.map((r) => (
+                          <button
+                            key={r}
+                            type="button"
+                            onClick={() => {
+                              setReacted((x) => ({ ...x, [step.index]: r }));
+                              burst(r, 4);
+                              vibrate(10);
+                            }}
+                            aria-pressed={reacted[step.index] === r}
+                            aria-label={t('story.react', { emoji: r })}
+                            className={`flex min-h-12 min-w-12 items-center justify-center rounded-full text-2xl transition-transform ${reacted[step.index] === r ? 'bg-primary/50 scale-110' : 'bg-background'}`}
+                          >
+                            {r}
+                          </button>
+                        ))}
+                      </div>
                     </>
                   );
                 })()}
@@ -294,6 +354,55 @@ export default function StoryPlayerScreen() {
                   )}
                 </div>
               )}
+
+              {step?.kind === 'check' &&
+                (() => {
+                  const q = story.quiz[0];
+                  if (!q) return null;
+                  const right = checkAnswer !== null && checkAnswer === q.answer;
+                  return (
+                    <div className="flex flex-col gap-4 text-center">
+                      <h2 className="text-text-muted text-sm font-semibold">
+                        🧠 {t('story.quickCheck')}
+                      </h2>
+                      <p className="text-xl font-bold">{tx(q.q, lang)}</p>
+                      <div className="flex justify-center gap-3">
+                        {[true, false].map((v) => (
+                          <Button
+                            key={String(v)}
+                            size="lg"
+                            variant={checkAnswer === v ? 'primary' : 'secondary'}
+                            disabled={checkAnswer !== null && checkAnswer !== v}
+                            onClick={() => {
+                              if (checkAnswer !== null) return;
+                              setCheckAnswer(v);
+                              if (v === q.answer) {
+                                celebrate();
+                                burst(['🌸', '⭐', '💛'], 8);
+                              }
+                            }}
+                          >
+                            {v ? t('quiz.true') : t('quiz.false')}
+                          </Button>
+                        ))}
+                      </div>
+                      {checkAnswer !== null && (
+                        <m.p
+                          initial={{ opacity: 0, y: 6 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          role="status"
+                          className="font-semibold"
+                        >
+                          {right
+                            ? t('story.checkRight')
+                            : t('story.checkGentle', {
+                                answer: q.answer ? t('quiz.true') : t('quiz.false'),
+                              })}
+                        </m.p>
+                      )}
+                    </div>
+                  );
+                })()}
 
               {step?.kind === 'reflection' && (
                 <div className="flex flex-col gap-3">

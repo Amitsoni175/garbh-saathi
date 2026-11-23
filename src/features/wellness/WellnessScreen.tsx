@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router';
 import { ScreenHeader } from '@/app/ScreenHeader';
 import { useSettings } from '@/app/settings';
 import { useCompleteOnce } from '@/app/useComplete';
@@ -11,6 +12,7 @@ import { useCare } from './useCare';
 
 export default function WellnessScreen() {
   const t = useT();
+  const navigate = useNavigate();
   const { settings } = useSettings();
   const lang = settings.textLang;
   const state = usePregnancy();
@@ -31,6 +33,10 @@ export default function WellnessScreen() {
       <div className="flex flex-col gap-4 px-4 pb-6">
         <LowMoodCard />
         <MoodCard />
+        <Card tone="primary" onClick={() => void navigate('/calm')} ariaLabel={t('calm.title')}>
+          <p className="text-lg font-bold">🪷 {t('calm.title')}</p>
+          <p className="text-sm">{t('calm.cardText')}</p>
+        </Card>
         <TabletCard index={1} />
         <WaterCard index={2} />
 

@@ -19,5 +19,7 @@ export const GAMES: GameEntry[] = [
   { id: 'patterns', emoji: '🔁', Component: lazy(() => import('./patterns/NumberPatterns')) },
   { id: 'rangoli', emoji: '🪷', Component: lazy(() => import('./rangoli/RangoliTap')) },
   { id: 'sanjhi', emoji: '🌝', Component: lazy(() => import('./sanjhi/SanjhiDecorator')) },
+  { id: 'sargam', emoji: '🎶', Component: lazy(() => import('./sargam/SargamEcho')) },
+  { id: 'shabdKhoj', emoji: '🔤', Component: lazy(() => import('./khoj/ShabdKhoj')) },
   { id: 'shlokaFill', emoji: '📿', Component: lazy(() => import('./fill/ShlokaFill')) },
 ];

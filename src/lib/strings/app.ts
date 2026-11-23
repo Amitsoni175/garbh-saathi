@@ -110,6 +110,15 @@ export const appStrings = {
     en: 'You have the latest version 🌸',
     hinglish: 'Aapke paas naya version hai 🌸',
   },
+  'update.auto': {
+    en: 'Auto refresh every 6 hours',
+    hinglish: 'Har 6 ghante mein apne aap refresh',
+  },
+  'update.autoHint': {
+    en: 'New stories and fixes arrive on their own, at a quiet moment (never in the middle of a story).',
+    hinglish:
+      'Nayi kahaniyan aur sudhaar apne aap aayenge, shaant samay par (kahani ke beech kabhi nahi).',
+  },
   'update.fix': { en: 'Fix app', hinglish: 'App theek karein' },
   'update.fixExplain': {
     en: 'Use this if the app looks blank or stuck after an update. It clears the app’s saved files and reloads. Your letters, photos and progress are NOT deleted.',

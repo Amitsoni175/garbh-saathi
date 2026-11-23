@@ -15,6 +15,8 @@ export interface Settings {
   vibration: boolean;
   /** Show a relaxed count-up timer in games (off by default: no pressure). */
   relaxedTimer: boolean;
+  /** Check for a new version every 6 hours and apply it at a quiet moment. */
+  autoRefresh: boolean;
   schedule: ScheduleSettings;
 }
 
@@ -26,6 +28,7 @@ export const DEFAULT_SETTINGS: Settings = {
   sounds: true,
   vibration: true,
   relaxedTimer: false,
+  autoRefresh: true,
   schedule: DEFAULT_SCHEDULE,
 };
 
@@ -45,6 +48,7 @@ export function normaliseSettings(stored: unknown): Settings {
   if (typeof s.sounds === 'boolean') out.sounds = s.sounds;
   if (typeof s.vibration === 'boolean') out.vibration = s.vibration;
   if (typeof s.relaxedTimer === 'boolean') out.relaxedTimer = s.relaxedTimer;
+  if (typeof s.autoRefresh === 'boolean') out.autoRefresh = s.autoRefresh;
   out.schedule = normaliseSchedule(s.schedule);
   return out;
 }

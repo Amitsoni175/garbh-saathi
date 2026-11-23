@@ -42,6 +42,7 @@ export const router = createHashRouter([
         lazy: lazyScreen(() => import('@/features/music/MantraScreen')),
       },
       { path: 'music/breathe', lazy: lazyScreen(() => import('@/features/music/BreathingScreen')) },
+      { path: 'calm', lazy: lazyScreen(() => import('@/features/calm/CalmScreen')) },
       { path: 'music/lokgeet', lazy: lazyScreen(() => import('@/features/music/LokGeetScreen')) },
       { path: 'music/sing/:id', lazy: lazyScreen(() => import('@/features/music/KaraokeScreen')) },
       { path: 'me', lazy: lazyScreen(() => import('@/features/settings/MeScreen')) },

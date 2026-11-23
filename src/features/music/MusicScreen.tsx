@@ -58,6 +58,16 @@ export default function MusicScreen() {
 
         <Card
           index={2}
+          tone="primary"
+          onClick={() => void navigate('/calm')}
+          ariaLabel={t('calm.title')}
+        >
+          <p className="text-lg font-bold">🪷 {t('calm.title')}</p>
+          <p className="text-sm">{t('calm.cardText')}</p>
+        </Card>
+
+        <Card
+          index={2}
           tone="calm"
           onClick={() => void navigate('/music/breathe')}
           ariaLabel={t('music.breathe')}

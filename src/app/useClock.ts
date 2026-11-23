@@ -14,8 +14,11 @@ export function useNow(): Date {
     const onVisible = () => {
       if (document.visibilityState === 'visible') setTick((n) => n + 1);
     };
+    const onRefresh = () => setTick((n) => n + 1);
     document.addEventListener('visibilitychange', onVisible);
+    window.addEventListener('gs:auto-refresh', onRefresh);
     return () => {
+      window.removeEventListener('gs:auto-refresh', onRefresh);
       window.clearInterval(id);
       document.removeEventListener('visibilitychange', onVisible);
     };

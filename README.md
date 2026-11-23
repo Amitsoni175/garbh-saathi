@@ -79,6 +79,7 @@ src/
     onboarding/   3-screen onboarding
     home/         Today's Journey, baby size, tips, shloka screen, pull-to-refresh
     stories/      story player + library
+    calm/         5-minute guided breathing (timing logic in lib/calm5.ts)
     music/        ragas, mantra counter, breathing, lok geet, karaoke
     games/        GameShell + one folder per game (logic.ts files are unit-tested)
     calendar/     month view, day sheet, own events
@@ -316,7 +317,9 @@ It's a static site: `npm run build` creates `dist/`, and that folder is the whol
 3. Netlify gives you an https address. Open it on her phone and install (see above).
 
 To update later: build again and drag `dist` onto your site's **Deploys** page. The cache headers in
-`public/_headers` make sure updates arrive (the app then shows "A new version is ready ✨").
+`public/_headers` make sure updates arrive. With **Auto refresh** on (the default, Me → App care) the
+app checks every 6 hours and applies a new version at a quiet moment (in the background, or on Today
+with nothing playing). With it off, it shows "A new version is ready ✨".
 
 ### GitHub Pages
 

@@ -80,6 +80,72 @@ export const musicStrings = {
     hinglish: 'Dheere saans lijiye, zor mat lagaaiye. Chakkar aaye to ruk jaaiye.',
   },
 
+  // 5-minute calm (guided breathing)
+  'calm.title': { en: '5-minute calm', hinglish: '5 minute ki shaanti' },
+  'calm.subtitle': {
+    en: 'A guided breathing break in five gentle parts',
+    hinglish: 'Paanch komal hisson mein saans ka aaraam',
+  },
+  'calm.cardText': {
+    en: 'Settle, belly breaths, long out-breaths, a soft hum, and a hug for baby.',
+    hinglish: 'Shaant baithna, pet se saans, lambi saans bahar, halki gunjan, aur baby ko jhappi.',
+  },
+  'calm.start': { en: 'Begin 5 minutes', hinglish: '5 minute shuru' },
+  'calm.pause': { en: 'Pause', hinglish: 'Rokiye' },
+  'calm.resume': { en: 'Continue', hinglish: 'Jaari rakhiye' },
+  'calm.restart': { en: 'Start again', hinglish: 'Phir se' },
+  'calm.voice': { en: 'Voice guide', hinglish: 'Awaaz se maargdarshan' },
+  'calm.voiceHint': {
+    en: 'The phone gently reads each step aloud.',
+    hinglish: 'Phone har kadam dheere se padhkar sunaayega.',
+  },
+  'calm.bell': { en: 'Soft bell between parts', hinglish: 'Hisson ke beech halki ghanti' },
+  'calm.part': { en: 'Part {n} of 5', hinglish: 'Hissa {n} / 5' },
+  'calm.left': { en: '{time} left', hinglish: '{time} baaki' },
+  'calm.in': { en: 'Breathe in', hinglish: 'Saans andar' },
+  'calm.out': { en: 'Breathe out', hinglish: 'Saans bahar' },
+  'calm.hum': { en: 'Hummm…', hinglish: 'Hmmm…' },
+  'calm.rest': { en: 'Just be', hinglish: 'Bas rahiye' },
+  'calm.settle.name': { en: 'Settle in', hinglish: 'Shaant baithiye' },
+  'calm.settle.text': {
+    en: 'Sit or lie on your left side, comfortably. Rest one hand on your heart and one on your belly. Let your shoulders drop. Just notice your breath.',
+    hinglish:
+      'Aaraam se baithiye ya baayin karwat letiye. Ek haath dil par, ek pet par rakhiye. Kandhe dheele chhodiye. Bas apni saans ko mehsoos kijiye.',
+  },
+  'calm.belly.name': { en: 'Belly breathing', hinglish: 'Pet se saans' },
+  'calm.belly.text': {
+    en: 'Breathe in for 4, and feel your belly rise under your hand. Breathe out for 4, and feel it soften. Slow and easy.',
+    hinglish:
+      'Chaar tak saans andar, haath ke neeche pet upar uthta mehsoos kijiye. Chaar tak saans bahar, pet naram hota hai. Dheere aur aaraam se.',
+  },
+  'calm.long.name': { en: 'Long out-breath', hinglish: 'Lambi saans bahar' },
+  'calm.long.text': {
+    en: 'Breathe in for 4. Now breathe out slowly for 6, like blowing on hot chai. A longer out-breath tells your body: all is well.',
+    hinglish:
+      'Chaar tak saans andar. Ab chhe tak dheere bahar, jaise garam chai par phoonk maarte hain. Lambi saans bahar sharir ko kehti hai: sab theek hai.',
+  },
+  'calm.hum.name': { en: 'Gentle hum (Bhramari)', hinglish: 'Halki gunjan (Bhraamari)' },
+  'calm.hum.text': {
+    en: 'Breathe in softly. As you breathe out, hum “hmmm” like a bee, with lips closed. Baby can feel the gentle vibration. Keep it soft, never forced.',
+    hinglish:
+      'Dheere saans andar lijiye. Bahar chhodte samay hont band karke bhanware jaisi “hmmm” gunjan kijiye. Baby ko yeh halki tharthrahat mehsoos hoti hai. Halke se, zor mat lagaaiye.',
+  },
+  'calm.close.name': { en: 'A hug for baby', hinglish: 'Baby ko jhappi' },
+  'calm.close.text': {
+    en: 'Breathe naturally. Place both hands on your belly and say softly: “We are calm. We are together. I love you.”',
+    hinglish:
+      'Saans apne aap chalne dijiye. Dono haath pet par rakhiye aur dheere se kahiye: “Hum shaant hain. Hum saath hain. Main tumse pyaar karti hoon.”',
+  },
+  'calm.done': {
+    en: 'Five calm minutes, for you and baby. Ghani badhiya! 🌿',
+    hinglish: 'Aapke aur baby ke liye paanch shaant minute. Ghani badhiya! 🌿',
+  },
+  'calm.safety': {
+    en: 'Breathe gently and never hold your breath. Avoid lying flat on your back after the first trimester. Stop if you feel dizzy or short of breath. Please check with your doctor.',
+    hinglish:
+      'Dheere saans lijiye, saans kabhi mat rokiye. Pehli timahi ke baad seedha peeth ke bal mat letiye. Chakkar ya saans phoole to ruk jaaiye. Kripya apne doctor se salaah lein.',
+  },
+
   // Lok geet
   'lok.title': { en: 'Lok Geet shelf', hinglish: 'Lok geet ki almaari' },
   'lok.recordNew': { en: 'Record a song', hinglish: 'Gaana record kijiye' },

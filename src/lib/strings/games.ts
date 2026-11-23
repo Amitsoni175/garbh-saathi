@@ -1,6 +1,6 @@
 import type { Translation } from '../i18n';
 
-/** Play tab, GameShell, and all 11 games. */
+/** Play tab, GameShell, and all 13 games. */
 export const gameStrings = {
   // Play tab
   'play.title': { en: 'Play', hinglish: 'Khel' },
@@ -71,6 +71,64 @@ export const gameStrings = {
   },
   'game.shlokaFill.name': { en: 'Shloka Fill-in', hinglish: 'Shloka Poora Karo' },
   'game.shlokaFill.blurb': { en: 'Find the missing word', hinglish: 'Chhoota shabd dhoondhiye' },
+  'game.sargam.name': { en: 'Sargam Echo', hinglish: 'Sargam ki Goonj' },
+  'game.sargam.blurb': {
+    en: 'Listen to a little tune, then play it back',
+    hinglish: 'Chhoti si dhun suniye, phir wahi bajaaiye',
+  },
+  'game.shabdKhoj.name': { en: 'Shabd Khoj', hinglish: 'Shabd Khoj' },
+  'game.shabdKhoj.blurb': {
+    en: 'Find hidden words about family and love',
+    hinglish: 'Parivaar aur pyaar ke chhupe shabd dhoondhiye',
+  },
+
+  // Sargam Echo
+  'sargam.how': {
+    en: 'The flowers sing a short tune on Sa Re Ga Ma Pa. Listen, then tap the same flowers in the same order. Each tune grows by one note. A slip? The tune simply plays again. Baby hears every note too.',
+    hinglish:
+      'Phool Sa Re Ga Ma Pa par chhoti dhun gaate hain. Suniye, phir usi kram mein wahi phool dabaaiye. Har baar dhun mein ek sur badhta hai. Galti ho to dhun phir se bajti hai. Baby bhi har sur sunta hai.',
+  },
+  'sargam.ready': {
+    en: 'Ready to sing with the flowers?',
+    hinglish: 'Phoolon ke saath gaane ko taiyaar?',
+  },
+  'sargam.start': { en: 'Play the tune', hinglish: 'Dhun bajaaiye' },
+  'sargam.listen': { en: 'Listen… 👂', hinglish: 'Suniye… 👂' },
+  'sargam.yourTurn': { en: 'Your turn! {n} to go', hinglish: 'Aapki baari! {n} baaki' },
+  'sargam.again': {
+    en: 'Almost! Let’s hear it once more 🎶',
+    hinglish: 'Bas thoda sa! Ek baar aur suniye 🎶',
+  },
+  'sargam.nice': {
+    en: 'Sur mil gaye! Ghani badhiya 🌸',
+    hinglish: 'Sur mil gaye! Ghani badhiya 🌸',
+  },
+  'sargam.replay': { en: 'Hear it again', hinglish: 'Phir suniye' },
+  'sargam.round': { en: 'Tune {n} of {total}', hinglish: 'Dhun {n} / {total}' },
+  'sargam.hintText': { en: 'The next note is {note}.', hinglish: 'Agla sur hai {note}.' },
+
+  // Shabd Khoj
+  'khoj.how': {
+    en: 'Words are hidden in the letters, going across → or down ↓. Tap the first letter of a word, then its last letter. Find all four to finish.',
+    hinglish:
+      'Aksharon mein shabd chhupe hain, seedhe → ya neeche ↓. Shabd ka pehla akshar dabaaiye, phir aakhri. Chaaron shabd dhoondhkar khel poora kijiye.',
+  },
+  'khoj.count': { en: '{found} of {total} found', hinglish: '{total} mein se {found} mile' },
+  'khoj.wordsLabel': { en: 'Words to find', hinglish: 'Dhoondhne wale shabd' },
+  'khoj.gridLabel': { en: 'Letter grid', hinglish: 'Aksharon ka jaal' },
+  'khoj.cellLabel': {
+    en: '{letter}, row {row}, column {col}',
+    hinglish: '{letter}, line {row}, khaana {col}',
+  },
+  'khoj.tapFirst': {
+    en: 'Tap the first letter of a word',
+    hinglish: 'Kisi shabd ka pehla akshar dabaaiye',
+  },
+  'khoj.tapLast': { en: 'Now tap its last letter', hinglish: 'Ab uska aakhri akshar dabaaiye' },
+  'khoj.hintText': {
+    en: 'The glowing letter starts a word.',
+    hinglish: 'Chamakta akshar ek shabd ki shuruaat hai.',
+  },
 
   // GameShell
   'shell.howTo': { en: 'How to play', hinglish: 'Kaise khelein' },

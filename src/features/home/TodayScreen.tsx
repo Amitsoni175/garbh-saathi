@@ -107,6 +107,25 @@ export default function TodayScreen() {
           )}
 
           <UpNext index={1} />
+          <Card
+            index={1}
+            tone="calm"
+            onClick={() => void navigate('/calm')}
+            ariaLabel={t('calm.title')}
+          >
+            <div className="flex items-center gap-3">
+              <span className="animate-breathe text-4xl" aria-hidden="true">
+                🪷
+              </span>
+              <div>
+                <p className="text-lg font-bold">
+                  {t('calm.title')}
+                  {done.has('breathe') ? ' ✓' : ''}
+                </p>
+                <p className="text-sm">{t('calm.cardText')}</p>
+              </div>
+            </div>
+          </Card>
           <BabySizeCard week={state.contentWeek} index={1} />
           <SeasonTipCard dayNumber={dayNumber} index={2} />
 

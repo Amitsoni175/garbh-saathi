@@ -32,6 +32,23 @@ export const storyStrings = {
     en: 'Big text, so you can read to baby in your own voice.',
     hinglish: 'Bade akshar, taaki aap apni awaaz mein baby ko padh sakein.',
   },
+  'story.tapPicture': { en: 'Tap the picture!', hinglish: 'Tasveer ko chhuiye!' },
+  'story.iSaidIt': { en: 'I said it to baby', hinglish: 'Maine baby se kaha' },
+  'story.saidIt': { en: 'Baby heard you', hinglish: 'Baby ne sun liya' },
+  'story.howFeel': { en: 'How does this part feel?', hinglish: 'Yeh hissa kaisa laga?' },
+  'story.react': { en: 'Feels like {emoji}', hinglish: 'Laga {emoji}' },
+  'story.quickCheck': {
+    en: 'Quick check: true or false?',
+    hinglish: 'Jhatpat sawaal: sach ya jhooth?',
+  },
+  'story.checkRight': {
+    en: 'Shabaash! You listened so well 🌸',
+    hinglish: 'Shabaash! Aapne kitne dhyaan se suna 🌸',
+  },
+  'story.checkGentle': {
+    en: 'Good thinking! The story says: {answer}. Now you both know 💛',
+    hinglish: 'Achha socha! Kahani kehti hai: {answer}. Ab aap dono jaante hain 💛',
+  },
   'story.sayThis': { en: 'Say this to your baby', hinglish: 'Baby se yeh kahiye' },
   'story.listen': { en: 'Listen', hinglish: 'Suniye' },
   'story.pause': { en: 'Pause', hinglish: 'Rokiye' },

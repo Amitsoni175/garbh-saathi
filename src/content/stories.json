@@ -4087,5 +4087,1876 @@
       }
     ],
     "words": ["PATEL", "UNITY", "FARMER"]
+  },
+  {
+    "id": "kevat",
+    "emoji": "🛶",
+    "title": {
+      "en": "Ram and Kevat the boatman",
+      "hinglish": "Ram aur Kevat mallah"
+    },
+    "cards": [
+      {
+        "image": "🌊",
+        "text": {
+          "en": "On their way to the forest, Ram, Sita and Lakshman reached the wide Ganga river. A boatman named Kevat sat by his little wooden boat, humming a song as the water sparkled in the morning sun.",
+          "hinglish": "Van jaate hue Ram, Sita aur Lakshman chaudi Ganga nadi ke kinaare pahunche. Kevat naam ka mallah apni chhoti lakdi ki naav ke paas baitha gungunaa raha tha, aur subah ki dhoop mein paani chamak raha tha."
+        }
+      },
+      {
+        "image": "🦶",
+        "text": {
+          "en": "Ram asked him to take them across. Kevat folded his hands and smiled. 'Prabhu, I have heard that the dust of your feet turned a stone into a woman! My boat is all I have. First let me wash your feet.'",
+          "hinglish": "Ram ne paar le jaane ko kaha. Kevat ne haath jode aur muskuraaya. 'Prabhu, suna hai aapke pairon ki dhool se patthar bhi naari ban gaya! Meri naav hi meri roti hai. Pehle mujhe aapke paon dhone dijiye.'"
+        }
+      },
+      {
+        "image": "💧",
+        "text": {
+          "en": "Ram laughed softly and agreed. With great love, Kevat washed Ram's feet with Ganga water in a wooden bowl. His whole family came to watch, their eyes shining with joy. It was the happiest moment of his life.",
+          "hinglish": "Ram halke se hanse aur maan gaye. Bade pyaar se Kevat ne lakdi ke katore mein Ganga jal se Ram ke paon dhoye. Uska poora parivaar dekhne aaya, sabki aankhen khushi se chamak rahi thi. Yeh uski zindagi ka sabse sundar pal tha."
+        },
+        "choice": {
+          "question": {
+            "en": "Kevat has helped Ram. What should he ask for?",
+            "hinglish": "Kevat ne Ram ki madad ki. Ab woh kya maange?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Nothing. Helping was the reward.",
+                "hinglish": "Kuch nahi. Madad hi inaam thi."
+              },
+              "lesson": {
+                "en": "Love given freely makes the heart rich.",
+                "hinglish": "Bina maange diya pyaar dil ko ameer banaata hai."
+              }
+            },
+            {
+              "label": {
+                "en": "A blessing for his family.",
+                "hinglish": "Parivaar ke liye aashirvaad."
+              },
+              "lesson": {
+                "en": "Asking for blessings for those we love is beautiful too.",
+                "hinglish": "Apno ke liye aashirvaad maangna bhi sundar hai."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🛶",
+        "text": {
+          "en": "He rowed them gently across. Sita wanted to give him her ring as thanks. Kevat said, 'Prabhu, we are both boatmen. I take people across the river; you take people across the ocean of life. One boatman does not take fees from another!'",
+          "hinglish": "Usne dheere se naav paar lagaayi. Sita ne dhanyavaad mein apni angoothi deni chaahi. Kevat bola, 'Prabhu, hum dono mallah hain. Main logon ko nadi paar karaata hoon, aap jeevan ka saagar. Ek mallah doosre se kiraaya nahi leta!'"
+        }
+      },
+      {
+        "image": "🌅",
+        "text": {
+          "en": "Ram hugged Kevat and blessed him. Even today, people remember the simple boatman whose love was bigger than any gift.",
+          "hinglish": "Ram ne Kevat ko gale lagaaya aur aashirvaad diya. Aaj bhi log us seedhe-saade mallah ko yaad karte hain jiska pyaar har tohfe se bada tha."
+        },
+        "say": {
+          "en": "Little one, a kind heart is the richest treasure.",
+          "hinglish": "Mere chhote, saaf dil sabse bada khazaana hai."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Love and service given freely are worth more than gold.",
+      "hinglish": "Bina laalach ki seva aur pyaar sone se bhi keemti hain."
+    },
+    "reflection": {
+      "en": "Who has helped you without asking for anything back?",
+      "hinglish": "Kisne aapki bina kuch maange madad ki?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Kevat washed Ram's feet before the boat ride.",
+          "hinglish": "Kevat ne naav mein bithaane se pehle Ram ke paon dhoye."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Kevat asked for a lot of gold.",
+          "hinglish": "Kevat ne bahut sona maanga."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Kevat called himself and Ram both boatmen.",
+          "hinglish": "Kevat ne khud ko aur Ram dono ko mallah kaha."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["KEVAT", "BOAT", "GANGA"]
+  },
+  {
+    "id": "yashoda-universe",
+    "emoji": "🌌",
+    "title": {
+      "en": "Yashoda sees the universe",
+      "hinglish": "Yashoda ne dekha brahmaand"
+    },
+    "cards": [
+      {
+        "image": "🏡",
+        "text": {
+          "en": "In the village of Gokul, little Krishna played in the courtyard with Balaram and his friends. The cows mooed, the butter churned, and Mother Yashoda hummed as she worked.",
+          "hinglish": "Gokul gaon mein nanhe Krishna aangan mein Balaram aur doston ke saath khel rahe the. Gaayein rambhaa rahi thi, makhan mathh raha tha, aur Maa Yashoda kaam karte hue gungunaa rahi thi."
+        }
+      },
+      {
+        "image": "🤭",
+        "text": {
+          "en": "Suddenly Balaram came running. 'Maiya! Kanha ate mud!' Yashoda hurried over, hands on her hips. 'Kanha, did you eat mud?' Little Krishna shook his head. 'No, Maiya! They are teasing me!'",
+          "hinglish": "Achaanak Balaram daudte aaye. 'Maiya! Kanha ne mitti khaayi!' Yashoda kamar par haath rakhkar aayi. 'Kanha, tumne mitti khaayi?' Nanhe Krishna ne sar hilaaya. 'Nahi Maiya! Yeh mujhe chhed rahe hain!'"
+        }
+      },
+      {
+        "image": "👄",
+        "text": {
+          "en": "'Then open your mouth and show me,' said Yashoda. Krishna opened his tiny mouth wide. And Yashoda gasped. Inside she saw the sun, the moon and the stars, the rivers and mountains, the whole universe, and even Gokul with herself in it!",
+          "hinglish": "'To munh kholo, dikhaao,' Yashoda boli. Krishna ne apna chhota sa munh khola. Aur Yashoda dang reh gayi. Andar unhone suraj, chaand, taare, nadiyaan, pahaad, poora brahmaand dekha, aur usmein Gokul aur khud ko bhi!"
+        }
+      },
+      {
+        "image": "🤗",
+        "text": {
+          "en": "She blinked, amazed. Then Krishna smiled his naughty smile, and the vision faded. All Yashoda saw was her little boy with mud on his cheeks. She forgot the wonder and simply scooped him up in a big hug.",
+          "hinglish": "Unhone palak jhapkaayi, hairaan. Phir Krishna apni natkhat muskaan muskuraaye aur drishya gaayab ho gaya. Yashoda ko bas apna nanha beta dikha, gaalon par mitti lagi. Woh chamatkaar bhool gayi aur use kaskar gale laga liya."
+        }
+      },
+      {
+        "image": "💛",
+        "text": {
+          "en": "For a mother, her child is the whole universe. And that is exactly how big the love inside you is, too.",
+          "hinglish": "Maa ke liye uska bachcha hi poora brahmaand hai. Aur aapke andar ka pyaar bhi bilkul utna hi bada hai."
+        },
+        "say": {
+          "en": "Little one, you are my whole world.",
+          "hinglish": "Mere laadle, tum hi meri poori duniya ho."
+        }
+      }
+    ],
+    "moral": {
+      "en": "A mother's love is as big as the universe.",
+      "hinglish": "Maa ka pyaar brahmaand jitna bada hota hai."
+    },
+    "reflection": {
+      "en": "What do you think you will see first when you look at your baby?",
+      "hinglish": "Baby ko pehli baar dekhkar aapko sabse pehle kya dikhega?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Balaram said Krishna ate mud.",
+          "hinglish": "Balaram ne kaha ki Krishna ne mitti khaayi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Yashoda saw the whole universe in Krishna's mouth.",
+          "hinglish": "Yashoda ne Krishna ke munh mein poora brahmaand dekha."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Yashoda scolded Krishna for a long time.",
+          "hinglish": "Yashoda ne Krishna ko der tak daanta."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["YASHODA", "GOKUL", "KANHA"]
+  },
+  {
+    "id": "karna-gift",
+    "emoji": "🌞",
+    "title": {
+      "en": "Karna, the great giver",
+      "hinglish": "Daanveer Karna"
+    },
+    "cards": [
+      {
+        "image": "☀️",
+        "text": {
+          "en": "Karna was the son of Surya, the sun god. He was born with shining golden armour (kavach) and earrings (kundal) that kept him safe. Every morning he prayed to the sun, standing in the river.",
+          "hinglish": "Karna Surya Dev ke putra the. Woh janm se hi chamakte sone ke kavach aur kundal ke saath paida hue the jo unki raksha karte the. Har subah woh nadi mein khade hokar Surya ko pranaam karte."
+        }
+      },
+      {
+        "image": "🎁",
+        "text": {
+          "en": "Karna had one promise: after his morning prayer, whoever asked him for anything would never go back empty-handed. Poor people, old people, travellers, all left smiling.",
+          "hinglish": "Karna ka ek vachan tha: subah ki pooja ke baad jo bhi unse kuch maange, khaali haath nahi lautega. Gareeb, buzurg, musaafir, sab muskuraate hue jaate."
+        }
+      },
+      {
+        "image": "🧓",
+        "text": {
+          "en": "One morning an old Brahmin came and asked for his kavach and kundal. Karna knew it was really Indra Dev in disguise, and that without them he would lose his protection. He stood quietly for a moment.",
+          "hinglish": "Ek subah ek boodhe Brahmin aaye aur unka kavach-kundal maanga. Karna jaante the ki yeh asal mein Indra Dev hain, bhes badalkar, aur inke bina unki raksha chali jaayegi. Woh ek pal chup khade rahe."
+        },
+        "choice": {
+          "question": {
+            "en": "What should Karna do?",
+            "hinglish": "Karna ko kya karna chahiye?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Keep his promise and give.",
+                "hinglish": "Vachan nibhaaye aur de de."
+              },
+              "lesson": {
+                "en": "A promise kept with a big heart makes a person great.",
+                "hinglish": "Bade dil se nibhaaya vachan insaan ko mahaan banaata hai."
+              }
+            },
+            {
+              "label": {
+                "en": "Gently explain why he needs them.",
+                "hinglish": "Pyaar se bataaye ki inki zaroorat kyun hai."
+              },
+              "lesson": {
+                "en": "Being honest about our needs is wise too. Karna chose to give, and we remember his generosity.",
+                "hinglish": "Apni zaroorat sach bataana bhi samajhdaari hai. Karna ne dena chuna, aur hum unki daanveerta yaad karte hain."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "✨",
+        "text": {
+          "en": "With a smile, Karna gave away his golden armour and earrings. Indra Dev was so moved that he revealed himself and gave Karna a powerful gift in return.",
+          "hinglish": "Muskuraate hue Karna ne apna sone ka kavach aur kundal de diye. Indra Dev itne bhaavuk hue ki apne asli roop mein aaye aur badle mein Karna ko ek shaktishaali vardaan diya."
+        }
+      },
+      {
+        "image": "🌻",
+        "text": {
+          "en": "That is why, even today, a very generous person is called 'Daanveer Karna'. His giving shone brighter than his golden armour ever did.",
+          "hinglish": "Isliye aaj bhi bahut daani insaan ko 'Daanveer Karna' kehte hain. Unka daan unke sone ke kavach se bhi zyada chamka."
+        },
+        "say": {
+          "en": "Little one, may your hands always love to give.",
+          "hinglish": "Mere chhote, tumhare haath hamesha dena pasand karein."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Giving with a big heart makes us shine.",
+      "hinglish": "Bade dil se dena hume chamkaata hai."
+    },
+    "reflection": {
+      "en": "What is something you love to give to others?",
+      "hinglish": "Aapko doosron ko kya dena sabse achha lagta hai?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Karna was the son of Surya.",
+          "hinglish": "Karna Surya ke putra the."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Karna refused to give his kavach.",
+          "hinglish": "Karna ne kavach dene se mana kar diya."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Indra Dev came in disguise as an old Brahmin.",
+          "hinglish": "Indra Dev boodhe Brahmin ke bhes mein aaye."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["KARNA", "KAVACH", "GIFT"]
+  },
+  {
+    "id": "valmiki",
+    "emoji": "📜",
+    "title": {
+      "en": "Valmiki, who wrote the Ramayana",
+      "hinglish": "Valmiki, Ramayan ke rachayita"
+    },
+    "cards": [
+      {
+        "image": "🌲",
+        "text": {
+          "en": "Long ago, a man named Ratnakar lived in a forest. He was a robber who took things from travellers to feed his family. One day, Narad Muni came walking by, playing his veena.",
+          "hinglish": "Bahut pehle Ratnakar naam ka ek aadmi jungle mein rehta tha. Woh daaku tha jo parivaar ka pet bharne ke liye musaafiron ka saamaan cheenta. Ek din Narad Muni veena bajaate hue wahan se guzre."
+        }
+      },
+      {
+        "image": "❓",
+        "text": {
+          "en": "Narad was not afraid. He asked kindly, 'You do this for your family. Will they also share the result of your wrong actions?' Ratnakar ran home to ask. His family said, 'No, that is yours alone.'",
+          "hinglish": "Narad dare nahi. Pyaar se poochha, 'Tum yeh parivaar ke liye karte ho. Kya woh tumhare galat kaamon ka phal bhi baantenge?' Ratnakar ghar bhaaga aur poochha. Parivaar bola, 'Nahi, woh sirf tumhara hai.'"
+        }
+      },
+      {
+        "image": "🙏",
+        "text": {
+          "en": "Ratnakar's heart woke up. He fell at Narad's feet. Narad taught him to chant 'Ram'. He sat so still, chanting for years, that an anthill, called 'valmika', grew around him. So he became known as Valmiki.",
+          "hinglish": "Ratnakar ka mann jaag gaya. Woh Narad ke charanon mein gir pada. Narad ne use 'Ram' naam japna sikhaaya. Woh saalon itne shaant baithkar jap karte rahe ki unke chaaron taraf deemak ki baambi, yaani 'valmik', ban gayi. Isliye unka naam pada Valmiki."
+        }
+      },
+      {
+        "image": "🐦",
+        "text": {
+          "en": "Later, Valmiki became a gentle sage. One day, his heart felt the sorrow of a pair of birds by the river, and his feelings flowed out as the first beautiful shloka. That was the beginning of poetry.",
+          "hinglish": "Baad mein Valmiki ek komal rishi bane. Ek din nadi kinaare ek panchhi jode ka dukh unke dil ko chhoo gaya, aur unki bhaavna pehle sundar shloka ke roop mein beh nikli. Wahi kavita ki shuruaat thi."
+        }
+      },
+      {
+        "image": "📖",
+        "text": {
+          "en": "With Brahma ji's blessing, Valmiki wrote the Ramayana, the story of Shri Ram. A man who once took from others gave the world one of its greatest gifts.",
+          "hinglish": "Brahma ji ke aashirvaad se Valmiki ne Ramayan likhi, Shri Ram ki katha. Jo kabhi doosron se cheenta tha, usne duniya ko sabse bada tohfa diya."
+        },
+        "say": {
+          "en": "Little one, it is never too late to choose goodness.",
+          "hinglish": "Mere chhote, achhaai chunne mein kabhi der nahi hoti."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Anyone can change and choose a good path.",
+      "hinglish": "Koi bhi badal sakta hai aur achha raasta chun sakta hai."
+    },
+    "reflection": {
+      "en": "What good change have you made in yourself that you feel proud of?",
+      "hinglish": "Apne andar kaun sa achha badlaav aapko garv deta hai?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Valmiki's earlier name was Ratnakar.",
+          "hinglish": "Valmiki ka pehla naam Ratnakar tha."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Narad Muni was afraid of Ratnakar.",
+          "hinglish": "Narad Muni Ratnakar se dar gaye."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Valmiki wrote the Ramayana.",
+          "hinglish": "Valmiki ne Ramayan likhi."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["VALMIKI", "NARAD", "POEM"]
+  },
+  {
+    "id": "akshaya-patra",
+    "emoji": "🍚",
+    "title": {
+      "en": "The magic pot and one grain of rice",
+      "hinglish": "Akshaya Patra aur chawal ka ek daana"
+    },
+    "cards": [
+      {
+        "image": "🌳",
+        "text": {
+          "en": "When the Pandavas lived in the forest, many guests came to their hut. Yudhishthira worried, 'How will we feed everyone?' He prayed to Surya Dev.",
+          "hinglish": "Jab Pandav van mein rehte the, unki kutiya mein bahut mehmaan aate. Yudhishthir chintit the, 'Sabko khaana kaise khilaayenge?' Unhone Surya Dev se praarthana ki."
+        }
+      },
+      {
+        "image": "🍲",
+        "text": {
+          "en": "Surya Dev gave them the Akshaya Patra, a pot that filled with food every day until Draupadi had eaten. Then it rested till the next morning. Every guest was fed with love.",
+          "hinglish": "Surya Dev ne unhe Akshaya Patra diya, ek bartan jo har din tab tak khaana deta jab tak Draupadi khaana na kha leti. Phir woh agli subah tak aaraam karta. Har mehmaan pyaar se khaata."
+        }
+      },
+      {
+        "image": "🧘",
+        "text": {
+          "en": "One evening, after Draupadi had already eaten and washed the pot, the sage Durvasa arrived with many disciples. 'We will bathe in the river and come to eat,' he said. Draupadi's heart sank. The pot was empty!",
+          "hinglish": "Ek shaam, jab Draupadi khaa chuki thi aur bartan dho chuki thi, Rishi Durvasa bahut se shishyon ke saath aa gaye. 'Hum nadi mein nahaakar khaane aate hain,' unhone kaha. Draupadi ghabra gayi. Bartan khaali tha!"
+        }
+      },
+      {
+        "image": "🙏",
+        "text": {
+          "en": "She closed her eyes and called her friend Krishna. He came at once. 'I am hungry, Sakhi. Give me something to eat.' Draupadi showed him the empty pot. Krishna found one tiny grain of rice stuck to its side, and ate it happily.",
+          "hinglish": "Unhone aankhen band karke apne sakha Krishna ko pukaara. Woh turant aaye. 'Sakhi, bhookh lagi hai, kuch khilaao.' Draupadi ne khaali bartan dikhaaya. Krishna ko kinaare par chawal ka ek daana chipka mila, aur unhone use khushi se kha liya."
+        }
+      },
+      {
+        "image": "😊",
+        "text": {
+          "en": "At that very moment, Durvasa and all his disciples by the river felt full, as if they had eaten a grand feast! They blessed the Pandavas and went away happy. One grain, given with love, was enough.",
+          "hinglish": "Usi pal nadi kinaare Durvasa aur saare shishyon ka pet bhar gaya, jaise bada bhoj kha liya ho! Unhone Pandavon ko aashirvaad diya aur khushi se chale gaye. Pyaar se diya ek daana kaafi tha."
+        },
+        "say": {
+          "en": "Little one, whatever we share with love becomes enough.",
+          "hinglish": "Mere chhote, jo pyaar se baanto woh hamesha kaafi hota hai."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Even a little, given with love and faith, is enough.",
+      "hinglish": "Pyaar aur vishwaas se diya thoda bhi kaafi hota hai."
+    },
+    "reflection": {
+      "en": "When did a small kindness feel huge to you?",
+      "hinglish": "Kab ek chhoti si meharbaani aapko bahut badi lagi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Surya Dev gave the Akshaya Patra.",
+          "hinglish": "Akshaya Patra Surya Dev ne diya."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Krishna ate a whole plate of food.",
+          "hinglish": "Krishna ne poori thaali khaayi."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Durvasa and his disciples felt full.",
+          "hinglish": "Durvasa aur shishyon ka pet bhar gaya."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["RICE", "POT", "SAKHI"]
+  },
+  {
+    "id": "ganesha-pen",
+    "emoji": "🐘",
+    "title": {
+      "en": "Ganesha writes the Mahabharata",
+      "hinglish": "Ganesh ji ne likha Mahabharat"
+    },
+    "cards": [
+      {
+        "image": "🏔️",
+        "text": {
+          "en": "Rishi Ved Vyas had a very, very long story in his heart: the Mahabharata. It was so long that he needed someone to write it down as he spoke. He prayed to Ganesha, the wisest of all.",
+          "hinglish": "Rishi Ved Vyas ke mann mein ek bahut lambi katha thi: Mahabharat. Itni lambi ki unhe koi chahiye tha jo bolte-bolte likhta jaaye. Unhone sabse buddhimaan Ganesh ji se praarthana ki."
+        }
+      },
+      {
+        "image": "🤝",
+        "text": {
+          "en": "Ganesha smiled. 'I will write, but you must not stop speaking even once.' Vyas smiled back. 'Agreed. But you must understand each verse before you write it.' Both agreed, and the writing began.",
+          "hinglish": "Ganesh ji muskuraaye. 'Main likhunga, par aap ek baar bhi rukenge nahi.' Vyas bhi muskuraaye. 'Manzoor. Par aap har shloka samajhkar hi likhenge.' Dono maan gaye, aur lekhan shuru hua."
+        }
+      },
+      {
+        "image": "✍️",
+        "text": {
+          "en": "Days and nights passed. Vyas spoke, Ganesha wrote. Whenever Vyas needed rest, he said a tricky verse, and Ganesha paused to think. Then, suddenly, Ganesha's pen broke!",
+          "hinglish": "Din-raat beete. Vyas bolte, Ganesh ji likhte. Jab Vyas ko aaraam chahiye hota, woh ek mushkil shloka bolte, aur Ganesh ji sochne ruk jaate. Phir achaanak Ganesh ji ki kalam toot gayi!"
+        },
+        "choice": {
+          "question": {
+            "en": "The pen is broken. What should Ganesha do?",
+            "hinglish": "Kalam toot gayi. Ganesh ji kya karein?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Find a way to keep going.",
+                "hinglish": "Aage badhne ka raasta dhoondhein."
+              },
+              "lesson": {
+                "en": "When we care about our work, we find a way.",
+                "hinglish": "Jab kaam se pyaar ho, raasta mil hi jaata hai."
+              }
+            },
+            {
+              "label": {
+                "en": "Ask Vyas to pause.",
+                "hinglish": "Vyas ji se rukne ko kahein."
+              },
+              "lesson": {
+                "en": "Asking for a pause is fine too. Ganesha chose to keep his word, and showed great dedication.",
+                "hinglish": "Rukne ko kehna bhi theek hai. Ganesh ji ne vachan nibhaana chuna, aur lagan dikhaayi."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🦷",
+        "text": {
+          "en": "Without a moment's worry, Ganesha broke off a piece of his own tusk, dipped it in ink, and kept writing! That is why Ganesha is often shown with one broken tusk, Ekadanta.",
+          "hinglish": "Bina ek pal chinta kiye, Ganesh ji ne apna ek daant tod liya, use syaahi mein duboya, aur likhte rahe! Isliye Ganesh ji ko aksar ek toote daant ke saath dikhaate hain, Ekdant."
+        }
+      },
+      {
+        "image": "📚",
+        "text": {
+          "en": "Together they finished the great Mahabharata, with the Gita inside it. A promise, patience and a little sacrifice gave the world a timeless book.",
+          "hinglish": "Saath milkar unhone mahaan Mahabharat poora kiya, jismein Gita bhi hai. Vachan, dheeraj aur thode tyaag ne duniya ko amar granth diya."
+        },
+        "say": {
+          "en": "Little one, finish what you begin, with love.",
+          "hinglish": "Mere laadle, jo shuru karo use pyaar se poora karo."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Dedication finds a way even when things break.",
+      "hinglish": "Lagan ho to cheezein tootne par bhi raasta milta hai."
+    },
+    "reflection": {
+      "en": "What work have you finished with great dedication?",
+      "hinglish": "Kaun sa kaam aapne badi lagan se poora kiya?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Ganesha wrote while Vyas spoke.",
+          "hinglish": "Vyas bolte the aur Ganesh ji likhte the."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Ganesha stopped writing when his pen broke.",
+          "hinglish": "Kalam tootne par Ganesh ji ne likhna band kar diya."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Ganesha used his tusk as a pen.",
+          "hinglish": "Ganesh ji ne apne daant ko kalam banaaya."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["GANESHA", "VYAS", "PEN"]
+  },
+  {
+    "id": "lav-kush",
+    "emoji": "🎶",
+    "title": {
+      "en": "Lav and Kush sing the Ramayana",
+      "hinglish": "Lav-Kush ne gaayi Ramayan"
+    },
+    "cards": [
+      {
+        "image": "🌿",
+        "text": {
+          "en": "In the peaceful ashram of Rishi Valmiki, two little boys, Lav and Kush, grew up with their mother Sita. They played under the trees, fed the deer, and learned archery and music.",
+          "hinglish": "Rishi Valmiki ke shaant aashram mein do nanhe bhai, Lav aur Kush, apni Maa Sita ke saath bade hue. Woh pedon ke neeche khelte, hiranon ko khilaate, aur dhanush aur sangeet seekhte."
+        }
+      },
+      {
+        "image": "🎵",
+        "text": {
+          "en": "Rishi Valmiki taught them the Ramayana, verse by verse. The twins had sweet voices and sang it beautifully, with a little veena. Sita listened with a soft smile while she worked.",
+          "hinglish": "Rishi Valmiki ne unhe shloka-shloka Ramayan sikhaayi. Judwaa bhaiyon ki awaaz meethi thi aur woh veena ke saath bahut sundar gaate. Sita kaam karte hue halki muskaan se sunti."
+        }
+      },
+      {
+        "image": "👑",
+        "text": {
+          "en": "One day they went to Ayodhya and sang the story in King Ram's court. Everyone was spellbound. The court fell silent; even the birds outside seemed to listen.",
+          "hinglish": "Ek din woh Ayodhya gaye aur Raja Ram ke darbaar mein katha gaayi. Sab mantramugdh ho gaye. Darbaar mein sannaata chha gaya; bahar ki chidiyan bhi jaise sun rahi thi."
+        }
+      },
+      {
+        "image": "💧",
+        "text": {
+          "en": "Ram listened with tears in his eyes. The story was his own! He asked the boys who they were, and slowly he understood: these were his own sons.",
+          "hinglish": "Ram aankhon mein aansu liye sunte rahe. Yeh katha to unki apni thi! Unhone bachchon se poochha woh kaun hain, aur dheere-dheere samjhe: yeh unke apne bete hain."
+        }
+      },
+      {
+        "image": "🤗",
+        "text": {
+          "en": "Lav and Kush showed the world that what a mother and a teacher sow with love, children carry forward with music and pride.",
+          "hinglish": "Lav-Kush ne duniya ko dikhaaya ki jo Maa aur guru pyaar se boyein, bachche use sangeet aur garv ke saath aage le jaate hain."
+        },
+        "say": {
+          "en": "Little one, I will sing you all our family's stories.",
+          "hinglish": "Mere chhote, main tumhe apne parivaar ki saari kahaniyan gaakar sunaaungi."
+        }
+      }
+    ],
+    "moral": {
+      "en": "What we teach children with love, they carry forever.",
+      "hinglish": "Jo bachchon ko pyaar se sikhaayein, woh hamesha saath rakhte hain."
+    },
+    "reflection": {
+      "en": "Which story or song from your childhood will you pass on to your baby?",
+      "hinglish": "Bachpan ki kaun si kahani ya geet aap baby ko sunaayengi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Lav and Kush grew up in Valmiki's ashram.",
+          "hinglish": "Lav-Kush Valmiki ke aashram mein bade hue."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "They sang the Ramayana in Ram's court.",
+          "hinglish": "Unhone Ram ke darbaar mein Ramayan gaayi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Lav and Kush did not like music.",
+          "hinglish": "Lav-Kush ko sangeet pasand nahi tha."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["LAV", "KUSH", "SONG"]
+  },
+  {
+    "id": "satyakam",
+    "emoji": "🐄",
+    "title": {
+      "en": "Satyakam, the truthful boy",
+      "hinglish": "Satyakaam, sach bolne wala baalak"
+    },
+    "cards": [
+      {
+        "image": "🏠",
+        "text": {
+          "en": "In a small hut lived a mother named Jabala and her son Satyakam. They were poor, but Satyakam had big dreams. 'Maa, I want to study with a great guru!'",
+          "hinglish": "Ek chhoti kutiya mein Maa Jabala aur unka beta Satyakaam rehte the. Gareeb the, par Satyakaam ke sapne bade the. 'Maa, main kisi mahaan guru se padhna chahta hoon!'"
+        }
+      },
+      {
+        "image": "❓",
+        "text": {
+          "en": "In those days, a guru would ask about the student's family line. Satyakam asked his mother. Jabala said honestly, 'Son, I do not know your father's family line. Tell the guru you are Satyakam, son of Jabala.'",
+          "hinglish": "Us zamaane mein guru shishya ka gotra poochhte the. Satyakaam ne Maa se poochha. Jabala ne sach kaha, 'Beta, mujhe tumhare pita ka gotra nahi pata. Guru ji se kehna tum Satyakaam Jabala ho, Jabala ke bete.'"
+        }
+      },
+      {
+        "image": "🧔",
+        "text": {
+          "en": "Satyakam walked to Rishi Gautam's ashram. Other boys gave grand family names. When his turn came, Satyakam said exactly what his mother told him, clearly and without shame.",
+          "hinglish": "Satyakaam Rishi Gautam ke aashram pahuncha. Doosre ladkon ne bade-bade gotra bataaye. Jab uski baari aayi, Satyakaam ne bina sharm ke, saaf-saaf wahi kaha jo Maa ne bataaya tha."
+        },
+        "choice": {
+          "question": {
+            "en": "Others have grand names. What should Satyakam say?",
+            "hinglish": "Doosron ke naam bade hain. Satyakaam kya kahe?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "The simple truth.",
+                "hinglish": "Seedha sach."
+              },
+              "lesson": {
+                "en": "The truth, said with courage, is always enough.",
+                "hinglish": "Himmat se kaha sach hamesha kaafi hota hai."
+              }
+            },
+            {
+              "label": {
+                "en": "Ask the guru what matters most.",
+                "hinglish": "Guru ji se poochhe ki sabse zaroori kya hai."
+              },
+              "lesson": {
+                "en": "Asking honestly is also brave. And the guru valued truth above all.",
+                "hinglish": "Imaandaari se poochhna bhi himmat hai. Aur guru ji ke liye sach sabse upar tha."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🌟",
+        "text": {
+          "en": "Rishi Gautam smiled warmly. 'Only a truly noble person speaks such truth. I accept you, Satyakam.' He gave Satyakam 400 thin cows to care for in the forest.",
+          "hinglish": "Rishi Gautam pyaar se muskuraaye. 'Aisa sach sirf ek sachcha, shresth insaan hi bol sakta hai. Main tumhe sweekaar karta hoon, Satyakaam.' Unhone use van mein dekhbhaal ke liye 400 kamzor gaayein di."
+        }
+      },
+      {
+        "image": "🐄",
+        "text": {
+          "en": "Satyakam cared for them lovingly for years, and came back with a thousand healthy cows. Nature itself taught him wisdom. He became a great sage, and his story is in the Upanishads.",
+          "hinglish": "Satyakaam ne saalon pyaar se unki seva ki, aur hazaar swasth gaayon ke saath lauta. Prakriti ne khud use gyaan diya. Woh mahaan rishi bana, aur uski katha Upanishad mein hai."
+        },
+        "say": {
+          "en": "Little one, the truth will always make you strong.",
+          "hinglish": "Mere chhote, sach tumhe hamesha mazboot banaayega."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Truth spoken with courage is the noblest family name.",
+      "hinglish": "Himmat se bola sach sabse uttam pehchaan hai."
+    },
+    "reflection": {
+      "en": "What truth did you once say that took courage?",
+      "hinglish": "Kaun sa sach bolne mein aapko himmat lagi thi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Satyakam's mother was named Jabala.",
+          "hinglish": "Satyakaam ki Maa ka naam Jabala tha."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Satyakam lied about his family.",
+          "hinglish": "Satyakaam ne parivaar ke baare mein jhooth bola."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "He returned with a thousand cows.",
+          "hinglish": "Woh hazaar gaayon ke saath lauta."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["TRUTH", "SATYA", "COWS"]
+  },
+  {
+    "id": "elephant-mice",
+    "emoji": "🐭",
+    "title": {
+      "en": "The elephants and the mice",
+      "hinglish": "Haathi aur choohe"
+    },
+    "cards": [
+      {
+        "image": "🏚️",
+        "text": {
+          "en": "Near an old, broken village lived thousands of little mice. They were happy in their burrows, nibbling grains and playing all day.",
+          "hinglish": "Ek purane, toote gaon ke paas hazaaron nanhe choohe rehte the. Woh apne bilon mein khush the, daane kutarte aur din bhar khelte."
+        }
+      },
+      {
+        "image": "🐘",
+        "text": {
+          "en": "One day a herd of elephants began walking through the village on the way to a lake. Their big feet squashed the mouse burrows! The mouse king was worried for his family.",
+          "hinglish": "Ek din haathiyon ka jhund jheel jaate hue gaon ke beech se guzarne laga. Unke bade pairon se choohon ke bil dab gaye! Choohon ke raja ko parivaar ki chinta hui."
+        }
+      },
+      {
+        "image": "🙏",
+        "text": {
+          "en": "The brave mouse king went to the elephant king. 'Mighty one, please take another path. And if you ever need us, we will help you.' The elephant king laughed kindly. 'How can tiny mice help us? But all right, we will change our path.'",
+          "hinglish": "Bahaadur choohon ka raja haathiyon ke raja ke paas gaya. 'Mahaaraaj, kripya doosra raasta lijiye. Aur kabhi zaroorat ho to hum madad karenge.' Haathi raja pyaar se hansa. 'Nanhe choohe hamaari kya madad karenge? Par theek hai, hum raasta badal lete hain.'"
+        }
+      },
+      {
+        "image": "🪢",
+        "text": {
+          "en": "Some time later, hunters set strong rope nets in the forest, and many elephants were trapped! The elephant king remembered the mice and sent a message.",
+          "hinglish": "Kuch samay baad shikaariyon ne jungle mein mazboot rassi ke jaal bichhaaye, aur bahut se haathi phans gaye! Haathi raja ko choohe yaad aaye aur usne sandesh bheja."
+        }
+      },
+      {
+        "image": "🎉",
+        "text": {
+          "en": "Thousands of mice came running and nibbled, nibbled, nibbled through the ropes. Soon all the elephants were free! From that day, the big and the small were the best of friends.",
+          "hinglish": "Hazaaron choohe daude aaye aur kutar-kutar kar rassiyan kaat di. Jaldi hi saare haathi aazaad ho gaye! Us din se bade aur chhote pakke dost ban gaye."
+        },
+        "say": {
+          "en": "Little one, be kind to everyone, big or small.",
+          "hinglish": "Mere chhote, sabse pyaar karna, chhote ho ya bade."
+        }
+      }
+    ],
+    "moral": {
+      "en": "No one is too small to help; kindness always comes back.",
+      "hinglish": "Koi itna chhota nahi ki madad na kar sake; bhalaai laut kar aati hai."
+    },
+    "reflection": {
+      "en": "Has someone you didn't expect ever helped you?",
+      "hinglish": "Kya kabhi kisi anjaan ne aapki madad ki jiski ummeed nahi thi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "The elephants changed their path for the mice.",
+          "hinglish": "Haathiyon ne choohon ke liye raasta badla."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The mice freed the elephants from the nets.",
+          "hinglish": "Choohon ne haathiyon ko jaal se chhudaaya."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The elephant king refused to listen.",
+          "hinglish": "Haathi raja ne sunne se mana kar diya."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["MICE", "HAATHI", "NET"]
+  },
+  {
+    "id": "pot-dream",
+    "emoji": "🏺",
+    "title": {
+      "en": "The dreamer and the pot of flour",
+      "hinglish": "Sapne aur sattu ki matki"
+    },
+    "cards": [
+      {
+        "image": "🏺",
+        "text": {
+          "en": "A man named Somu once received a pot full of sattu flour as a gift. He hung it on a peg above his charpai, lay down, and began to daydream.",
+          "hinglish": "Somu naam ke ek aadmi ko tohfe mein sattu se bhari matki mili. Usne use apni charpai ke upar khoonti par taanga, leta, aur sapne dekhne laga."
+        }
+      },
+      {
+        "image": "🐐",
+        "text": {
+          "en": "'If there is a famine, I will sell this flour for a good price. Then I will buy two goats. The goats will have kids, and I will sell them and buy cows!'",
+          "hinglish": "'Agar akaal pada to yeh sattu achhe daam mein bechunga. Phir do bakriyan khareedunga. Bakriyon ke bachche honge, unhe bechkar gaayein khareedunga!'"
+        }
+      },
+      {
+        "image": "🏡",
+        "text": {
+          "en": "'Then I will have buffaloes, then horses, then a big house! I will sit on a grand swing and say to everyone, \"Come, come!\"' And in his dream, he swung his leg out happily.",
+          "hinglish": "'Phir bhainsein, phir ghode, phir bada sa ghar! Main ek shaandaar jhoole par baithkar sabko kahunga, \"Aao, aao!\"' Aur sapne mein usne khushi se pair jhulaaya."
+        }
+      },
+      {
+        "image": "💥",
+        "text": {
+          "en": "Thud! His foot hit the pot. It fell and broke, and white flour covered him from head to toe! Somu sat up, coughing and blinking, looking like a snowman.",
+          "hinglish": "Dhadaam! Pair matki se takraaya. Matki giri aur toot gayi, aur safed sattu ne use sar se paon tak dhak diya! Somu khaanste aur palak jhapkaate uth baitha, barf ke putle jaisa."
+        },
+        "choice": {
+          "question": {
+            "en": "What should Somu do now?",
+            "hinglish": "Ab Somu kya kare?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Laugh, and make a real plan.",
+                "hinglish": "Hanse, aur sachchi yojana banaaye."
+              },
+              "lesson": {
+                "en": "Laughing at our mistakes helps us learn and begin again.",
+                "hinglish": "Apni galti par hansna seekhne aur phir shuru karne mein madad karta hai."
+              }
+            },
+            {
+              "label": {
+                "en": "Start working today, even a little.",
+                "hinglish": "Aaj se kaam shuru kare, thoda hi sahi."
+              },
+              "lesson": {
+                "en": "Dreams come true when we take one small step today.",
+                "hinglish": "Sapne tab poore hote hain jab aaj ek chhota kadam uthaayein."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🌱",
+        "text": {
+          "en": "Somu laughed at himself. 'Dreams are lovely, but they need work today.' The next morning he went to the fields and began, one small step at a time.",
+          "hinglish": "Somu khud par hansa. 'Sapne sundar hain, par unhe aaj ki mehnat chahiye.' Agli subah woh khet gaya aur shuruaat ki, ek-ek chhota kadam."
+        },
+        "say": {
+          "en": "Little one, dream big, and take one small step every day.",
+          "hinglish": "Mere chhote, bade sapne dekhna, aur roz ek chhota kadam uthaana."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Dreams are wonderful when we also work for them today.",
+      "hinglish": "Sapne tab sundar hain jab aaj unke liye mehnat bhi karein."
+    },
+    "reflection": {
+      "en": "What is one small step you can take today towards a dream?",
+      "hinglish": "Kisi sapne ki taraf aaj aap kaun sa chhota kadam utha sakti hain?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Somu's pot was full of sattu flour.",
+          "hinglish": "Somu ki matki sattu se bhari thi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Somu really bought goats and cows.",
+          "hinglish": "Somu ne sach mein bakriyan aur gaayein khareedi."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "The pot broke when his foot hit it.",
+          "hinglish": "Pair lagne se matki toot gayi."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["SATTU", "DREAM", "MATKI"]
+  },
+  {
+    "id": "doves-net",
+    "emoji": "🕊️",
+    "title": {
+      "en": "The doves who flew together",
+      "hinglish": "Kabootaron ki ekta"
+    },
+    "cards": [
+      {
+        "image": "🌾",
+        "text": {
+          "en": "A flock of doves lived with their wise king, Chitragriv. One morning, flying over a forest, they saw rice grains scattered on the ground. 'Food!' cried the young doves.",
+          "hinglish": "Kabootaron ka ek jhund apne samajhdaar raja Chitragreev ke saath rehta tha. Ek subah jungle ke upar udte hue unhe zameen par bikhre chawal dikhe. 'Khaana!' nanhe kabootar chillaaye."
+        }
+      },
+      {
+        "image": "🪤",
+        "text": {
+          "en": "Chitragriv said, 'Wait! Why would rice be here in a forest?' But the hungry doves flew down, and a hunter's net fell over all of them! They flapped and fluttered in fright.",
+          "hinglish": "Chitragreev bole, 'Ruko! Jungle mein chawal kyun hoga?' Par bhookhe kabootar neeche utar gaye, aur shikaari ka jaal un sab par gir gaya! Woh ghabraakar phadphadaane lage."
+        }
+      },
+      {
+        "image": "🤝",
+        "text": {
+          "en": "The king said calmly, 'Don't be afraid. Alone we are weak, but together we are strong. On the count of three, let us all fly up together, net and all! One, two, THREE!'",
+          "hinglish": "Raja ne shaanti se kaha, 'Daro mat. Akele hum kamzor hain, par saath mein mazboot. Teen ginne par sab ek saath udenge, jaal samet! Ek, do, TEEN!'"
+        },
+        "choice": {
+          "question": {
+            "en": "The doves are caught. What should they do?",
+            "hinglish": "Kabootar phans gaye. Ab kya karein?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "All fly up together.",
+                "hinglish": "Sab ek saath udein."
+              },
+              "lesson": {
+                "en": "When we move together, even heavy things become light.",
+                "hinglish": "Saath chalein to bhaari cheez bhi halki lagti hai."
+              }
+            },
+            {
+              "label": {
+                "en": "Listen calmly to the wise king.",
+                "hinglish": "Samajhdaar raja ki baat shaanti se sunein."
+              },
+              "lesson": {
+                "en": "Staying calm and listening helps a family find the way out.",
+                "hinglish": "Shaant rehkar sunne se parivaar raasta dhoondh leta hai."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🕊️",
+        "text": {
+          "en": "Up, up they flew, carrying the whole net into the sky! The surprised hunter could only watch. They flew to their friend, Hiranyak the mouse, who lived near a big tree.",
+          "hinglish": "Upar, upar woh ude, poora jaal aasmaan mein le gaye! Hairaan shikaari bas dekhta reh gaya. Woh apne dost Hiranyak choohe ke paas pahunche jo ek bade ped ke paas rehta tha."
+        }
+      },
+      {
+        "image": "🐭",
+        "text": {
+          "en": "Hiranyak nibbled the net, first freeing the king's friends, then the king. All the doves were free! They cooed with joy and thanked their friend.",
+          "hinglish": "Hiranyak ne jaal kutra, pehle raja ke saathiyon ko chhudaaya, phir raja ko. Saare kabootar aazaad! Woh khushi se guter-goo karte rahe aur dost ka shukriya kiya."
+        },
+        "say": {
+          "en": "Little one, our family is strongest when we are together.",
+          "hinglish": "Mere chhote, hamaara parivaar saath mein sabse mazboot hai."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Together, with a calm mind, we can solve any problem.",
+      "hinglish": "Saath milkar, shaant mann se, har mushkil hal hoti hai."
+    },
+    "reflection": {
+      "en": "When did your family solve something together?",
+      "hinglish": "Aapke parivaar ne kab milkar koi mushkil hal ki?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "The doves flew away with the net.",
+          "hinglish": "Kabootar jaal lekar ud gaye."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Hiranyak the mouse freed them.",
+          "hinglish": "Hiranyak choohe ne unhe chhudaaya."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The king told each dove to fly alone.",
+          "hinglish": "Raja ne har kabootar ko akele udne ko kaha."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["DOVES", "UNITY", "NET"]
+  },
+  {
+    "id": "birbal-line",
+    "emoji": "📏",
+    "title": {
+      "en": "Birbal and the line",
+      "hinglish": "Birbal aur lakeer"
+    },
+    "cards": [
+      {
+        "image": "🏰",
+        "text": {
+          "en": "One day in his court, Emperor Akbar drew a line on the floor with chalk. He smiled at his ministers and said, 'Make this line shorter, but do not touch it!'",
+          "hinglish": "Ek din darbaar mein Badshah Akbar ne zameen par chaak se ek lakeer kheenchi. Mantriyon ki taraf muskuraakar bole, 'Is lakeer ko chhota karo, par ise chhoona nahi!'"
+        }
+      },
+      {
+        "image": "🤔",
+        "text": {
+          "en": "The ministers scratched their heads. 'How can a line get shorter without rubbing some of it out?' They walked around it, stared at it, and gave up one by one.",
+          "hinglish": "Mantri sar khujaane lage. 'Bina mitaaye lakeer chhoti kaise hogi?' Woh uske chaaron taraf ghoome, ghoorte rahe, aur ek-ek karke haar maan gaye."
+        }
+      },
+      {
+        "image": "✏️",
+        "text": {
+          "en": "Then Birbal stepped forward with a gentle smile. He picked up the chalk and drew a much longer line right next to Akbar's line.",
+          "hinglish": "Tab Birbal halki muskaan ke saath aage aaye. Unhone chaak uthaayi aur Akbar ki lakeer ke bilkul paas ek bahut lambi lakeer kheench di."
+        }
+      },
+      {
+        "image": "😄",
+        "text": {
+          "en": "'Jahanpanah,' said Birbal, 'your line is now the shorter one, and I have not touched it!' Akbar clapped with delight. 'Wah, Birbal!'",
+          "hinglish": "'Jahanpanah,' Birbal bole, 'aapki lakeer ab chhoti hai, aur maine use chhuaa bhi nahi!' Akbar ne khush hokar taali bajaayi. 'Wah, Birbal!'"
+        }
+      },
+      {
+        "image": "🌟",
+        "text": {
+          "en": "Birbal taught everyone that we don't need to make others small to grow. We can simply grow ourselves.",
+          "hinglish": "Birbal ne sabko sikhaaya ki aage badhne ke liye doosron ko chhota karne ki zaroorat nahi. Bas khud ko bada banaao."
+        },
+        "say": {
+          "en": "Little one, grow your own line, and let everyone shine.",
+          "hinglish": "Mere chhote, apni lakeer badi karna, aur sabko chamakne dena."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Grow yourself instead of making others smaller.",
+      "hinglish": "Doosron ko chhota karne ki jagah khud ko bada banaao."
+    },
+    "reflection": {
+      "en": "What skill would you like to grow in yourself this year?",
+      "hinglish": "Is saal aap apne andar kaun si khoobi badhaana chaahengi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Akbar drew a line with chalk.",
+          "hinglish": "Akbar ne chaak se lakeer kheenchi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Birbal rubbed out part of the line.",
+          "hinglish": "Birbal ne lakeer ka hissa mitaaya."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "Birbal drew a longer line beside it.",
+          "hinglish": "Birbal ne paas mein lambi lakeer kheenchi."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["BIRBAL", "LINE", "AKBAR"]
+  },
+  {
+    "id": "birbal-well",
+    "emoji": "🪣",
+    "title": {
+      "en": "Birbal and the water in the well",
+      "hinglish": "Birbal aur kuen ka paani"
+    },
+    "cards": [
+      {
+        "image": "🌾",
+        "text": {
+          "en": "A farmer named Ramu bought a well from his neighbour so he could water his fields. He paid a fair price and was very happy.",
+          "hinglish": "Ramu naam ke kisaan ne kheton mein paani dene ke liye padosi se ek kuan khareeda. Usne poori keemat chukaayi aur bahut khush tha."
+        }
+      },
+      {
+        "image": "🙅",
+        "text": {
+          "en": "But the next morning, when Ramu came with his bucket, the neighbour stopped him. 'I sold you the well, not the water! If you want water, pay me more!'",
+          "hinglish": "Par agli subah jab Ramu baalti lekar aaya, padosi ne rok diya. 'Maine kuan becha tha, paani nahi! Paani chahiye to aur paise do!'"
+        }
+      },
+      {
+        "image": "😟",
+        "text": {
+          "en": "Poor Ramu did not know what to do. He went to Emperor Akbar's court for help. Akbar asked Birbal to solve the matter.",
+          "hinglish": "Bechaara Ramu samajh nahi paaya kya kare. Woh madad ke liye Badshah Akbar ke darbaar gaya. Akbar ne Birbal se maamla suljhaane ko kaha."
+        }
+      },
+      {
+        "image": "🧠",
+        "text": {
+          "en": "Birbal listened to the neighbour and nodded. 'You are right, the water is yours. But the well belongs to Ramu. So please take your water out of his well at once, or pay him rent for keeping it there!'",
+          "hinglish": "Birbal ne padosi ki baat suni aur sar hilaaya. 'Aap theek keh rahe hain, paani aapka hai. Par kuan Ramu ka hai. To kripya apna paani turant uske kuen se nikaaliye, ya use rakhne ka kiraaya dijiye!'"
+        }
+      },
+      {
+        "image": "😊",
+        "text": {
+          "en": "The neighbour realised his trick had failed. He said sorry to Ramu, and Ramu happily watered his fields. Honesty won, and a clever, calm mind showed the way.",
+          "hinglish": "Padosi samajh gaya ki uski chaal naakaam ho gayi. Usne Ramu se maafi maangi, aur Ramu ne khushi se khet seenche. Imaandaari jeeti, aur shaant, tez dimaag ne raasta dikhaaya."
+        },
+        "say": {
+          "en": "Little one, be fair and honest, and use your clever mind kindly.",
+          "hinglish": "Mere chhote, imaandaar rehna, aur apni samajh pyaar se lagaana."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Honesty wins, and a calm, clever mind can untangle tricks.",
+      "hinglish": "Imaandaari jeetti hai, aur shaant dimaag har chaal suljha deta hai."
+    },
+    "reflection": {
+      "en": "When did a calm mind help you solve a problem?",
+      "hinglish": "Kab shaant dimaag ne aapki mushkil hal ki?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Ramu bought a well from his neighbour.",
+          "hinglish": "Ramu ne padosi se kuan khareeda."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Birbal said the neighbour should take his water out.",
+          "hinglish": "Birbal ne kaha padosi apna paani nikaale."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The neighbour won the case.",
+          "hinglish": "Padosi muqadma jeet gaya."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["WELL", "WATER", "FAIR"]
+  },
+  {
+    "id": "chidiya-daal",
+    "emoji": "🐦",
+    "title": {
+      "en": "The sparrow and the grain of dal",
+      "hinglish": "Chidiya aur daal ka daana"
+    },
+    "cards": [
+      {
+        "image": "🐦",
+        "text": {
+          "en": "A little sparrow found one grain of dal and flew happily to cook it. But oops! The grain slipped and got stuck in a crack in a wooden peg (khoonta). Her little beak couldn't pull it out.",
+          "hinglish": "Ek nanhi chidiya ko daal ka ek daana mila aur woh khushi se use pakaane udi. Par oho! Daana phisalkar lakdi ke khoonte ki daraar mein phans gaya. Uski nanhi chonch se nahi nikla."
+        }
+      },
+      {
+        "image": "🪚",
+        "text": {
+          "en": "She flew to the carpenter. 'Carpenter bhaiya, please split the peg and free my dal!' 'For one grain? I'm busy!' Then she asked the king, the queen, and even the big elephant. Everyone said, 'Too small a matter!'",
+          "hinglish": "Woh badhai ke paas udi. 'Badhai bhaiya, khoonta cheer do, meri daal nikaal do!' 'Ek daane ke liye? Main vyast hoon!' Phir usne raja, rani, aur bade haathi se bhi poochha. Sab bole, 'Itni chhoti baat!'"
+        }
+      },
+      {
+        "image": "🐜",
+        "text": {
+          "en": "Tired but not giving up, she asked a tiny ant. The ant said, 'A problem is never too small for a friend. I will help you!' And the ant marched off with all her ant friends.",
+          "hinglish": "Thaki par haar nahi maani, usne ek nanhi cheenti se poochha. Cheenti boli, 'Dost ke liye koi mushkil chhoti nahi hoti. Main madad karungi!' Aur cheenti apni saari saheliyon ke saath chal padi."
+        },
+        "choice": {
+          "question": {
+            "en": "Everyone said no. What should the sparrow do?",
+            "hinglish": "Sabne mana kar diya. Chidiya kya kare?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Keep asking, politely.",
+                "hinglish": "Pyaar se poochhti rahe."
+              },
+              "lesson": {
+                "en": "Patience and politeness open hearts.",
+                "hinglish": "Dheeraj aur pyaar dil khol dete hain."
+              }
+            },
+            {
+              "label": {
+                "en": "Try to find a new way herself.",
+                "hinglish": "Khud koi naya tareeka dhoondhe."
+              },
+              "lesson": {
+                "en": "Trying a new way is brave too, and help often comes when we keep trying.",
+                "hinglish": "Naya tareeka aazmaana bhi himmat hai, aur koshish karte raho to madad milti hai."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🐘",
+        "text": {
+          "en": "Seeing the little ants marching to help, the elephant felt ashamed. 'If they can help, so can I!' Then the king, the queen and the carpenter all hurried along too!",
+          "hinglish": "Nanhi cheentiyon ko madad ke liye jaate dekh haathi ko sharm aayi. 'Agar yeh madad kar sakti hain to main bhi!' Phir raja, rani aur badhai, sab bhi daude chale aaye!"
+        }
+      },
+      {
+        "image": "🍲",
+        "text": {
+          "en": "The carpenter split the peg, and out popped the grain of dal! The sparrow cooked her dal and shared it with everyone. One small friend started a big chain of kindness.",
+          "hinglish": "Badhai ne khoonta cheera, aur daal ka daana bahar aa gaya! Chidiya ne daal pakaayi aur sabke saath baanti. Ek nanhe dost ne bhalaai ki badi kadi shuru kar di."
+        },
+        "say": {
+          "en": "Little one, never give up, and never think anyone's problem is too small.",
+          "hinglish": "Mere chhote, kabhi haar mat maanna, aur kisi ki mushkil ko chhota mat samajhna."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Keep trying, and remember no one's problem is too small to help with.",
+      "hinglish": "Koshish karte raho, aur kisi ki mushkil ko madad ke liye chhota mat samjho."
+    },
+    "reflection": {
+      "en": "Who is the 'little ant' in your life who always helps?",
+      "hinglish": "Aapki zindagi mein woh 'nanhi cheenti' kaun hai jo hamesha madad karti hai?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "The dal got stuck in a wooden peg.",
+          "hinglish": "Daal lakdi ke khoonte mein phans gayi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The ant said the problem was too small.",
+          "hinglish": "Cheenti ne kaha mushkil bahut chhoti hai."
+        },
+        "answer": false
+      },
+      {
+        "q": {
+          "en": "The sparrow shared her dal with everyone.",
+          "hinglish": "Chidiya ne daal sabke saath baanti."
+        },
+        "answer": true
+      }
+    ],
+    "words": ["CHIDIYA", "DAAL", "ANT"]
+  },
+  {
+    "id": "old-swan",
+    "emoji": "🦢",
+    "title": {
+      "en": "The wise old swan",
+      "hinglish": "Samajhdaar boodha hans"
+    },
+    "cards": [
+      {
+        "image": "🌳",
+        "text": {
+          "en": "A flock of swans lived in a tall tree beside a lake. Among them was a very old swan with soft grey feathers, who had seen many seasons.",
+          "hinglish": "Jheel ke kinaare ek oonche ped par hanson ka jhund rehta tha. Unmein ek bahut boodha hans tha, mulaayam bhoore pankhon wala, jisne kai mausam dekhe the."
+        }
+      },
+      {
+        "image": "🌿",
+        "text": {
+          "en": "One day the old swan saw a thin creeper growing up around the tree trunk. 'Children, let us pull out this creeper now, while it is small. One day it may help a hunter climb up!' The young swans laughed. 'It's just a tiny plant, Dada!'",
+          "hinglish": "Ek din boodhe hans ne ped ke tane par chadhti ek patli bel dekhi. 'Bachcho, is bel ko abhi ukhaad do, jab tak chhoti hai. Kal yeh kisi shikaari ko upar chadhne mein madad kar sakti hai!' Jawaan hans hanse. 'Yeh to chhota sa paudha hai, Dada!'"
+        }
+      },
+      {
+        "image": "🪤",
+        "text": {
+          "en": "Months passed and the creeper grew thick and strong. One morning, while the swans were away, a hunter climbed it and spread a net on the branches. In the evening, all the swans were caught!",
+          "hinglish": "Mahine beete aur bel moti aur mazboot ho gayi. Ek subah, jab hans bahar the, ek shikaari bel pakadkar chadha aur daaliyon par jaal bichha diya. Shaam ko saare hans phans gaye!"
+        }
+      },
+      {
+        "image": "🤫",
+        "text": {
+          "en": "'Dada, forgive us! Please help!' The old swan said calmly, 'When the hunter comes, stay very still, as if you are fast asleep. When he puts you all on the ground, wait for my signal, and then fly!'",
+          "hinglish": "'Dada, maaf kar do! Madad karo!' Boodhe hans ne shaanti se kaha, 'Jab shikaari aaye, bilkul chup aur sthir raho, jaise gehri neend mein ho. Jab woh sabko zameen par rakh de, mere ishaare ka intezaar karna, phir ud jaana!'"
+        }
+      },
+      {
+        "image": "🦢",
+        "text": {
+          "en": "The hunter thought the swans were asleep and gently set them down one by one. 'Now!' called the old swan, and they all flew up together into the sky, free! From then on, they always listened to their elders.",
+          "hinglish": "Shikaari ko laga hans so rahe hain aur usne ek-ek karke unhe zameen par rakh diya. 'Ab!' boodhe hans ne pukaara, aur sab ek saath aasmaan mein ud gaye, aazaad! Us din se woh hamesha bado ki baat sunte."
+        },
+        "say": {
+          "en": "Little one, we will always listen to Dada and Dadi's wisdom.",
+          "hinglish": "Mere chhote, hum hamesha Dada-Dadi ki samajh ki baat sunenge."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Listen to the wisdom of elders, and solve small problems early.",
+      "hinglish": "Bado ki samajh suno, aur chhoti mushkil ko jaldi suljhaao."
+    },
+    "reflection": {
+      "en": "What advice from an elder has helped you the most?",
+      "hinglish": "Kisi buzurg ki kaun si salaah ne aapki sabse zyada madad ki?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "The old swan warned about the creeper.",
+          "hinglish": "Boodhe hans ne bel ke baare mein chetaaya."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The swans pretended to be asleep.",
+          "hinglish": "Hanson ne sone ka naatak kiya."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "The young swans pulled out the creeper at once.",
+          "hinglish": "Jawaan hanson ne turant bel ukhaad di."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["SWAN", "ELDER", "WISE"]
+  },
+  {
+    "id": "cv-raman",
+    "emoji": "🌊",
+    "title": {
+      "en": "C. V. Raman and the blue sea",
+      "hinglish": "C. V. Raman aur neela samundar"
+    },
+    "cards": [
+      {
+        "image": "🔭",
+        "text": {
+          "en": "Chandrasekhara Venkata Raman was born in 1888 in Tiruchirappalli, Tamil Nadu. As a boy, he loved asking 'Why?' about everything: why the sky is blue, why a violin sounds sweet.",
+          "hinglish": "Chandrashekhar Venkat Raman ka janm 1888 mein Tiruchirappalli, Tamil Nadu mein hua. Bachpan se unhe har cheez par 'Kyun?' poochhna pasand tha: aasmaan neela kyun, violin meetha kyun bajta hai."
+        }
+      },
+      {
+        "image": "🚢",
+        "text": {
+          "en": "In 1921, he travelled by ship to Europe. Standing on the deck, he looked at the deep blue Mediterranean Sea and wondered, 'Why is the sea so blue? Is it only reflecting the sky?'",
+          "hinglish": "1921 mein woh jahaaz se Europe gaye. Deck par khade hokar unhone gehre neele Bhoomadhya saagar ko dekha aur socha, 'Samundar itna neela kyun? Kya yeh sirf aasmaan ki parchhaai hai?'"
+        }
+      },
+      {
+        "image": "💡",
+        "text": {
+          "en": "Back in Kolkata, he studied how light changes when it passes through water and other things. With simple instruments and great patience, he and his student found something new.",
+          "hinglish": "Kolkata lautkar unhone padha ki paani aur doosri cheezon se guzarkar roshni kaise badalti hai. Saadhe yantron aur bade dheeraj se unhone aur unke shishya ne kuch naya khoja."
+        }
+      },
+      {
+        "image": "🏅",
+        "text": {
+          "en": "On 28 February 1928, he announced the 'Raman Effect'. In 1930 he won the Nobel Prize in Physics, the first Asian to win a Nobel Prize in science!",
+          "hinglish": "28 February 1928 ko unhone 'Raman Prabhaav' ki ghoshna ki. 1930 mein unhe Physics ka Nobel Puraskaar mila, vigyaan mein Nobel jeetne wale pehle Asian!"
+        }
+      },
+      {
+        "image": "🎉",
+        "text": {
+          "en": "Today India celebrates 28 February as National Science Day in his honour. It all started with a curious question about the blue sea.",
+          "hinglish": "Aaj Bharat unke sammaan mein 28 February ko Rashtriya Vigyaan Diwas manaata hai. Sab kuch neele samundar par ek jigyaasu sawaal se shuru hua."
+        },
+        "say": {
+          "en": "Little one, never stop asking 'Why?'",
+          "hinglish": "Mere chhote, 'Kyun?' poochhna kabhi mat chhodna."
+        }
+      }
+    ],
+    "moral": {
+      "en": "A curious question can lead to a great discovery.",
+      "hinglish": "Ek jigyaasu sawaal badi khoj tak le jaata hai."
+    },
+    "reflection": {
+      "en": "What did you always wonder about as a child?",
+      "hinglish": "Bachpan mein aap kis baat par hamesha sochti thi?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "C. V. Raman wondered why the sea is blue.",
+          "hinglish": "C. V. Raman ne socha samundar neela kyun hai."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "He won the Nobel Prize in 1930.",
+          "hinglish": "Unhe 1930 mein Nobel Puraskaar mila."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "National Science Day is on 15 August.",
+          "hinglish": "Rashtriya Vigyaan Diwas 15 August ko hai."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["RAMAN", "LIGHT", "SEA"]
+  },
+  {
+    "id": "ramanujan",
+    "emoji": "🔢",
+    "title": {
+      "en": "Ramanujan, friend of numbers",
+      "hinglish": "Ramanujan, ankon ke dost"
+    },
+    "cards": [
+      {
+        "image": "🏫",
+        "text": {
+          "en": "Srinivasa Ramanujan was born in 1887 in Erode, Tamil Nadu, and grew up in Kumbakonam. Numbers were like friends to him. He saw patterns everywhere, even in temple steps.",
+          "hinglish": "Srinivas Ramanujan ka janm 1887 mein Erode, Tamil Nadu mein hua aur woh Kumbakonam mein bade hue. Ank unke dost jaise the. Unhe har jagah kram dikhte, mandir ki seedhiyon mein bhi."
+        }
+      },
+      {
+        "image": "📘",
+        "text": {
+          "en": "His family did not have much money. But he found an old maths book and worked through it all by himself, filling notebooks with thousands of formulas.",
+          "hinglish": "Unke parivaar ke paas zyada paise nahi the. Par unhe ek purani ganit ki kitaab mili aur unhone khud se use poora kar daala, hazaaron sootron se kaapiyan bhar di."
+        }
+      },
+      {
+        "image": "✉️",
+        "text": {
+          "en": "In 1913 he wrote a letter to G. H. Hardy, a famous mathematician at Cambridge in England. Hardy read the pages and was amazed. 'These must be true, because no one could imagine them otherwise!'",
+          "hinglish": "1913 mein unhone England ke Cambridge ke mashhoor ganitagya G. H. Hardy ko patra likha. Hardy panne padhkar dang reh gaye. 'Yeh sach hi honge, kyunki koi inhe aise hi soch nahi sakta!'"
+        }
+      },
+      {
+        "image": "🚕",
+        "text": {
+          "en": "Ramanujan went to Cambridge and worked with Hardy. Once Hardy said his taxi number, 1729, was dull. Ramanujan smiled. 'No! It is the smallest number that is the sum of two cubes in two different ways!'",
+          "hinglish": "Ramanujan Cambridge gaye aur Hardy ke saath kaam kiya. Ek baar Hardy ne kaha unki taxi ka number 1729 neeras hai. Ramanujan muskuraaye. 'Nahi! Yeh sabse chhota ank hai jo do alag tareekon se do ghano ka jod hai!'"
+        }
+      },
+      {
+        "image": "🌟",
+        "text": {
+          "en": "He became a Fellow of the Royal Society in 1918. Today, his birthday, 22 December, is celebrated as National Mathematics Day in India.",
+          "hinglish": "1918 mein woh Royal Society ke Fellow bane. Aaj unka janmdin, 22 December, Bharat mein Rashtriya Ganit Diwas ke roop mein manaaya jaata hai."
+        },
+        "say": {
+          "en": "Little one, let's count stars and find patterns together.",
+          "hinglish": "Mere chhote, chalo saath mein taare ginein aur kram dhoondhein."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Passion and practice can make us shine, wherever we start.",
+      "hinglish": "Lagan aur abhyaas se hum chamak sakte hain, kahin se bhi shuru karein."
+    },
+    "reflection": {
+      "en": "What do you love so much that you could do it for hours?",
+      "hinglish": "Aapko kya itna pasand hai ki ghanton kar sakti hain?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Ramanujan learned a lot of maths by himself.",
+          "hinglish": "Ramanujan ne khud se bahut ganit seekha."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "He wrote a letter to G. H. Hardy.",
+          "hinglish": "Unhone G. H. Hardy ko patra likha."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "National Mathematics Day is on 22 December.",
+          "hinglish": "Rashtriya Ganit Diwas 22 December ko hai."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Ramanujan thought 1729 was a dull number.",
+          "hinglish": "Ramanujan ko 1729 neeras ank laga."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["NUMBER", "MATHS", "PATTERN"]
+  },
+  {
+    "id": "saina",
+    "emoji": "🏸",
+    "title": {
+      "en": "Saina Nehwal, the shuttle star from Hisar",
+      "hinglish": "Saina Nehwal, Hisar ki shuttle star"
+    },
+    "cards": [
+      {
+        "image": "🏸",
+        "text": {
+          "en": "Saina Nehwal was born in 1990 in Hisar, Haryana. Both her parents played badminton, and little Saina loved watching the white shuttlecock fly.",
+          "hinglish": "Saina Nehwal ka janm 1990 mein Hisar, Haryana mein hua. Unke Maa-Papa dono badminton khelte the, aur nanhi Saina ko safed shuttle udte dekhna bahut pasand tha."
+        }
+      },
+      {
+        "image": "🛵",
+        "text": {
+          "en": "When the family moved to Hyderabad, her father took her for training very early every morning on his scooter, a long ride, before school. Saina never complained; she just yawned and smiled.",
+          "hinglish": "Jab parivaar Hyderabad gaya, Papa unhe har subah bahut jaldi scooter par training le jaate, lamba raasta, school se pehle. Saina ne kabhi shikaayat nahi ki; bas ubaasi lekar muskura deti."
+        }
+      },
+      {
+        "image": "💪",
+        "text": {
+          "en": "Saina practised for hours: jumping, running, smashing. When she lost a match, she watched, learned, and practised again.",
+          "hinglish": "Saina ghanton abhyaas karti: koodna, daudna, smash maarna. Match haarti to dekhti, seekhti, aur phir abhyaas karti."
+        },
+        "choice": {
+          "question": {
+            "en": "Saina lost a big match. What should she do?",
+            "hinglish": "Saina ek bada match haar gayi. Ab kya kare?"
+          },
+          "options": [
+            {
+              "label": {
+                "en": "Learn from it and practise.",
+                "hinglish": "Usse seekhe aur abhyaas kare."
+              },
+              "lesson": {
+                "en": "Every loss is a teacher when we learn from it.",
+                "hinglish": "Har haar guru hai agar usse seekhein."
+              }
+            },
+            {
+              "label": {
+                "en": "Rest a little, then try again.",
+                "hinglish": "Thoda aaraam kare, phir koshish kare."
+              },
+              "lesson": {
+                "en": "Rest is part of strength. Champions also know when to rest.",
+                "hinglish": "Aaraam bhi taakat ka hissa hai. Champion bhi jaante hain kab aaraam karna hai."
+              }
+            }
+          ]
+        }
+      },
+      {
+        "image": "🥉",
+        "text": {
+          "en": "At the London Olympics in 2012, Saina won a bronze medal, the first Olympic medal ever for India in badminton! In 2015, she became the world number one, the first Indian woman to reach the top.",
+          "hinglish": "2012 ke London Olympics mein Saina ne bronze medal jeeta, badminton mein Bharat ka pehla Olympic medal! 2015 mein woh duniya mein number ek bani, aisa karne wali pehli Bharatiya mahila."
+        }
+      },
+      {
+        "image": "🌾",
+        "text": {
+          "en": "A girl from Hisar showed the whole country what hard work and a family's support can do. Haryana ki chhori, duniya mein number ek!",
+          "hinglish": "Hisar ki ek beti ne poore desh ko dikhaaya ki mehnat aur parivaar ka saath kya kar sakta hai. Haryana ki chhori, duniya mein number ek!"
+        },
+        "say": {
+          "en": "Little one, we will always be there to support your dreams.",
+          "hinglish": "Mere laadle, hum hamesha tumhare sapnon ke saath khade rahenge."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Hard work, patience and family support make champions.",
+      "hinglish": "Mehnat, dheeraj aur parivaar ka saath champion banaate hain."
+    },
+    "reflection": {
+      "en": "How will your family support your baby's dreams?",
+      "hinglish": "Aapka parivaar baby ke sapnon mein kaise saath dega?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Saina Nehwal was born in Hisar.",
+          "hinglish": "Saina Nehwal ka janm Hisar mein hua."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "She won a bronze medal at the 2012 London Olympics.",
+          "hinglish": "Unhone 2012 London Olympics mein bronze jeeta."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Saina never practised early in the morning.",
+          "hinglish": "Saina kabhi subah abhyaas nahi karti thi."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["SAINA", "HISAR", "SHUTTLE"]
+  },
+  {
+    "id": "bachendri",
+    "emoji": "🏔️",
+    "title": {
+      "en": "Bachendri Pal on top of the world",
+      "hinglish": "Bachendri Pal, duniya ki chhat par"
+    },
+    "cards": [
+      {
+        "image": "⛰️",
+        "text": {
+          "en": "Bachendri Pal was born in 1954 in a small village in Uttarkashi, in the mountains of Uttarakhand. She grew up surrounded by snowy peaks, walking up and down hills every day.",
+          "hinglish": "Bachendri Pal ka janm 1954 mein Uttarakhand ke pahaadon mein, Uttarkashi ke ek chhote gaon mein hua. Woh barfeele pahaadon ke beech badi hui, roz pahaadiyon par chadhti-utarti."
+        }
+      },
+      {
+        "image": "🎒",
+        "text": {
+          "en": "When she was just 12, on a school picnic, she and her friends climbed a high peak. They stayed the night on the mountain with very little food. She loved it! A big dream was born.",
+          "hinglish": "Sirf 12 saal ki umar mein, school picnic par, woh aur unki saheliyan ek oonchi choti par chadh gayi. Bahut kam khaane ke saath raat pahaad par bitaayi. Unhe bahut maza aaya! Ek bada sapna janma."
+        }
+      },
+      {
+        "image": "📚",
+        "text": {
+          "en": "She studied well and earned her degrees, and then trained as a mountaineer. Some people said, 'Climbing is not for girls.' Bachendri kept training, quietly and steadily.",
+          "hinglish": "Unhone achhe se padhaai karke degree li, aur phir parvatarohan ki training li. Kuch log bole, 'Pahaad chadhna ladkiyon ka kaam nahi.' Bachendri chupchaap, lagaataar abhyaas karti rahi."
+        }
+      },
+      {
+        "image": "❄️",
+        "text": {
+          "en": "In 1984 she joined the Indian Everest team. On the way, there was an avalanche near their camp, but Bachendri stayed calm, helped her teammates, and decided to keep going.",
+          "hinglish": "1984 mein woh Bharat ki Everest team mein shaamil hui. Raaste mein unke camp ke paas barf ka toofaan aaya, par Bachendri shaant rahi, saathiyon ki madad ki, aur aage badhne ka faisla kiya."
+        }
+      },
+      {
+        "image": "🇮🇳",
+        "text": {
+          "en": "On 23 May 1984, Bachendri Pal stood on top of Mount Everest, the first Indian woman ever to do so! She later trained many other girls to climb their own mountains.",
+          "hinglish": "23 May 1984 ko Bachendri Pal Mount Everest ki choti par khadi thi, aisa karne wali pehli Bharatiya mahila! Baad mein unhone kai ladkiyon ko apne pahaad chadhna sikhaaya."
+        },
+        "say": {
+          "en": "Little one, no mountain is too high for a brave heart.",
+          "hinglish": "Mere chhote, himmat wale dil ke liye koi pahaad ooncha nahi."
+        }
+      }
+    ],
+    "moral": {
+      "en": "With steady steps and courage, we can reach the highest peaks.",
+      "hinglish": "Lagaataar kadam aur himmat se sabse oonchi choti tak pahunch sakte hain."
+    },
+    "reflection": {
+      "en": "What 'mountain' in your life have you already climbed?",
+      "hinglish": "Aapne zindagi ka kaun sa 'pahaad' pehle hi chadh liya hai?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Bachendri Pal is from Uttarakhand.",
+          "hinglish": "Bachendri Pal Uttarakhand se hain."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "She was the first Indian woman to climb Everest.",
+          "hinglish": "Woh Everest chadhne wali pehli Bharatiya mahila thi."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "She climbed Everest in 2004.",
+          "hinglish": "Unhone 2004 mein Everest chadha."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["EVEREST", "PEAK", "BRAVE"]
+  },
+  {
+    "id": "kurien",
+    "emoji": "🥛",
+    "title": {
+      "en": "Dr. Kurien, the Milkman of India",
+      "hinglish": "Dr. Kurien, Bharat ke doodhwale"
+    },
+    "cards": [
+      {
+        "image": "🚂",
+        "text": {
+          "en": "Verghese Kurien was born in 1921 in Kozhikode, Kerala. He studied engineering, and in 1949 he was sent to a small town called Anand in Gujarat. He did not plan to stay long!",
+          "hinglish": "Verghese Kurien ka janm 1921 mein Kozhikode, Kerala mein hua. Unhone engineering padhi, aur 1949 mein unhe Gujarat ke chhote shehar Anand bheja gaya. Unka wahan zyada din rukne ka iraada nahi tha!"
+        }
+      },
+      {
+        "image": "🐃",
+        "text": {
+          "en": "In Anand he met farmers who worked hard caring for their cows and buffaloes, but middlemen paid them very little for their milk. The farmers, led by Tribhuvandas Patel, had formed a cooperative to help themselves.",
+          "hinglish": "Anand mein unhe aise kisaan mile jo gaay-bhainson ki mehnat se dekhbhaal karte, par bichauliye unhe doodh ke bahut kam daam dete. Kisaanon ne Tribhuvandas Patel ki agvaayi mein apni madad ke liye sahkaari sangh banaaya tha."
+        }
+      },
+      {
+        "image": "🤝",
+        "text": {
+          "en": "Dr. Kurien decided to stay and help. Together they built Amul, where every farmer, even with just one buffalo, was an owner. Small cans of milk, joined together, became a river of milk!",
+          "hinglish": "Dr. Kurien ne rukkar madad karne ka faisla kiya. Saath milkar unhone Amul banaaya, jahan har kisaan, ek bhains wala bhi, maalik tha. Doodh ke chhote dibbe mile to doodh ki nadi ban gayi!"
+        }
+      },
+      {
+        "image": "🌊",
+        "text": {
+          "en": "Later he led 'Operation Flood', which spread this idea across India. India became the largest milk producer in the world! Many families in villages, including in Haryana, earned a better living.",
+          "hinglish": "Baad mein unhone 'Operation Flood' chalaaya, jisne yeh soch poore Bharat mein phailaayi. Bharat duniya ka sabse bada doodh utpaadak ban gaya! Haryana samet gaon-gaon ke parivaaron ki kamaai badhi."
+        }
+      },
+      {
+        "image": "😄",
+        "text": {
+          "en": "Here is a funny secret: Dr. Kurien himself did not like drinking milk! But he loved the farmers. His birthday, 26 November, is celebrated as National Milk Day.",
+          "hinglish": "Ek mazedaar raaz: Dr. Kurien ko khud doodh peena pasand nahi tha! Par unhe kisaanon se pyaar tha. Unka janmdin, 26 November, Rashtriya Dugdh Diwas ke roop mein manaaya jaata hai."
+        },
+        "say": {
+          "en": "Little one, when we work together, small efforts become a river.",
+          "hinglish": "Mere chhote, saath milkar kaam karein to chhoti koshish nadi ban jaati hai."
+        }
+      }
+    ],
+    "moral": {
+      "en": "Working together, small efforts can change a whole country.",
+      "hinglish": "Saath milkar chhoti koshishein poora desh badal sakti hain."
+    },
+    "reflection": {
+      "en": "What is something your village or family does together?",
+      "hinglish": "Aapka gaon ya parivaar milkar kya karta hai?"
+    },
+    "audio": {},
+    "quiz": [
+      {
+        "q": {
+          "en": "Dr. Kurien helped build Amul in Anand.",
+          "hinglish": "Dr. Kurien ne Anand mein Amul banaane mein madad ki."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "India became the largest milk producer in the world.",
+          "hinglish": "Bharat duniya ka sabse bada doodh utpaadak bana."
+        },
+        "answer": true
+      },
+      {
+        "q": {
+          "en": "Dr. Kurien loved drinking milk every day.",
+          "hinglish": "Dr. Kurien ko roz doodh peena bahut pasand tha."
+        },
+        "answer": false
+      }
+    ],
+    "words": ["MILK", "AMUL", "FARMER"]
   }
 ]

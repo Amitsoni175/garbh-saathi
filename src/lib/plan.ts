@@ -22,6 +22,8 @@ export const GAME_IDS = [
   'rangoli',
   'sanjhi',
   'shlokaFill',
+  'sargam',
+  'shabdKhoj',
 ] as const;
 export type GameId = (typeof GAME_IDS)[number];
 

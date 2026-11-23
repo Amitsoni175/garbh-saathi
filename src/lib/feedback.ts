@@ -86,3 +86,39 @@ export function bell(): void {
     // stay quiet
   }
 }
+
+/**
+ * One soft note (used by Sargam Echo). It is the game itself, so it plays even
+ * when the "sounds" setting is off; the game lights up too, so it works muted.
+ */
+export function playNote(freq: number, seconds = 0.6): void {
+  try {
+    const AC =
+      window.AudioContext ??
+      (window as unknown as { webkitAudioContext?: typeof AudioContext }).webkitAudioContext;
+    if (!AC) return;
+    ctx ??= new AC();
+    if (ctx.state === 'suspended') void ctx.resume().catch(() => undefined);
+    const now = ctx.currentTime;
+    // A warm, reed-like tone: a sine with a quieter octave above.
+    [
+      [freq, 0.12],
+      [freq * 2, 0.03],
+    ].forEach(([f, peak]) => {
+      if (!ctx || f === undefined || peak === undefined) return;
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.type = 'sine';
+      osc.frequency.value = f;
+      gain.gain.setValueAtTime(0.0001, now);
+      gain.gain.exponentialRampToValueAtTime(peak, now + 0.03);
+      gain.gain.setValueAtTime(peak, now + seconds * 0.6);
+      gain.gain.exponentialRampToValueAtTime(0.0001, now + seconds);
+      osc.connect(gain).connect(ctx.destination);
+      osc.start(now);
+      osc.stop(now + seconds + 0.05);
+    });
+  } catch {
+    // no audio: the lights still show the tune
+  }
+}

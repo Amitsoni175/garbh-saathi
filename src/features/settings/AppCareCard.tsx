@@ -1,6 +1,7 @@
 import { useState, useSyncExternalStore } from 'react';
+import { useSettings } from '@/app/settings';
 import { useT } from '@/app/useT';
-import { BottomSheet, Button, Card, useToast } from '@/components/ui';
+import { BottomSheet, Button, Card, Toggle, useToast } from '@/components/ui';
 import { isIos, isStandalone } from '@/lib/notify';
 import {
   canPromptInstall,
@@ -15,6 +16,7 @@ export function AppCareCard({ index = 0 }: { index?: number }) {
   const t = useT();
   const toast = useToast();
   const canInstall = useSyncExternalStore(subscribeInstall, canPromptInstall, () => false);
+  const { settings, update } = useSettings();
   const [confirmFix, setConfirmFix] = useState(false);
   const installed = isStandalone();
 
@@ -46,7 +48,13 @@ export function AppCareCard({ index = 0 }: { index?: number }) {
           )}
         </div>
       )}
-      <div className="flex flex-wrap gap-2">
+      <Toggle
+        label={t('update.auto')}
+        hint={t('update.autoHint')}
+        checked={settings.autoRefresh}
+        onChange={(autoRefresh) => update({ autoRefresh })}
+      />
+      <div className="mt-2 flex flex-wrap gap-2">
         <Button variant="secondary" onClick={() => void refresh()}>
           🔄 {t('update.check')}
         </Button>

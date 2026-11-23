@@ -1,5 +1,41 @@
 # Changelog
 
+## 1.1.0 · More stories, more play, 5-minute calm, auto refresh (2026-11-23)
+
+- **50 new stories (62 in total)**, so about two months pass before a story repeats.
+  - First batch of 30: Ramayana and Mahabharata, the Puranas, Panchatantra and Jataka, Birbal and
+    Tenali, and inspiring Indians (Kalam, Savitribai Phule, Neeraj Chopra, Mary Kom, Sakshi Malik,
+    Sardar Patel).
+  - New batch of 20: Kevat, Yashoda sees the universe, Daanveer Karna, Valmiki, the Akshaya Patra,
+    Ganesha writes the Mahabharata, Lav-Kush, Satyakam, the elephants and the mice, the dreamer and
+    the pot of flour, the doves who flew together, Birbal's line, Birbal and the well, the sparrow and
+    the grain of dal, the wise old swan, C. V. Raman, Ramanujan, Saina Nehwal (Hisar), Bachendri Pal
+    and Dr. Kurien.
+  - 20 new riddles (36 in total) and 10 new number patterns (28 in total).
+- **More interactive stories**:
+  - Tap the picture on any card to make it wiggle and sparkle.
+  - React to each card with 💛 😊 😮 🙏 (little floating emoji).
+  - "I said it to baby" on each say-line, which answers with floating hearts.
+  - A **Quick check** card after the lesson: one true/false question with a gentle answer.
+- **Two new games (13 in total)**:
+  - **Sargam Echo**: the flowers sing a short tune on Sa Re Ga Ma Pa, and she plays it back. The
+    tunes grow from 2 to 5 notes; a slip simply replays the tune.
+  - **Shabd Khoj**: a 6×6 word search in five themes (family, baby things, sky and earth, village
+    life, good feelings), in English or Hinglish. Tap a word's first and last letter.
+- **5-minute calm**: a guided breathing session in five parts:
+  1. settle
+  2. belly breathing (4 in, 4 out)
+  3. long out-breath (4 in, 6 out)
+  4. gentle Bhramari hum
+  5. a hug for baby
+  - It never asks her to hold her breath, and carries a doctor note.
+  - Optional voice guide and a soft bell between parts; the screen stays awake where supported.
+  - Open it from Today, Music and Wellness.
+- **Auto refresh every 6 hours** (on by default, Me → App care):
+  - The app checks for a new version and recomputes today.
+  - A new version is applied only at a quiet moment: in the background, or on Today with nothing
+    playing. Never mid-story.
+
 ## 1.0.0 · Phase 9: PWA, backup, polish, deploy (2026-11-15)
 
 - **Offline and installable** (vite-plugin-pwa / Workbox):
