@@ -80,6 +80,10 @@ export interface BabySize {
 export interface Prompt {
   id: string;
   text: L10n;
+  /** Optional emoji shown with the prompt. */
+  emoji?: string;
+  /** Optional example words she can say (talk-to-baby prompts). */
+  say?: L10n;
 }
 
 export interface Prompts {
@@ -348,7 +352,12 @@ const checkBabySize: Check = (b) =>
   );
 
 const checkPrompt: Check = (p) =>
-  firstError(need(isStr(p.id), 'missing id'), need(isL10n(p.text), 'text needs {en, hinglish}'));
+  firstError(
+    need(isStr(p.id), 'missing id'),
+    need(isL10n(p.text), 'text needs {en, hinglish}'),
+    need(p.say === undefined || isL10n(p.say), 'say needs {en, hinglish}'),
+    need(p.emoji === undefined || isStr(p.emoji), 'emoji must be text'),
+  );
 
 const checkRaga: Check = (r) =>
   firstError(

@@ -42,8 +42,17 @@ export default function TalkScreen() {
         <Card tone="primary">
           <p className="text-sm font-semibold">{t('talk.promptOfDay')}</p>
           <p className="mt-2 text-xl leading-snug font-bold">
-            💌 {prompt ? tx(prompt.text, settings.textLang) : ''}
+            {prompt?.emoji ?? '💌'} {prompt ? tx(prompt.text, settings.textLang) : ''}
           </p>
+          {prompt?.say && (
+            <div className="rounded-soft bg-surface/80 mt-3 p-3">
+              <p className="text-sm font-semibold">🗣️ {t('talk.youCouldSay')}</p>
+              <p className="mt-1 italic">“{tx(prompt.say, settings.textLang)}”</p>
+              {tx(prompt.say, settings.textLang).includes('___') && (
+                <p className="text-text-muted mt-1 text-xs">{t('talk.fillBlank')}</p>
+              )}
+            </div>
+          )}
           <Button variant="ghost" className="mt-2 -ml-3" onClick={() => setShift((s) => s + 1)}>
             🔄 {t('talk.another')}
           </Button>

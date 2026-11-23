@@ -1,7 +1,7 @@
 {
   "name": "garbh-saathi",
   "private": true,
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "A calm, private, offline-first pregnancy companion for one family in Haryana.",
   "type": "module",
   "scripts": {

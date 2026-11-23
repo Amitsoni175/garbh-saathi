@@ -3,16 +3,16 @@
   "days": {
     "140": {
       "gameType": "babySize",
-      "promptId": "t-hands"
+      "promptId": "tb-body"
     },
     "196": {
       "storyId": "kalpana",
-      "promptId": "t-stars"
+      "promptId": "tb-night-sky"
     },
     "259": {
       "storyId": "krishna-makhan",
       "gameType": "memory",
-      "promptId": "t-welcome"
+      "promptId": "tb-meet-soon"
     }
   }
 }

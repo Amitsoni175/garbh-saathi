@@ -204,6 +204,14 @@ export const todayStrings = {
   },
   'talk.record': { en: 'Record it (optional)', hinglish: 'Record kijiye (zaroori nahi)' },
   'talk.done': { en: 'I talked to baby 💛', hinglish: 'Maine baby se baat ki 💛' },
+  'talk.youCouldSay': {
+    en: 'You could say (or use your own words):',
+    hinglish: 'Aap aise keh sakti hain (ya apne shabdon mein):',
+  },
+  'talk.fillBlank': {
+    en: 'Fill the ___ with your own words.',
+    hinglish: '___ ki jagah apne shabd boliye.',
+  },
   'talk.another': { en: 'Another idea', hinglish: 'Doosra idea' },
   'talk.saved': {
     en: 'Saved to your letters 💌',

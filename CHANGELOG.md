@@ -1,5 +1,17 @@
 # Changelog
 
+## 1.3.0 · New talk-to-baby prompts (2026-11-23)
+
+- **All 30 talk-to-baby prompts replaced** after feedback that they felt repetitive (most began
+  "Tell your baby about…").
+  - The new ones are varied: good-morning chats, describing the smell of chai, introducing a family
+    member, counting taps, humming, a "window radio show", answering kicks, a recipe, a childhood
+    game, three thanks, a word of the day, Papa's voice, a walk of sounds, crops and animals, a tiny
+    story with baby as the hero, Chanda Mama, the night sky, and the first minute you'll meet.
+  - Each prompt now has its own emoji and a **"You could say…"** example line in English and
+    Hinglish. Blanks (___) invite her own words.
+  - A test keeps them varied and checks every prompt has an example line.
+
 ## 1.2.0 · Thought of the Day (2026-11-23)
 
 - **Thought of the Day / आज का विचार**: a new, hope-giving thought every day, shown in **English and
