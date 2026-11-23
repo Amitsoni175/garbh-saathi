@@ -51,7 +51,8 @@ must be carried over by hand:
 - [ ] Open Graph / WhatsApp preview image and text.
 - [ ] Structured data (`WebApplication`, free, Health & Lifestyle).
 - [ ] `robots.txt` and `sitemap.xml`.
-- [ ] About and Privacy pages (who made it, why, no data collected).
+- [ ] About and Privacy pages (who made it, why, no data collected). Use the text in
+      [OUR_STORY.md](OUR_STORY.md) for "Our story" in the app (Me → About) and on the website.
 - [ ] Google Search Console and Bing Webmaster Tools: verify the domain, submit the sitemap.
 
 ## Step 5 · Content website (the main ranking driver)
