@@ -43,7 +43,8 @@ export type CompletionKind =
   | 'breathe'
   | 'song'
   | 'papa'
-  | 'yoga';
+  | 'yoga'
+  | 'thought';
 
 export interface CompletionRow {
   id?: number;

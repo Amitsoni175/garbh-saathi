@@ -31,7 +31,11 @@ test('onboarding → correct week → story → game → garden grows → data s
   await page.getByLabel('Your name').fill('Sukanya');
   await page.getByRole('button', { name: /Start my journey/ }).click();
 
-  // 2. Home shows the correct week
+  // 2. The Thought of the Day opens by itself on the first visit of the day
+  await expect(page.getByText(/Recite it softly to baby/i)).toBeVisible();
+  await page.getByRole('button', { name: /Begin my day/ }).click();
+
+  // Home shows the correct week
   await expect(page.getByText('Week 23 · Day 6')).toBeVisible();
   await expect(page.getByText(/0 flowers so far/)).toBeVisible();
 

@@ -63,6 +63,24 @@ export const todayStrings = {
   'today.refreshing': { en: 'Refreshing…', hinglish: 'Taaza ho raha hai…' },
   'today.pullHint': { en: 'Release to refresh', hinglish: 'Chhodiye, taaza hoga' },
 
+  // Thought of the Day
+  'thought.title': { en: 'Thought of the Day', hinglish: 'Aaj ka Vichaar' },
+  'thought.recite': {
+    en: 'Now recite it softly to baby, hand on your belly',
+    hinglish: 'Ab pet par haath rakhkar baby ko dheere se sunaaiye',
+  },
+  'thought.iSaid': { en: 'I recited it to baby', hinglish: 'Maine baby ko sunaaya' },
+  'thought.said': { en: 'Baby heard it today', hinglish: 'Baby ne aaj sun liya' },
+  'thought.done': {
+    en: 'A beautiful thought for both of you 💛',
+    hinglish: 'Aap dono ke liye ek sundar vichaar 💛',
+  },
+  'thought.tapToRecite': {
+    en: 'Tap to read and recite',
+    hinglish: 'Padhne aur sunaane ke liye dabaaiye',
+  },
+  'thought.start': { en: 'Begin my day 🌸', hinglish: 'Mera din shuru karein 🌸' },
+
   // Baby size
   'size.title': {
     en: 'This week, baby is about the size of',

@@ -22,6 +22,7 @@ import { JourneyPath, type Stone } from './JourneyPath';
 import { PullToRefresh } from './PullToRefresh';
 import { SeasonTipCard } from './SeasonTipCard';
 import { StageCard } from './StageCard';
+import { ThoughtOfDay } from './ThoughtOfDay';
 import { TodayHeader } from './TodayHeader';
 
 const JOURNEY_KINDS = ['shloka', 'story', 'game', 'raga', 'talk'] as const;
@@ -84,6 +85,7 @@ export default function TodayScreen() {
         <div className="flex flex-col gap-4 px-4">
           <StageCard state={state} />
           <FestivalBanner />
+          <ThoughtOfDay />
           <BackupReminder nowMs={getNow().getTime()} />
           <LowMoodCard />
           <CareRow />

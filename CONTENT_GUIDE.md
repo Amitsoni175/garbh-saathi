@@ -45,6 +45,14 @@ Example `say` lines:
   pot, the sparrow and the fire).
 - Journal prompts are open and kind. Never "you should…".
 
+## Thoughts of the Day
+
+- `src/content/thoughts.json`: `id`, `emoji`, `source`, `text` and `say`, each with `en` and `hi`
+  (Devanagari), plus an optional `original` (the verse in its own words).
+- Only use quotes you can check, and name the exact source (chapter and verse, or book). Leave out
+  sayings that are only attributed to someone on the internet.
+- The `say` line is short and loving, something she can recite to baby.
+
 ## Health and wellness tips
 
 - Use `"caution": true` for things to limit (ghee, sweets, chai with meals), and `"askDoctor": true`

@@ -1,5 +1,21 @@
 # Changelog
 
+## 1.2.0 · Thought of the Day (2026-11-23)
+
+- **Thought of the Day / आज का विचार**: a new, hope-giving thought every day, shown in **English and
+  Hindi (Devanagari)**, with the original words where there are any (Sanskrit, Tulsidas, Gurbani,
+  Kabir).
+  - 57 thoughts from the Bhagavad Gita, the Ramayana and Ramcharitmanas, the Mahabharata and the
+    Upanishads, the Bible, Gurbani and the Ardas, Socrates, Lao Tzu, Aristotle, Roy T. Bennett,
+    The Alchemist, Tagore, Vivekananda, Kabir, Kalam, Gandhi, the Buddha, Helen Keller and Mother
+    Teresa. The sources alternate so consecutive days feel different.
+  - It opens by itself the **first time she opens the app each day**, and stays as a card on Today.
+  - Every thought ends with a line to **recite to baby** in both languages. "I recited it to baby"
+    adds a flower (once a day).
+  - She can listen in Hindi or English with the phone voice.
+  - Content lives in `src/content/thoughts.json` and is checked by tests (both languages, a baby line,
+    real Devanagari, no banned words).
+
 ## 1.1.0 · More stories, more play, 5-minute calm, auto refresh (2026-11-23)
 
 - **50 new stories (62 in total)**, so about two months pass before a story repeats.
