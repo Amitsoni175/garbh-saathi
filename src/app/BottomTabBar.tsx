@@ -15,7 +15,7 @@ export function BottomTabBar() {
   return (
     <nav
       aria-label={t('tab.navLabel')}
-      className="bg-surface/95 fixed inset-x-0 bottom-0 z-30 pb-[env(safe-area-inset-bottom)] shadow-[0_-8px_24px_rgba(90,74,94,0.08)] backdrop-blur"
+      className="bg-surface/95 fixed inset-x-0 bottom-0 z-30 pb-[var(--gs-bottom-inset)] shadow-[0_-8px_24px_rgba(90,74,94,0.08)] backdrop-blur"
     >
       <ul className="mx-auto grid max-w-md grid-cols-4">
         {tabs.map((tab) => (

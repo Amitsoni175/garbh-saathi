@@ -58,7 +58,7 @@ export default function OnboardingScreen() {
   const eddText = result?.ok ? format(parseLocalDate(result.edd) ?? today, 'd MMMM yyyy') : '';
 
   return (
-    <main className="mx-auto flex min-h-dvh max-w-md flex-col px-5 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,env(safe-area-inset-bottom))]">
+    <main className="mx-auto flex min-h-dvh max-w-md flex-col px-5 pt-[max(1.5rem,env(safe-area-inset-top))] pb-[max(1.5rem,var(--gs-bottom-inset))]">
       <div className="mb-4 flex items-center justify-between">
         <div className="flex gap-2" aria-label={t('onb.stepOf', { step: step + 1 })} role="img">
           {[0, 1, 2].map((i) => (

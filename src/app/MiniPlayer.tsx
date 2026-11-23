@@ -35,7 +35,7 @@ export function MiniPlayer() {
             animate={{ y: 0, opacity: 1 }}
             exit={{ y: 40, opacity: 0 }}
             transition={{ duration: 0.3 }}
-            className="fixed inset-x-0 bottom-[calc(4.25rem+env(safe-area-inset-bottom))] z-30 flex justify-center px-3"
+            className="fixed inset-x-0 bottom-[calc(4.25rem+var(--gs-bottom-inset))] z-30 flex justify-center px-3"
           >
             <div className="rounded-soft bg-secondary text-on-fill shadow-soft flex w-full max-w-md items-center gap-2 px-3 py-2">
               <button

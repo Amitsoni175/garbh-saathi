@@ -17,6 +17,9 @@
  * --on-fill is the text colour used on pastel fills (buttons, chips).
  */
 :root {
+  /* Space kept free at the bottom of the screen: the phone's home bar, plus room
+     for the "Powered by Netlify" badge when the app is served from netlify.app. */
+  --gs-bottom-inset: env(safe-area-inset-bottom, 0px);
   --gs-background: #fff8f3;
   --gs-surface: #ffffff;
   --gs-primary: #f4c2c2;
@@ -160,4 +163,10 @@ body {
   .keepsake {
     font-size: 12pt;
   }
+}
+
+/* The free Netlify plan shows a badge in the bottom-right corner. Lift the tab
+   bar and bottom buttons above it so nothing is covered. */
+:root.gs-host-badge {
+  --gs-bottom-inset: calc(env(safe-area-inset-bottom, 0px) + 72px);
 }

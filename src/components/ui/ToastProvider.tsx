@@ -34,7 +34,7 @@ export function ToastProvider({
     <ToastContext.Provider value={show}>
       {children}
       <div
-        className="pointer-events-none fixed inset-x-0 bottom-[calc(5.5rem+env(safe-area-inset-bottom))] z-50 flex justify-center px-4"
+        className="pointer-events-none fixed inset-x-0 bottom-[calc(5.5rem+var(--gs-bottom-inset))] z-50 flex justify-center px-4"
         role="status"
         aria-live="polite"
       >

@@ -53,7 +53,7 @@ export function AppLayout() {
 
   return (
     <>
-      <div className="mx-auto min-h-dvh max-w-md pt-[env(safe-area-inset-top)] pb-[calc(9rem+env(safe-area-inset-bottom))]">
+      <div className="mx-auto min-h-dvh max-w-md pt-[env(safe-area-inset-top)] pb-[calc(9rem+var(--gs-bottom-inset))]">
         <StorageBanner />
         <ErrorBoundary>
           <Outlet />

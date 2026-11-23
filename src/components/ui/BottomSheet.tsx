@@ -49,7 +49,7 @@ export function BottomSheet({ open, onClose, title, closeLabel, children }: Bott
             aria-modal="true"
             aria-labelledby={titleId}
             tabIndex={-1}
-            className="rounded-t-softer bg-surface shadow-soft relative max-h-[85dvh] w-full max-w-md overflow-y-auto px-5 pt-3 pb-[max(1.5rem,env(safe-area-inset-bottom))] outline-none"
+            className="rounded-t-softer bg-surface shadow-soft relative max-h-[85dvh] w-full max-w-md overflow-y-auto px-5 pt-3 pb-[max(1.5rem,var(--gs-bottom-inset))] outline-none"
             initial={{ y: '100%' }}
             animate={{ y: 0 }}
             exit={{ y: '100%' }}
