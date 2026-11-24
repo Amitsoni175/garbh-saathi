@@ -1,7 +1,6 @@
 import { useLiveQuery } from 'dexie-react-hooks';
 import { useEffect, useState } from 'react';
 import { useCompleteOnce } from '@/app/useComplete';
-import { useTodayPlan } from '@/app/useTodayPlan';
 import { useT } from '@/app/useT';
 import { BottomSheet, Button, Card } from '@/components/ui';
 import { useFloatBurst } from '@/components/ui/FloatBurst';
@@ -9,7 +8,7 @@ import { speakOnce } from '@/lib/audio';
 import { getTodayISO } from '@/lib/clock';
 import { db, kvGet, kvSet } from '@/lib/db';
 import { chime } from '@/lib/feedback';
-import { THOUGHT_SEEN_KEY, shouldAutoOpen, thoughtForDay, type Thought } from '@/lib/thoughts';
+import { THOUGHT_SEEN_KEY, shouldAutoOpen, thoughtForDate, type Thought } from '@/lib/thoughts';
 
 /** The thought itself: source, original words, English + Hindi, and a line for baby. */
 function ThoughtBody({ thought, today }: { thought: Thought; today: string }) {
@@ -89,9 +88,8 @@ function ThoughtBody({ thought, today }: { thought: Thought; today: string }) {
  */
 export function ThoughtOfDay({ index = 0 }: { index?: number }) {
   const t = useT();
-  const { offset } = useTodayPlan();
   const today = getTodayISO();
-  const thought = thoughtForDay(offset);
+  const thought = thoughtForDate(today);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {

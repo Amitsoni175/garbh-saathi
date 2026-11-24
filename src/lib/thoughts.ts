@@ -57,9 +57,24 @@ export function getThoughts(): Thought[] {
   return list;
 }
 
-/** Day 0 (the day she started) gets thought #1, then one new thought every day. */
+/** Day 0 gets thought #1, then one new thought every day. */
 export function thoughtForDay(offset: number, list = getThoughts()): Thought | undefined {
   return rotate(list, offset);
+}
+
+const EPOCH = Date.UTC(2026, 0, 1);
+
+/**
+ * Days since 1 Jan 2026 for a local 'YYYY-MM-DD' date. The thought follows the calendar,
+ * so it changes every midnight for everyone, even after setting the app up again.
+ */
+export function calendarDayIndex(localISO: string): number {
+  const [y, m, d] = localISO.split('-').map(Number);
+  return Math.round((Date.UTC(y ?? 2026, (m ?? 1) - 1, d ?? 1) - EPOCH) / 86_400_000);
+}
+
+export function thoughtForDate(localISO: string, list = getThoughts()): Thought | undefined {
+  return thoughtForDay(calendarDayIndex(localISO), list);
 }
 
 /** Should the thought open by itself? Only on the first visit of the day. */

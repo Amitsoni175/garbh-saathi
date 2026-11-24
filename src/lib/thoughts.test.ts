@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import raw from '@/content/thoughts.json';
-import { getThoughts, isThought, shouldAutoOpen, thoughtForDay } from './thoughts';
+import {
+  calendarDayIndex,
+  getThoughts,
+  isThought,
+  shouldAutoOpen,
+  thoughtForDate,
+  thoughtForDay,
+} from './thoughts';
 
 describe('thought of the day', () => {
   it('every thought is valid, bilingual and has a line for baby', () => {
@@ -30,5 +37,26 @@ describe('thought of the day', () => {
     const all = JSON.stringify(raw).toLowerCase();
     for (const banned of ['iq', 'putra prapti', 'boy or girl', 'gender'])
       expect(all).not.toContain(banned);
+  });
+});
+
+describe('thought follows the calendar', () => {
+  it('changes every calendar day, the same for everyone on that day', () => {
+    expect(calendarDayIndex('2026-01-01')).toBe(0);
+    expect(calendarDayIndex('2026-11-24')).toBe(327);
+    expect(calendarDayIndex('2027-01-01')).toBe(365);
+    expect(thoughtForDate('2026-11-24')?.id).toBe(thoughtForDate('2026-11-24')?.id);
+    const week = [
+      '2026-11-24',
+      '2026-11-25',
+      '2026-11-26',
+      '2026-11-27',
+      '2026-11-28',
+      '2026-11-29',
+      '2026-11-30',
+    ];
+    expect(new Set(week.map((d) => thoughtForDate(d)?.id)).size).toBe(7);
+    // across month and year ends too
+    expect(thoughtForDate('2026-12-31')?.id).not.toBe(thoughtForDate('2027-01-01')?.id);
   });
 });

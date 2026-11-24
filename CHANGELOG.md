@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.4 · Thought of the Day follows the calendar (2026-11-24)
+
+- The Thought of the Day now changes every calendar day at midnight (counted from 1 Jan 2026),
+  instead of counting from the day the app was set up. Setting the app up again on a new address
+  used to restart it at the same first thought (Gita 2.47).
+
 ## 1.5.3 · Website header on the app's home page (2026-11-24)
 
 - The app now has the same top bar as the website: Wombtales logo + Articles · Week by week ·
