@@ -193,6 +193,14 @@ export default function MeScreen() {
           <p className="text-text-muted mt-1 text-sm">{t('settings.privacy')}</p>
           <div className="mt-2 flex flex-wrap gap-x-4">
             <a
+              href="./articles/"
+              target="_blank"
+              rel="noopener"
+              className="text-text flex min-h-12 items-center font-semibold underline"
+            >
+              📚 {t('settings.articles')}
+            </a>
+            <a
               href="./about/"
               target="_blank"
               rel="noopener"

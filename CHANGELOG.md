@@ -1,5 +1,29 @@
 # Changelog
 
+## 1.5.0 · The Wombtales website: articles on schedule, week by week, stories (2026-11-24)
+
+- **Articles publish by themselves, two a day, at 9:30 AM and 6:30 PM IST.**
+  - All written articles are deployed in advance. A Netlify edge function (`site/gate.mjs`) shows
+    each one only after its publish time. Until then its address returns "Coming soon" (404).
+  - The article list, `sitemap.xml`, `feed.xml` (RSS) and `llms.txt` are built live, so they only
+    ever include published articles.
+  - Order and times come from `docs/articles/schedule.json` (first slot: 24 Nov 2026, 6:30 PM).
+    New `day-NNx` files simply take the next free slots.
+- **Every article and guide page carries a disclaimer**: general information only, not medical
+  advice, consult your doctor, and in an emergency call 108/102.
+- **SEO and AI-friendly pages**: clean titles and descriptions, canonical links, Article /
+  BreadcrumbList / CollectionPage structured data, "In this article" summaries, RSS, and `llms.txt`
+  for AI assistants.
+- **New pages built from the app's content** (`site/build.mjs`, runs after the app build):
+  37 week-by-week pages (`/pregnancy-week/4/` to `/40/`), 62 story pages (`/stories/<id>/`), a
+  Thoughts page, About and Privacy.
+- **Interactive and smooth**: English/हिंदी (or Hinglish) switch that remembers your choice, live
+  search on list pages, reading progress bar, Share / WhatsApp / Copy link, cards that float in,
+  dark mode, and a sticky menu.
+- **Privacy page** now explains HIPAA (USA) and India's DPDP Act 2023: Wombtales collects no personal
+  or health data at all.
+- **App**: a "Today's reading" card on Today, and Articles / Our story / Privacy links in Me → About.
+
 ## 1.4.0 · Garbh Saathi is now Wombtales (2026-11-24)
 
 - **New name: Wombtales**, everywhere she sees it: home-screen name, welcome screen, notifications,

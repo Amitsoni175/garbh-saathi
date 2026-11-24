@@ -5,6 +5,8 @@ It offers daily stories (Vedic, Puranic, Mahabharata and true stories), ragas, m
 geet, small puzzle games and gentle wellness habits. Everything is about **bonding, calm and joy for
 the mother**. It makes **no IQ claims** and does **no gender prediction**.
 
+**Website and articles:** see [Website and publishing](#website-and-publishing) below.
+
 **Live:** https://wombtales.in (also https://garbh-saathi.netlify.app and the GitHub Pages copy). Each
 address keeps its own data on the phone, so pick one to install.
 
@@ -428,3 +430,20 @@ Coding rules worth knowing:
 | "Add an audio file" note on a raga   | The MP3 isn't there or is misnamed          | Check the [audio file names](#how-to-add-audio-files), rebuild, redeploy     |
 | Microphone doesn't record            | Permission blocked                          | Browser site settings (lock icon) → Microphone → Allow                       |
 | Changes don't appear after deploying | The phone still has the old version         | Wait for "A new version is ready", or Me → Refresh app                       |
+
+## Website and publishing
+
+`npm run build` builds the app, then `site/build.mjs` builds the website pages into `dist/`:
+articles, week by week, stories, thoughts, About and Privacy.
+
+- **Articles** live in `docs/articles/day-NN{a,b}-slug.md` (front matter, English, `---`, Hindi). They
+  publish in order at **9:30 AM and 6:30 PM IST**, from the start slot in
+  `docs/articles/schedule.json`. To add more, write the next day's two files; they get the next free
+  slots. Never change the start slot, or published dates shift.
+- **Publishing gate**: `netlify/edge-functions/site-gate.mjs` → `site/gate.mjs`. Unpublished
+  articles return "Coming soon"; `/articles/`, `/sitemap.xml`, `/feed.xml` and `/llms.txt` are
+  generated per request from `site/.generated/data.mjs`.
+- Article pages are only built on Netlify (or with `BUILD_ARTICLES=1`), so the GitHub Pages copy
+  never shows unpublished articles.
+- Every page shows the medical disclaimer (`site/templates.mjs` → `DISCLAIMER`).
+- Tests: `site/site.test.mjs` (schedule, gate, sitemap, article completeness).

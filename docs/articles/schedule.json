@@ -1,0 +1,5 @@
+{
+  "_note": "Articles publish in order (day, then slot A/B) at 09:30 and 18:30 IST, starting from this slot. startSlot 0 = 09:30, 1 = 18:30. Add new articles as new day-NNx files; they take the next free slots automatically.",
+  "startDate": "2026-11-24",
+  "startSlot": 1
+}

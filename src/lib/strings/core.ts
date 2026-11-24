@@ -47,6 +47,7 @@ export const coreStrings = {
     en: '{count} more taps for the debug panel',
     hinglish: 'Debug panel ke liye {count} baar aur dabayein',
   },
+  'settings.articles': { en: 'Articles', hinglish: 'Lekh' },
   'settings.ourStory': { en: 'Our story', hinglish: 'Hamaari kahani' },
   'settings.privacyPage': { en: 'Privacy', hinglish: 'Niji jaankari' },
   'settings.privacy': {

@@ -130,6 +130,20 @@ export default function TodayScreen() {
           </Card>
           <BabySizeCard week={state.contentWeek} index={1} />
           <SeasonTipCard dayNumber={dayNumber} index={2} />
+          <a
+            href="./articles/"
+            target="_blank"
+            rel="noopener"
+            className="rounded-softer bg-surface shadow-soft flex min-h-12 items-center gap-3 p-4"
+          >
+            <span className="text-3xl" aria-hidden="true">
+              📚
+            </span>
+            <span>
+              <span className="block font-bold">{t('reading.title')}</span>
+              <span className="text-text-muted block text-sm">{t('reading.text')}</span>
+            </span>
+          </a>
 
           <section
             aria-label={t('garden.title')}

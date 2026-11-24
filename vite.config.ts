@@ -42,10 +42,13 @@ export default defineConfig({
       workbox: {
         // App shell + all code chunks + woff2 fonts work offline. (The older .woff copies are skipped.)
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,webmanifest}'],
-        globIgnores: ['**/og-image.png'],
+        globIgnores: ['**/og-image.png', 'site.css', 'site.js'],
         navigateFallback: 'index.html',
         // Real pages (About, Privacy, articles) and search files must not be swapped for the app.
-        navigateFallbackDenylist: [/^\/(about|privacy|articles)(\/|$)/, /\.(xml|txt)$/],
+        navigateFallbackDenylist: [
+          /^\/(about|privacy|articles|pregnancy-week|stories|thoughts)(\/|$)/,
+          /\.(xml|txt)$/,
+        ],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {
@@ -79,7 +82,7 @@ export default defineConfig({
     globals: true,
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
-    include: ['src/**/*.test.{ts,tsx}'],
+    include: ['src/**/*.test.{ts,tsx}', 'site/**/*.test.mjs'],
     alias: {
       'virtual:pwa-register/react': fileURLToPath(
         new URL('./src/test/pwaRegisterStub.ts', import.meta.url),

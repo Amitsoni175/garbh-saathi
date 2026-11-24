@@ -61,14 +61,18 @@ must be carried over by hand:
 
 ## Step 5 · Content website (the main ranking driver)
 
+Done in 1.5.0: site generator, publishing gate (2 a day, 9:30 and 18:30 IST), 37 week pages, 62
+story pages, thoughts, articles list, RSS, llms.txt. A weekly scheduled task writes the next
+articles so the queue never runs out.
+
 Static, readable HTML pages built from the app's existing content (outside the `#/` app routes):
 
-- [ ] 40 week-by-week pages ("Pregnancy week 24 in Hindi: baby size, tips, a shloka").
-- [ ] 62 story pages ("Abhimanyu story for Garbh Sanskar, Hindi/English").
+- [x] 40 week-by-week pages ("Pregnancy week 24 in Hindi: baby size, tips, a shloka").
+- [x] 62 story pages ("Abhimanyu story for Garbh Sanskar, Hindi/English").
 - [ ] 57 Thought of the Day pages ("Gita quotes for pregnancy in Hindi").
 - [ ] Haryana pages: Teej, Sanjhi, Godh Bharai, lok geet.
 - [ ] Blog: 2–3 new articles a week afterwards.
-- [ ] Every page links into the app ("Listen to this story in Wombtales").
+- [x] Every page links into the app ("Listen to this story in Wombtales").
 
 Target long phrases first: garbh sanskar stories in hindi, garbh sanskar app free, pregnancy
 shlokas with meaning, abhimanyu story garbh sanskar, haryanvi lok geet pregnancy, pregnancy week by

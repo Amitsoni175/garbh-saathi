@@ -81,6 +81,13 @@ export const todayStrings = {
   },
   'thought.start': { en: 'Begin my day 🌸', hinglish: 'Mera din shuru karein 🌸' },
 
+  // Today's reading (website articles)
+  'reading.title': { en: 'Today’s reading', hinglish: 'Aaj ka lekh' },
+  'reading.text': {
+    en: 'New calm articles every day at 9:30 AM and 6:30 PM, in English and Hindi',
+    hinglish: 'Roz subah 9:30 aur shaam 6:30 baje naye lekh, English aur Hindi mein',
+  },
+
   // Baby size
   'size.title': {
     en: 'This week, baby is about the size of',
