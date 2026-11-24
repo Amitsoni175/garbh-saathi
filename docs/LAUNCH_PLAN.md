@@ -57,13 +57,15 @@ must be carried over by hand:
       [OUR_STORY.md](OUR_STORY.md) for "Our story" in the app (Me → About) and on the website.
 - [x] Google Search Console: Domain property verified by TXT record in Netlify DNS (keep it);
       sitemap submitted; `/`, `/about/`, `/privacy/` requested for indexing (2026-11-24).
-- [ ] Bing Webmaster Tools: import from Google Search Console.
+- [x] Bing Webmaster Tools: imported from Google Search Console (owner).
+- [x] IndexNow key at `/83b86afeb1f24081899db0f6f0a77423.txt`; `node site/indexnow.mjs` pings new pages.
 
 ## Step 5 · Content website (the main ranking driver)
 
 Done in 1.5.0: site generator, publishing gate (2 a day, 9:30 and 18:30 IST), 37 week pages, 62
-story pages, thoughts, articles list, RSS, llms.txt. A weekly scheduled task writes the next
-articles so the queue never runs out.
+story pages, thoughts, articles list, RSS, llms.txt. A daily scheduled task (14:17 IST) writes two new articles from
+[SEO_KEYWORDS.md](SEO_KEYWORDS.md), deploys them and pings IndexNow (Bing, Yandex and others).
+Articles carry FAQ structured data; robots.txt welcomes AI crawlers.
 
 Static, readable HTML pages built from the app's existing content (outside the `#/` app routes):
 
