@@ -7,6 +7,7 @@ import { HindiVoiceNotice, MiniPlayer } from './MiniPlayer';
 import { ReminderScheduler } from './ReminderScheduler';
 import { useProfile } from './profile';
 import { useSettings } from './settings';
+import { TopBar } from './TopBar';
 import { useT } from './useT';
 
 function StorageBanner() {
@@ -53,7 +54,11 @@ export function AppLayout() {
 
   return (
     <>
-      <div className="mx-auto min-h-dvh max-w-md pt-[env(safe-area-inset-top)] pb-[calc(9rem+var(--gs-bottom-inset))]">
+      {/* Website menu: on the home screen everywhere, on every screen on wider screens. */}
+      <TopBar className={pathname === '/' ? 'flex' : 'hidden sm:flex'} />
+      <div
+        className={`mx-auto min-h-dvh max-w-md pb-[calc(9rem+var(--gs-bottom-inset))] ${pathname === '/' ? '' : 'pt-[env(safe-area-inset-top)] sm:pt-0'}`}
+      >
         <StorageBanner />
         <ErrorBoundary>
           <Outlet />

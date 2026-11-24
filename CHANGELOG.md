@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.3 · Website header on the app's home page (2026-11-24)
+
+- The app now has the same top bar as the website: Wombtales logo + Articles · Week by week ·
+  Stories · Thoughts · Our story. On phones it shows on the home screen; on wider screens on every
+  screen. It replaces the row of link buttons on Today.
+
 ## 1.5.2 · Website menu on the main screen (2026-11-24)
 
 - Today now starts with the website menu: Articles · Week by week · Stories · Thoughts · Our story ·

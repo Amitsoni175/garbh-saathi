@@ -47,7 +47,9 @@ describe('App shell', () => {
     armCrash();
     render(<App />);
     expect(await screen.findByRole('alert')).toHaveTextContent(/gadbad|went wrong/);
-    expect(screen.getByRole('navigation')).toBeInTheDocument();
+    expect(
+      screen.getByRole('navigation', { name: /Main sections|Mukhya hisse/ }),
+    ).toBeInTheDocument();
 
     fireEvent.click(screen.getByRole('button', { name: /Phir se|Try again/ }));
     expect(await screen.findByRole('heading', { name: /Debug panel/ })).toBeInTheDocument();
