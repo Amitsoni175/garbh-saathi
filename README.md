@@ -1,11 +1,11 @@
-# Garbh Saathi 🌸
+# Wombtales 🌸 (formerly Garbh Saathi)
 
 A personal, non-commercial pregnancy companion for one expecting mother and her family in Haryana.
 It offers daily stories (Vedic, Puranic, Mahabharata and true stories), ragas, mantras, Haryanvi lok
 geet, small puzzle games and gentle wellness habits. Everything is about **bonding, calm and joy for
 the mother**. It makes **no IQ claims** and does **no gender prediction**.
 
-**Live:** https://garbh-saathi.netlify.app (also https://amitsoni175.github.io/garbh-saathi/). Each
+**Live:** https://wombtales.in (also https://garbh-saathi.netlify.app and the GitHub Pages copy). Each
 address keeps its own data on the phone, so pick one to install.
 
 - **Private:** all data stays on the phone. There is no login, server, analytics or trackers.

@@ -1,5 +1,20 @@
 # Changelog
 
+## 1.4.0 · Garbh Saathi is now Wombtales (2026-11-24)
+
+- **New name: Wombtales**, everywhere she sees it: home-screen name, welcome screen, notifications,
+  calendar, media player, install button, backups (`wombtales-backup-….json`).
+  - Kept on purpose: the phone's storage name (no data lost) and calendar event IDs (no duplicate
+    reminders). Backups made before the rename still restore.
+- **Search basics** for https://wombtales.in:
+  - A real title and description, canonical link, WhatsApp/Facebook preview image (`og-image.png`)
+    and `WebApplication` structured data.
+  - `robots.txt` and `sitemap.xml`.
+  - Plain pages Google can read: **Our story** (`/about/`, English and Hindi) and **Privacy**
+    (`/privacy/`), linked from Me → About. The offline service worker leaves them alone.
+- The bottom bar now moves above the Netlify badge on any address where the badge appears (not
+  only `netlify.app`).
+
 ## 1.3.0 · New talk-to-baby prompts (2026-11-23)
 
 - **All 30 talk-to-baby prompts replaced** after feedback that they felt repetitive (most began

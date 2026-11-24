@@ -36,7 +36,7 @@ export function ReminderScheduler() {
         const text = lbl(r);
         if (document.visibilityState === 'visible') show({ message: text, duration: 8000 });
         else if (s.schedule.notifications)
-          void showNotification('Garbh Saathi', text, `gs-${day}-${r.key}`);
+          void showNotification('Wombtales', text, `gs-${day}-${r.key}`);
       }
     };
     check();

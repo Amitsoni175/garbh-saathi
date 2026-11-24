@@ -1,0 +1,99 @@
+/* Shared style for the plain website pages (About, Privacy). The app has its own styles. */
+:root {
+  --bg: #fff8f3;
+  --surface: #ffffff;
+  --text: #4a3b4e;
+  --muted: #7a6a7e;
+  --primary: #f4c2c2;
+  --accent: #d8ccf0;
+  --link: #8a4a6a;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #1f1a24;
+    --surface: #2a2330;
+    --text: #f3e9f1;
+    --muted: #c3b5c6;
+    --primary: #7a4a5a;
+    --accent: #4a4166;
+    --link: #f4c2c2;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font:
+    18px/1.65 'Nunito',
+    system-ui,
+    -apple-system,
+    'Segoe UI',
+    'Noto Sans Devanagari',
+    sans-serif;
+}
+main {
+  max-width: 42rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem 4rem;
+}
+header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.5rem 0 1.5rem;
+}
+header img {
+  width: 40px;
+  height: 40px;
+}
+header a {
+  color: var(--text);
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-decoration: none;
+}
+h1 {
+  font-size: 1.9rem;
+  line-height: 1.25;
+  margin: 0.5rem 0 1rem;
+}
+h2 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+}
+a {
+  color: var(--link);
+}
+.card {
+  background: var(--surface);
+  border-radius: 1.25rem;
+  padding: 1rem 1.25rem;
+  box-shadow: 0 6px 24px rgba(90, 74, 94, 0.08);
+  margin: 1rem 0;
+}
+.cta {
+  display: inline-block;
+  background: var(--primary);
+  color: #4a3b4e;
+  font-weight: 800;
+  padding: 0.8rem 1.6rem;
+  border-radius: 999px;
+  text-decoration: none;
+  margin: 0.5rem 0;
+}
+.lang {
+  border-top: 1px solid var(--accent);
+  margin-top: 3rem;
+  padding-top: 1rem;
+}
+footer {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-top: 3rem;
+}
+footer a {
+  margin-right: 1rem;
+}

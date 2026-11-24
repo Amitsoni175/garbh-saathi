@@ -4,8 +4,8 @@ import type { Translation } from '../i18n';
 export const todayStrings = {
   // Onboarding
   'onb.welcomeTitle': {
-    en: 'Ram Ram ji 🙏 Welcome to Garbh Saathi',
-    hinglish: 'Ram Ram ji 🙏 Garbh Saathi mein swagat hai',
+    en: 'Ram Ram ji 🙏 Welcome to Wombtales',
+    hinglish: 'Ram Ram ji 🙏 Wombtales mein swagat hai',
   },
   'onb.welcomeText': {
     en: 'A calm little companion for you and your baby: stories, ragas, gentle games and love. Everything stays on this phone.',

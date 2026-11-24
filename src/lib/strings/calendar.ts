@@ -154,9 +154,9 @@ export const calendarStrings = {
   'sched.notifOn': { en: 'Show notifications', hinglish: 'Notification dikhaaiye' },
   'sched.askTitle': { en: 'Allow gentle reminders?', hinglish: 'Pyaari yaad ki ijaazat dein?' },
   'sched.askText': {
-    en: 'Your phone will now ask whether Garbh Saathi may show notifications. We only send the reminders you choose, never ads. You can turn them off any time.',
+    en: 'Your phone will now ask whether Wombtales may show notifications. We only send the reminders you choose, never ads. You can turn them off any time.',
     hinglish:
-      'Ab phone poochhega ki kya Garbh Saathi notification dikha sakti hai. Hum sirf aapki chuni hui yaad bhejenge, kabhi ad nahi. Kabhi bhi band kar sakti hain.',
+      'Ab phone poochhega ki kya Wombtales notification dikha sakti hai. Hum sirf aapki chuni hui yaad bhejenge, kabhi ad nahi. Kabhi bhi band kar sakti hain.',
   },
   'sched.allow': { en: 'Continue', hinglish: 'Aage badhiye' },
   'sched.notNow': { en: 'Not now', hinglish: 'Abhi nahi' },

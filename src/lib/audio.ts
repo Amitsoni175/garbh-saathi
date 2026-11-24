@@ -460,8 +460,8 @@ class Player {
       if (!('mediaSession' in navigator)) return;
       navigator.mediaSession.metadata = new MediaMetadata({
         title,
-        artist: 'Garbh Saathi',
-        album: 'Garbh Saathi',
+        artist: 'Wombtales',
+        album: 'Wombtales',
       });
       navigator.mediaSession.setActionHandler('play', () => this.resume());
       navigator.mediaSession.setActionHandler('pause', () => this.pause());
@@ -492,7 +492,7 @@ export const player = new Player();
 export function speakOnce(
   text: string,
   lang: AudioLang,
-  title = 'Garbh Saathi',
+  title = 'Wombtales',
 ): Promise<SourceKind | null> {
   return player.play({ id: `tts:${title}`, title, lang, tts: { hi: [text], en: [text] } });
 }

@@ -56,11 +56,11 @@ export default function ScheduleScreen() {
         }),
       );
       const blob = new Blob([ics], { type: 'text/calendar;charset=utf-8' });
-      const file = new File([blob], 'garbh-saathi-reminders.ics', { type: 'text/calendar' });
+      const file = new File([blob], 'wombtales-reminders.ics', { type: 'text/calendar' });
       // On phones, sharing straight to the calendar app is smoother than a download.
       if (navigator.canShare?.({ files: [file] })) {
         await navigator
-          .share({ files: [file], title: 'Garbh Saathi' })
+          .share({ files: [file], title: 'Wombtales' })
           .catch(() => downloadBlob(blob, file.name));
       } else {
         downloadBlob(blob, file.name);
@@ -214,9 +214,7 @@ export default function ScheduleScreen() {
               {perm === 'granted' && (
                 <Button
                   variant="ghost"
-                  onClick={() =>
-                    void showNotification('Garbh Saathi', t('sched.testBody'), 'gs-test')
-                  }
+                  onClick={() => void showNotification('Wombtales', t('sched.testBody'), 'gs-test')}
                 >
                   🔔 {t('sched.test')}
                 </Button>

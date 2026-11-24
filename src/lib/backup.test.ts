@@ -22,7 +22,7 @@ describe('backup', () => {
   });
 
   it('names the file by date', () => {
-    expect(backupFileName('2026-11-15')).toBe('garbh-saathi-backup-2026-11-15.json');
+    expect(backupFileName('2026-11-15')).toBe('wombtales-backup-2026-11-15.json');
   });
 
   it.each(['audio/webm', 'audio/webm;codecs=opus', 'image/jpeg', ''])(
@@ -83,7 +83,7 @@ describe('backup', () => {
     expect((await db.kv.get('profile'))?.value).toMatchObject({ motherName: 'Asha' });
   });
 
-  it('rejects files that are not Garbh Saathi backups, without touching data', async () => {
+  it('rejects files that are not Wombtales backups, without touching data', async () => {
     await db.completions.add({ date: '2026-11-15', kind: 'story', createdAt: 1 });
     expect(parseBackup('not json').ok).toBe(false);
     expect(parseBackup(JSON.stringify({ app: 'other', format: 1, tables: {} })).ok).toBe(false);
@@ -98,5 +98,14 @@ describe('backup', () => {
         .ok,
     ).toBe(false);
     expect(await db.completions.count()).toBe(1);
+  });
+});
+
+describe('backups across the rename', () => {
+  it('accepts backups made before the rename (app: garbh-saathi) and new ones (app: wombtales)', () => {
+    for (const app of ['garbh-saathi', 'wombtales'])
+      expect(parseBackup(JSON.stringify({ app, format: 1, tables: { journal: [] } })).ok).toBe(
+        true,
+      );
   });
 });

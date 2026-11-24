@@ -191,6 +191,24 @@ export default function MeScreen() {
         <Card index={3} ariaLabel={t('settings.about')}>
           <h2 className="font-semibold">{t('settings.about')}</h2>
           <p className="text-text-muted mt-1 text-sm">{t('settings.privacy')}</p>
+          <div className="mt-2 flex flex-wrap gap-x-4">
+            <a
+              href="./about/"
+              target="_blank"
+              rel="noopener"
+              className="text-text flex min-h-12 items-center font-semibold underline"
+            >
+              💛 {t('settings.ourStory')}
+            </a>
+            <a
+              href="./privacy/"
+              target="_blank"
+              rel="noopener"
+              className="text-text flex min-h-12 items-center font-semibold underline"
+            >
+              🔒 {t('settings.privacyPage')}
+            </a>
+          </div>
           <button
             type="button"
             onClick={onVersionTap}

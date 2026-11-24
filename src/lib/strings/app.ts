@@ -58,8 +58,8 @@ export const appStrings = {
   'backup.import': { en: 'Restore from a backup file', hinglish: 'Backup file se wapas laaiye' },
   'backup.reading': { en: 'Reading the file…', hinglish: 'File padh rahe hain…' },
   'backup.invalid': {
-    en: 'This doesn’t look like a Garbh Saathi backup file. Nothing was changed.',
-    hinglish: 'Yeh Garbh Saathi ki backup file nahi lagti. Kuch nahi badla.',
+    en: 'This doesn’t look like a Wombtales backup file. Nothing was changed.',
+    hinglish: 'Yeh Wombtales ki backup file nahi lagti. Kuch nahi badla.',
   },
   'backup.summary': {
     en: 'This backup from {date} has:',
@@ -127,7 +127,7 @@ export const appStrings = {
   },
   'update.fixConfirm': { en: 'Yes, fix the app', hinglish: 'Haan, app theek karein' },
   'install.title': { en: 'Install on your phone', hinglish: 'Phone par install kijiye' },
-  'install.button': { en: 'Install Garbh Saathi', hinglish: 'Garbh Saathi install kijiye' },
+  'install.button': { en: 'Install Wombtales', hinglish: 'Wombtales install kijiye' },
   'install.ios': {
     en: 'On iPhone: tap Share (the square with an arrow) → Add to Home Screen.',
     hinglish: 'iPhone par: Share (teer wala dabba) dabaaiye → Add to Home Screen.',

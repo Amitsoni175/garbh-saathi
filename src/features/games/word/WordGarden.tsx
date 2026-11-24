@@ -191,7 +191,7 @@ export default function WordGarden() {
     <WordRound
       key={round}
       words={words}
-      title={story ? tx(story.title, settings.textLang) : 'Garbh Saathi'}
+      title={story ? tx(story.title, settings.textLang) : 'Wombtales'}
       onAgain={() => setRound((r) => r + 1)}
     />
   );

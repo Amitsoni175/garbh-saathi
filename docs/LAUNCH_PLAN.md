@@ -1,10 +1,10 @@
 # Launch plan: Garbh Saathi → Wombtales (wombtales.in)
 
-Status: **planned, not started.** Agreed on 2026-11-23. Nothing below has been changed in the app yet.
+Status: **in progress** (domain bought 2026-11-24; rename and search basics done in 1.4.0). Agreed on 2026-11-23. Nothing below has been changed in the app yet.
 
 ## Step 0 · Owner buys the domain
 
-- [ ] Buy **wombtales.in** (1 year, no add-ons: no privacy, email, builder, hosting or SSL).
+- [x] Buy **wombtales.in** (BigRock) (1 year, no add-ons: no privacy, email, builder, hosting or SSL).
 - [ ] Tell Claude it is bought.
 
 ## Step 1 · Connect the domain

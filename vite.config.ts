@@ -17,9 +17,10 @@ export default defineConfig({
       registerType: 'prompt',
       includeAssets: ['icons/icon.svg', 'icons/apple-touch-icon.png', 'icons/favicon-32.png'],
       manifest: {
-        name: 'Garbh Saathi',
-        short_name: 'Garbh Saathi',
-        description: 'A calm pregnancy companion: stories, ragas, gentle games and love.',
+        name: 'Wombtales',
+        short_name: 'Wombtales',
+        description:
+          'Wombtales: a calm, private pregnancy companion with daily stories, shlokas, ragas, gentle games and love.',
         lang: 'hi-Latn',
         start_url: './',
         scope: './',
@@ -41,7 +42,10 @@ export default defineConfig({
       workbox: {
         // App shell + all code chunks + woff2 fonts work offline. (The older .woff copies are skipped.)
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,webmanifest}'],
+        globIgnores: ['**/og-image.png'],
         navigateFallback: 'index.html',
+        // Real pages (About, Privacy, articles) and search files must not be swapped for the app.
+        navigateFallbackDenylist: [/^\/(about|privacy|articles)(\/|$)/, /\.(xml|txt)$/],
         cleanupOutdatedCaches: true,
         runtimeCaching: [
           {

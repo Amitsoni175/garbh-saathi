@@ -82,10 +82,10 @@ export function buildIcs(events: IcsEvent[], now: Date = new Date()): string {
   const lines: string[] = [
     'BEGIN:VCALENDAR',
     'VERSION:2.0',
-    'PRODID:-//Garbh Saathi//Pregnancy companion//EN',
+    'PRODID:-//Wombtales//Pregnancy companion//EN',
     'CALSCALE:GREGORIAN',
     'METHOD:PUBLISH',
-    'X-WR-CALNAME:Garbh Saathi',
+    'X-WR-CALNAME:Wombtales',
     `X-WR-TIMEZONE:${TZID}`,
     'BEGIN:VTIMEZONE',
     `TZID:${TZID}`,

@@ -7,7 +7,9 @@ import { db, kvGet, kvSet, TABLE_NAMES, type TableName } from './db';
 import { logError } from './logger';
 
 export const BACKUP_FORMAT = 1;
-const APP_ID = 'garbh-saathi';
+/** New backups say 'wombtales'; backups made before the rename say 'garbh-saathi'. */
+const APP_ID = 'wombtales';
+const OLD_APP_IDS: readonly string[] = ['garbh-saathi'];
 /** The error log stays on the device; everything else is backed up. */
 const BACKUP_TABLES = TABLE_NAMES.filter((t) => t !== 'errors') as Exclude<TableName, 'errors'>[];
 
@@ -17,7 +19,7 @@ export interface EncodedBlob {
 }
 
 export interface BackupFile {
-  app: typeof APP_ID;
+  app: string;
   format: number;
   appVersion: string;
   exportedAt: string;
@@ -91,7 +93,7 @@ export async function createBackup(appVersion: string, now = new Date()): Promis
 }
 
 export function backupFileName(localDate: string): string {
-  return `garbh-saathi-backup-${localDate}.json`;
+  return `wombtales-backup-${localDate}.json`;
 }
 
 export async function markBackedUp(now = new Date()): Promise<void> {
@@ -116,7 +118,8 @@ export function parseBackup(text: string): ParseResult {
   }
   if (typeof data !== 'object' || data === null) return { ok: false, reason: 'not an object' };
   const f = data as Partial<BackupFile>;
-  if (f.app !== APP_ID) return { ok: false, reason: 'not a Garbh Saathi backup' };
+  if (f.app !== APP_ID && !OLD_APP_IDS.includes(f.app ?? ''))
+    return { ok: false, reason: 'not a Wombtales backup' };
   if (typeof f.format !== 'number' || f.format > BACKUP_FORMAT)
     return { ok: false, reason: 'made by a newer version of the app' };
   if (typeof f.tables !== 'object' || f.tables === null) return { ok: false, reason: 'no tables' };

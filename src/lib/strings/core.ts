@@ -3,7 +3,7 @@ import type { Translation } from '../i18n';
 /** App shell, tabs, settings, errors, common UI, debug. */
 export const coreStrings = {
   // App
-  'app.name': { en: 'Garbh Saathi', hinglish: 'Garbh Saathi' },
+  'app.name': { en: 'Wombtales', hinglish: 'Wombtales' },
 
   // Tabs
   'tab.today': { en: 'Today', hinglish: 'Aaj' },
@@ -47,6 +47,8 @@ export const coreStrings = {
     en: '{count} more taps for the debug panel',
     hinglish: 'Debug panel ke liye {count} baar aur dabayein',
   },
+  'settings.ourStory': { en: 'Our story', hinglish: 'Hamaari kahani' },
+  'settings.privacyPage': { en: 'Privacy', hinglish: 'Niji jaankari' },
   'settings.privacy': {
     en: 'Everything you add stays on this phone. No account, no internet needed.',
     hinglish: 'Aapka sab kuch isi phone mein rehta hai. Na account, na internet ki zaroorat.',

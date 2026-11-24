@@ -116,7 +116,7 @@ export default function DebugPanel() {
     const url = URL.createObjectURL(blob);
     const a = document.createElement('a');
     a.href = url;
-    a.download = `garbh-saathi-errors-${toLocalISO(new Date())}.txt`;
+    a.download = `wombtales-errors-${toLocalISO(new Date())}.txt`;
     a.click();
     URL.revokeObjectURL(url);
   }
@@ -330,7 +330,13 @@ export default function DebugPanel() {
             </Button>
             <Button
               variant="secondary"
-              onClick={() => void speakOnce('Hello, I am your Garbh Saathi.', 'en', 'English test')}
+              onClick={() =>
+                void speakOnce(
+                  'Hello, I am Wombtales, your pregnancy companion.',
+                  'en',
+                  'English test',
+                )
+              }
             >
               {t('debug.testEnglish')}
             </Button>
@@ -340,7 +346,7 @@ export default function DebugPanel() {
                 void requestNotificationPermission().then(async (perm) => {
                   const ok =
                     perm === 'granted' &&
-                    (await showNotification('Garbh Saathi', 'Test notification 🌸', 'gs-debug'));
+                    (await showNotification('Wombtales', 'Test notification 🌸', 'gs-debug'));
                   if (!ok) toast({ message: `Notification permission: ${perm}` });
                 })
               }
