@@ -46,16 +46,18 @@ must be carried over by hand:
 
 ## Step 4 · Search basics (technical SEO)
 
-- [ ] Real `<title>` and meta description, e.g. "Wombtales – Free Garbh Sanskar App in Hindi &
+- [x] Real `<title>` and meta description, e.g. "Wombtales – Free Garbh Sanskar App in Hindi &
       English | Daily Stories, Shlokas, Music".
-- [ ] A static landing page with real text that Google can read without JavaScript (what it is,
+- [x] A static landing page with real text that Google can read without JavaScript (what it is,
       features, privacy, "Open the app").
-- [ ] Open Graph / WhatsApp preview image and text.
-- [ ] Structured data (`WebApplication`, free, Health & Lifestyle).
-- [ ] `robots.txt` and `sitemap.xml`.
-- [ ] About and Privacy pages (who made it, why, no data collected). Use the text in
+- [x] Open Graph / WhatsApp preview image and text.
+- [x] Structured data (`WebApplication`, free, Health & Lifestyle).
+- [x] `robots.txt` and `sitemap.xml`.
+- [x] About and Privacy pages (who made it, why, no data collected). Use the text in
       [OUR_STORY.md](OUR_STORY.md) for "Our story" in the app (Me → About) and on the website.
-- [ ] Google Search Console and Bing Webmaster Tools: verify the domain, submit the sitemap.
+- [x] Google Search Console: Domain property verified by TXT record in Netlify DNS (keep it);
+      sitemap submitted; `/`, `/about/`, `/privacy/` requested for indexing (2026-11-24).
+- [ ] Bing Webmaster Tools: import from Google Search Console.
 
 ## Step 5 · Content website (the main ranking driver)
 
