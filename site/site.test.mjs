@@ -1,6 +1,6 @@
 import { readFile } from 'node:fs/promises';
 import { describe, expect, it } from 'vitest';
-import { loadArticles, parseFrontMatter, splitLanguages } from './build.mjs';
+import { faqFromMd, loadArticles, parseFrontMatter, splitLanguages } from './build.mjs';
 import { handle } from './gate.mjs';
 import { articleSlugFromPath, llmsTxt, rssXml, sitemapXml, slotTime } from './lib.mjs';
 import { DISCLAIMER } from './templates.mjs';
@@ -111,6 +111,16 @@ describe('articles', () => {
       for (const banned of ['putra prapti', 'boy or girl', 'guaranteed', 'cure'])
         expect(all, `${a.file}: ${banned}`).not.toContain(banned);
     }
+  });
+
+  it('reads FAQ questions for structured data', () => {
+    const md =
+      '## Intro\n\ntext\n\n## Frequently asked questions\n\n### Is it safe?\n\nAsk your **doctor**.\n\n### When?\n\nAround week 20.\n\n## Sources\n\nWHO';
+    expect(faqFromMd(md)).toEqual([
+      { q: 'Is it safe?', a: 'Ask your doctor.' },
+      { q: 'When?', a: 'Around week 20.' },
+    ]);
+    expect(faqFromMd('## Other\n\nno faq')).toEqual([]);
   });
 
   it('schedule file matches the tested start', async () => {

@@ -121,11 +121,32 @@ async function loadArticles() {
   });
 }
 
+/** Questions under a "## Frequently asked questions" heading (### question, then the answer). */
+export function faqFromMd(md) {
+  const m = /^## (?:Frequently asked questions|FAQ)\s*$([\s\S]*?)(?=^## |(?![\s\S]))/m.exec(md);
+  if (!m) return [];
+  return m[1]
+    .split(/^### /m)
+    .slice(1)
+    .map((block) => {
+      const [q, ...rest] = block.split('\n');
+      const ans = rest
+        .join(' ')
+        .replace(/[*_`]/g, '')
+        .replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+        .replace(/\s+/g, ' ')
+        .trim();
+      return { q: q.trim(), a: ans };
+    })
+    .filter((f) => f.q && f.a);
+}
+
 function articlePage(a) {
   const enBody = stripFirstH1(a.en);
   const hiBody = stripFirstH1(a.hi);
   const toc = headings(enBody);
   const tocHi = headings(hiBody);
+  const faq = faqFromMd(enBody);
   const url = `${SITE}/articles/${a.slug}/`;
   const body = `      <article class="article">
         <nav class="crumbs" aria-label="Breadcrumb"><a href="/articles/">Articles</a> › <span>${esc(a.category)}</span></nav>
@@ -180,6 +201,19 @@ ${renderMd(enBody)}
         ['Articles', '/articles/'],
         [a.title, `/articles/${a.slug}/`],
       ]),
+      ...(faq.length
+        ? [
+            {
+              '@context': 'https://schema.org',
+              '@type': 'FAQPage',
+              mainEntity: faq.map((f) => ({
+                '@type': 'Question',
+                name: f.q,
+                acceptedAnswer: { '@type': 'Answer', text: f.a },
+              })),
+            },
+          ]
+        : []),
     ],
   });
 }
