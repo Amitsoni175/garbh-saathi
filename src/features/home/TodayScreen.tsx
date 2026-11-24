@@ -22,6 +22,7 @@ import { JourneyPath, type Stone } from './JourneyPath';
 import { PullToRefresh } from './PullToRefresh';
 import { SeasonTipCard } from './SeasonTipCard';
 import { StageCard } from './StageCard';
+import { SiteNav } from './SiteNav';
 import { ThoughtOfDay } from './ThoughtOfDay';
 import { TodayHeader } from './TodayHeader';
 
@@ -83,6 +84,7 @@ export default function TodayScreen() {
       <div key={refreshKey} className="flex flex-col gap-4 pb-6">
         <TodayHeader state={state} />
         <div className="flex flex-col gap-4 px-4">
+          <SiteNav />
           <StageCard state={state} />
           <FestivalBanner />
           <ThoughtOfDay />

@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.5.2 · Website menu on the main screen (2026-11-24)
+
+- Today now starts with the website menu: Articles · Week by week · Stories · Thoughts · Our story ·
+  Privacy (scrolls sideways on phones, wraps on wider screens).
+
 ## 1.5.1 · Easier to find the website (2026-11-24)
 
 - Me → **Read & explore** card near the top: Articles, Week by week, Stories, Thoughts, Our story,

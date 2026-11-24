@@ -8,6 +8,7 @@ import { useT } from '@/app/useT';
 import { Button, Card, ChipGroup, PageHeader, Toggle, useToast } from '@/components/ui';
 import type { StringKey } from '@/lib/i18n';
 import { parseLocalDate } from '@/lib/pregnancy';
+import { SITE_LINKS } from '@/features/home/siteLinks';
 import { AppCareCard } from './AppCareCard';
 import type { Lang } from '@/lib/i18n';
 import type { NightModeSetting } from '@/lib/timeOfDay';
@@ -33,21 +34,11 @@ const CARE: { key: StringKey; emoji: string; to: string }[] = [
   { key: 'me.link.backup', emoji: '💾', to: '/me/backup' },
 ];
 
-/** Pages of the Wombtales website (open in the browser, next to the app). */
-const EXPLORE: { key: StringKey; emoji: string; href: string }[] = [
-  { key: 'explore.articles', emoji: '📚', href: './articles/' },
-  { key: 'explore.weeks', emoji: '🥭', href: './pregnancy-week/' },
-  { key: 'explore.stories', emoji: '📖', href: './stories/' },
-  { key: 'explore.thoughts', emoji: '☀️', href: './thoughts/' },
-  { key: 'settings.ourStory', emoji: '💛', href: './about/' },
-  { key: 'settings.privacyPage', emoji: '🔒', href: './privacy/' },
-];
-
 function ExploreGrid({ label }: { label: string }) {
   const t = useT();
   return (
     <ul className="grid grid-cols-3 gap-2" aria-label={label}>
-      {EXPLORE.map((item) => (
+      {SITE_LINKS.map((item) => (
         <li key={item.href}>
           <a
             href={item.href}
