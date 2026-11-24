@@ -1,6 +1,6 @@
 # Launch plan: Garbh Saathi → Wombtales (wombtales.in)
 
-Status: **in progress** (domain bought 2026-11-24; rename and search basics done in 1.4.0). Agreed on 2026-11-23. Nothing below has been changed in the app yet.
+Status: **in progress.** Domain bought and live with HTTPS (2026-11-24); rename and search basics done in 1.4.0. Next: Step 2 (move her data) and Search Console. Agreed on 2026-11-23. Nothing below has been changed in the app yet.
 
 ## Step 0 · Owner buys the domain
 
@@ -9,10 +9,12 @@ Status: **in progress** (domain bought 2026-11-24; rename and search basics done
 
 ## Step 1 · Connect the domain
 
-- [ ] Netlify → project `garbh-saathi` → Domain management → Add a domain → `wombtales.in`.
+- [x] Netlify → project `garbh-saathi` → Domain management → Add a domain → `wombtales.in`.
 - [ ] At the registrar's DNS: `A @ → 75.2.60.5` (check the value Netlify shows) and
       `CNAME www → garbh-saathi.netlify.app`. Delete any old `A @` record.
-- [ ] Wait for free HTTPS, then check `https://wombtales.in` and `https://www.wombtales.in`.
+- [x] Wait for free HTTPS, then check `https://wombtales.in` and `https://www.wombtales.in`.
+      Done 2026-11-24: DNS moved to Netlify DNS (name servers changed at BigRock); certificate issued;
+      `www` redirects to `wombtales.in`.
 - [ ] Optional: in Netlify, rename the project to `wombtales` (→ `wombtales.netlify.app`).
 - [ ] Optional: link the GitHub repo in Netlify (Build & deploy → Link repository) so every push
       deploys by itself.
