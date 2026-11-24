@@ -33,6 +33,39 @@ const CARE: { key: StringKey; emoji: string; to: string }[] = [
   { key: 'me.link.backup', emoji: '💾', to: '/me/backup' },
 ];
 
+/** Pages of the Wombtales website (open in the browser, next to the app). */
+const EXPLORE: { key: StringKey; emoji: string; href: string }[] = [
+  { key: 'explore.articles', emoji: '📚', href: './articles/' },
+  { key: 'explore.weeks', emoji: '🥭', href: './pregnancy-week/' },
+  { key: 'explore.stories', emoji: '📖', href: './stories/' },
+  { key: 'explore.thoughts', emoji: '☀️', href: './thoughts/' },
+  { key: 'settings.ourStory', emoji: '💛', href: './about/' },
+  { key: 'settings.privacyPage', emoji: '🔒', href: './privacy/' },
+];
+
+function ExploreGrid({ label }: { label: string }) {
+  const t = useT();
+  return (
+    <ul className="grid grid-cols-3 gap-2" aria-label={label}>
+      {EXPLORE.map((item) => (
+        <li key={item.href}>
+          <a
+            href={item.href}
+            target="_blank"
+            rel="noopener"
+            className="rounded-soft bg-background flex min-h-20 w-full flex-col items-center justify-center gap-1 px-1 py-2 text-center text-xs font-semibold"
+          >
+            <span className="text-2xl" aria-hidden="true">
+              {item.emoji}
+            </span>
+            {t(item.key)}
+          </a>
+        </li>
+      ))}
+    </ul>
+  );
+}
+
 function LinkGrid({
   items,
   onGo,
@@ -110,6 +143,11 @@ export default function MeScreen() {
             </Button>
           </Card>
         )}
+        <Card index={1} tone="calm">
+          <h2 className="font-bold">📚 {t('explore.title')}</h2>
+          <p className="mb-2 text-sm">{t('explore.text')}</p>
+          <ExploreGrid label={t('explore.title')} />
+        </Card>
         <Card index={1}>
           <h2 className="mb-2 font-bold">{t('me.bonding')}</h2>
           <LinkGrid items={BONDING} onGo={(to) => void navigate(to)} label={t('me.bonding')} />

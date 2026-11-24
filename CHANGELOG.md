@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.5.1 · Easier to find the website (2026-11-24)
+
+- Me → **Read & explore** card near the top: Articles, Week by week, Stories, Thoughts, Our story,
+  Privacy.
+- On wide screens the tab bar stays at the very bottom (the Netlify badge doesn't cover it there);
+  the extra space is kept only on phones.
+
 ## 1.5.0 · The Wombtales website: articles on schedule, week by week, stories (2026-11-24)
 
 - **Articles publish by themselves, two a day, at 9:30 AM and 6:30 PM IST.**

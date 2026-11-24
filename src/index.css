@@ -167,6 +167,9 @@ body {
 
 /* The free Netlify plan shows a badge in the bottom-right corner. Lift the tab
    bar and bottom buttons above it so nothing is covered. */
-:root.gs-host-badge {
-  --gs-bottom-inset: calc(env(safe-area-inset-bottom, 0px) + 72px);
+/* Only narrow screens need it: on wide screens the badge sits beside the centred tab bar. */
+@media (max-width: 899px) {
+  :root.gs-host-badge {
+    --gs-bottom-inset: calc(env(safe-area-inset-bottom, 0px) + 72px);
+  }
 }
