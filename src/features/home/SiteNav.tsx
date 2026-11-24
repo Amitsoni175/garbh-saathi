@@ -7,7 +7,7 @@ export function SiteNav() {
   return (
     <nav
       aria-label={t('explore.title')}
-      className="-mx-4 flex [scrollbar-width:none] gap-2 overflow-x-auto px-4 pb-1 [&::-webkit-scrollbar]:hidden"
+      className="-mx-4 flex [scrollbar-width:none] gap-2 overflow-x-auto px-4 pb-1 sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 [&::-webkit-scrollbar]:hidden"
     >
       {SITE_LINKS.map((l) => (
         <a
