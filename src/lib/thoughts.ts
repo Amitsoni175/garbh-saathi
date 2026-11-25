@@ -5,7 +5,7 @@
  * It opens by itself the first time she opens the app each day.
  */
 import raw from '@/content/thoughts.json';
-import { rotate } from './plan';
+import { contentIndexForDay, rotate } from './plan';
 
 export interface Bilingual {
   en: string;
@@ -75,6 +75,14 @@ export function calendarDayIndex(localISO: string): number {
 
 export function thoughtForDate(localISO: string, list = getThoughts()): Thought | undefined {
   return thoughtForDay(calendarDayIndex(localISO), list);
+}
+
+/** The thought for a pregnancy day (day 1 = first day of the last period): same as the website calendar. */
+export function thoughtForPregnancyDay(
+  pregnancyDay: number,
+  list = getThoughts(),
+): Thought | undefined {
+  return list[contentIndexForDay(pregnancyDay, list.length)];
 }
 
 /** Should the thought open by itself? Only on the first visit of the day. */

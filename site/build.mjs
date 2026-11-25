@@ -521,6 +521,82 @@ function privacyPage() {
   });
 }
 
+// ---------- Pregnancy calendar ----------
+
+/** Pregnancy day d (1 = first day of the last period) → list position. Same rule as the app. */
+export const calendarIndex = (d, n) => (n > 0 ? (((d - 1) % n) + n) % n : 0);
+
+export function calendarPage(stories, thoughts, weekList) {
+  const data = {
+    stories: stories.map((s) => ({ id: s.id, e: s.emoji, t: s.title.en, h: s.title.hinglish })),
+    thoughts: thoughts.map((t) => ({
+      id: t.id,
+      e: t.emoji,
+      s: t.source.en,
+      t: t.text.en,
+      th: t.text.hi,
+      y: t.say.en,
+      yh: t.say.hi,
+    })),
+    weeks: weekList.map((w) => ({ w: w.week, e: w.emoji, n: w.name.en })),
+  };
+  const rows = [];
+  for (let w = 1; w <= 40; w++) {
+    const days = [];
+    for (let d = (w - 1) * 7 + 1; d <= w * 7; d++) {
+      const st = stories[calendarIndex(d, stories.length)];
+      days.push(
+        `<li><strong>Day ${d}</strong>: <a href="/stories/${st.id}/">${esc(st.emoji)} ${esc(st.title.en)}</a></li>`,
+      );
+    }
+    rows.push(
+      `<details class="card cal-week"><summary>Week ${w} · days ${(w - 1) * 7 + 1}–${w * 7}</summary><ul>${days.join('')}</ul></details>`,
+    );
+  }
+  const body = `      <section class="hero">
+        <h1>Garbh Sanskar calendar: a story and a thought for every day of pregnancy</h1>
+        <p class="lead">Enter your last period date or due date to see today's story, thought and week, the same ones the Wombtales app shows you. Every day of your 280 days has its own.</p>
+      </section>
+      <form class="card cal-form" data-cal-form>
+        <fieldset>
+          <legend>I know my…</legend>
+          <label><input type="radio" name="kind" value="lmp" checked /> Last period date (LMP)</label>
+          <label><input type="radio" name="kind" value="edd" /> Due date</label>
+        </fieldset>
+        <label class="cal-date">Date <input type="date" name="date" required /></label>
+        <button class="btn" type="submit">🌸 Show my day</button>
+        <p class="small">Your date stays in your browser. It's not sent to us or saved anywhere else.</p>
+      </form>
+      <section class="cal-result" data-cal-result hidden aria-live="polite"></section>
+      ${disclaimerBox()}
+      <h2>All 280 days</h2>
+      <p>Day 1 is the first day of your last period, the way doctors count pregnancy. Each day has its own story; stories in a series (like the Gita) come on following days.</p>
+      <div class="stack">${rows.join('\n')}</div>
+      <script type="application/json" id="cal-data">${JSON.stringify(data).replace(/</g, '\\u003c')}</script>
+      <script src="/calendar.js" defer></script>`;
+  return page({
+    path: '/calendar/',
+    active: '/calendar/',
+    title: 'Garbh Sanskar calendar – a story & thought for each day of pregnancy | Wombtales',
+    description:
+      'Enter your last period or due date and get a Garbh Sanskar story, a hope-giving thought and your pregnancy week for every one of the 280 days. Free, private.',
+    body,
+    jsonLd: [
+      {
+        '@context': 'https://schema.org',
+        '@type': 'WebPage',
+        name: 'Garbh Sanskar calendar',
+        url: `${SITE}/calendar/`,
+        description:
+          'A story and a thought for every day of pregnancy, from the first day of the last period to day 280.',
+        isAccessibleForFree: true,
+        inLanguage: ['en', 'hi'],
+      },
+      breadcrumb([['Calendar', '/calendar/']]),
+    ],
+  });
+}
+
 // ---------- Main ----------
 
 async function main() {
@@ -540,6 +616,7 @@ async function main() {
     { path: '/pregnancy-week/', title: 'Pregnancy week by week', lastmod: TODAY },
     { path: '/stories/', title: 'Stories for Garbh Sanskar', lastmod: TODAY },
     { path: '/thoughts/', title: 'Thoughts for pregnancy', lastmod: TODAY },
+    { path: '/calendar/', title: 'Garbh Sanskar calendar (a story for every day)', lastmod: TODAY },
     { path: '/about/', title: 'Our story', lastmod: TODAY },
     { path: '/privacy/', title: 'Privacy', lastmod: TODAY },
     ...weekList.map((s) => ({ path: `/pregnancy-week/${s.week}/`, lastmod: TODAY })),
@@ -557,6 +634,7 @@ async function main() {
   await write('/stories/', storiesHub(stories));
   for (const s of stories) await write(`/stories/${s.id}/`, storyPage(s));
   await write('/thoughts/', thoughtsHub(thoughts));
+  await write('/calendar/', calendarPage(stories, thoughts, weekList));
   if (WITH_ARTICLES) for (const a of articles) await write(`/articles/${a.slug}/`, articlePage(a));
 
   // Fallback search files for hosts without the edge function (no articles listed there).

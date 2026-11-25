@@ -7,6 +7,7 @@ import {
   shouldAutoOpen,
   thoughtForDate,
   thoughtForDay,
+  thoughtForPregnancyDay,
 } from './thoughts';
 
 describe('thought of the day', () => {
@@ -58,5 +59,12 @@ describe('thought follows the calendar', () => {
     expect(new Set(week.map((d) => thoughtForDate(d)?.id)).size).toBe(7);
     // across month and year ends too
     expect(thoughtForDate('2026-12-31')?.id).not.toBe(thoughtForDate('2027-01-01')?.id);
+  });
+
+  it('follows the pregnancy day, the same as the website calendar', () => {
+    const list = getThoughts();
+    expect(thoughtForPregnancyDay(1)?.id).toBe(list[0]?.id);
+    expect(thoughtForPregnancyDay(list.length + 1)?.id).toBe(list[0]?.id);
+    expect(thoughtForPregnancyDay(150)?.id).not.toBe(thoughtForPregnancyDay(151)?.id);
   });
 });

@@ -59,14 +59,31 @@ export function rotate<T>(list: readonly T[], index: number): T | undefined {
 }
 
 /**
- * @param dayNumber pregnancy day 1–280 (for explicit entries)
- * @param offset    days since she started using the app (0 on her first day)
+ * Story, shloka and thought follow the pregnancy day (counted from the last period), so the same
+ * day of pregnancy always brings the same story, however often the app is set up again, and the
+ * website's calendar shows the same thing. Day 1 → item 1, day 2 → item 2, and round again.
  */
-export function getDailyPlan(dayNumber: number, offset: number, ctx: PlanContext): DayPlan {
+export function contentIndexForDay(pregnancyDay: number, length: number): number {
+  if (length <= 0) return 0;
+  return (((pregnancyDay - 1) % length) + length) % length;
+}
+
+/**
+ * @param dayNumber  pregnancy day 1–280 (for explicit entries)
+ * @param offset     days since she started using the app (0 on her first day)
+ * @param contentDay pregnancy day without the 280 cap (keeps changing after the due date);
+ *                   picks the story and shloka
+ */
+export function getDailyPlan(
+  dayNumber: number,
+  offset: number,
+  ctx: PlanContext,
+  contentDay = dayNumber,
+): DayPlan {
   const games = ctx.gameIds ?? GAME_IDS;
   const plan: DayPlan = {
-    storyId: rotate(ctx.storyIds, offset),
-    shlokaId: rotate(ctx.shlokaIds, offset),
+    storyId: ctx.storyIds[contentIndexForDay(contentDay, ctx.storyIds.length)],
+    shlokaId: ctx.shlokaIds[contentIndexForDay(contentDay, ctx.shlokaIds.length)],
     gameType: rotate(games, offset) ?? 'memory',
     ragaSlot: null,
     promptId: rotate(ctx.promptIds, offset),
@@ -88,10 +105,22 @@ export function getDailyPlan(dayNumber: number, offset: number, ctx: PlanContext
 }
 
 /**
- * Story IDs unlocked so far: everything the rotation has offered from her first
+ * Story IDs unlocked so far: every story the calendar has offered from her first
  * day up to today (plus anything she opened herself, added by the caller).
+ * @param contentDay today's pregnancy day (see getDailyPlan)
  */
-export function unlockedStoryIds(offset: number, storyIds: string[]): string[] {
-  if (offset < 0) return storyIds.slice(0, 1);
-  return storyIds.slice(0, Math.min(storyIds.length, offset + 1));
+export function unlockedStoryIds(
+  offset: number,
+  storyIds: string[],
+  contentDay = Math.max(0, offset) + 1,
+): string[] {
+  const n = storyIds.length;
+  const span = Math.max(0, offset) + 1;
+  if (span >= n) return [...storyIds];
+  const seen = new Set<string>();
+  for (let i = 0; i < span; i++) {
+    const id = storyIds[contentIndexForDay(contentDay - i, n)];
+    if (id) seen.add(id);
+  }
+  return storyIds.filter((id) => seen.has(id));
 }

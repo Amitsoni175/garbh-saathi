@@ -1,5 +1,5 @@
 import { useMemo } from 'react';
-import { useJourneyOffset } from '@/app/usePregnancy';
+import { contentDayOf, useJourneyOffset, usePregnancy } from '@/app/usePregnancy';
 import { useStories } from '@/app/useStories';
 import { useAllCompletions } from '@/lib/activity';
 import { getTodayISO } from '@/lib/clock';
@@ -18,6 +18,7 @@ export function useUnlockedStories(): {
 } | null {
   const stories = useStories();
   const offset = useJourneyOffset();
+  const contentDay = contentDayOf(usePregnancy());
   const completions = useAllCompletions();
   return useMemo(() => {
     if (!stories) return null;
@@ -25,6 +26,7 @@ export function useUnlockedStories(): {
       unlockedStoryIds(
         offset,
         stories.map((s) => s.id),
+        contentDay,
       ),
     );
     const heard = new Set(
@@ -47,5 +49,5 @@ export function useUnlockedStories(): {
     }
     const unlocked = stories.filter((s) => ids.has(s.id));
     return { unlocked, lockedCount: stories.length - unlocked.length, heard };
-  }, [stories, offset, completions]);
+  }, [stories, offset, contentDay, completions]);
 }

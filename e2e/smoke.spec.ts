@@ -39,9 +39,10 @@ test('onboarding → correct week → story → game → garden grows → data s
   await expect(page.getByText('Week 23 · Day 6')).toBeVisible();
   await expect(page.getByText(/0 flowers so far/)).toBeVisible();
 
-  // 3. Open today's story (Abhimanyu, story #1) and finish it
-  await page.getByRole('button', { name: /^Story: Abhimanyu/ }).click();
-  await expect(page.getByRole('heading', { name: /Abhimanyu/ })).toBeVisible();
+  // 3. Open today's story and finish it. Pregnancy day 168 → story #168 in the rotation of 62
+  //    (Yashoda sees the universe), the same story the website calendar shows for that day.
+  await page.getByRole('button', { name: /^Story: Yashoda/ }).click();
+  await expect(page.getByRole('heading', { name: /Yashoda/ })).toBeVisible();
   // Cards, lesson, quick check, reflection: tap Next until the story can be finished.
   const finishBtn = page.getByRole('button', { name: /Finish story/ });
   for (let i = 0; i < 12 && !(await finishBtn.isVisible()); i++)

@@ -20,6 +20,7 @@ export function disclaimerBox() {
 const NAV = [
   ['/articles/', 'Articles'],
   ['/pregnancy-week/', 'Week by week'],
+  ['/calendar/', 'Calendar'],
   ['/stories/', 'Stories'],
   ['/thoughts/', 'Thoughts'],
   ['/about/', 'Our story'],
@@ -46,7 +47,7 @@ export function footer() {
     <a class="btn" href="/">🌸 Open the app</a>
   </div>
   <nav aria-label="Footer">
-    <a href="/articles/">Articles</a><a href="/pregnancy-week/">Week by week</a><a href="/stories/">Stories</a><a href="/thoughts/">Thoughts</a><a href="/about/">Our story</a><a href="/privacy/">Privacy</a><a href="/feed.xml">RSS</a>
+    <a href="/articles/">Articles</a><a href="/pregnancy-week/">Week by week</a><a href="/calendar/">Calendar</a><a href="/stories/">Stories</a><a href="/thoughts/">Thoughts</a><a href="/about/">Our story</a><a href="/privacy/">Privacy</a><a href="/feed.xml">RSS</a>
   </nav>
   <p class="small">${esc(DISCLAIMER.en)}</p>
 </footer>`;

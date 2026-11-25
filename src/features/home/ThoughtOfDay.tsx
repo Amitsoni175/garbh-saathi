@@ -8,7 +8,14 @@ import { speakOnce } from '@/lib/audio';
 import { getTodayISO } from '@/lib/clock';
 import { db, kvGet, kvSet } from '@/lib/db';
 import { chime } from '@/lib/feedback';
-import { THOUGHT_SEEN_KEY, shouldAutoOpen, thoughtForDate, type Thought } from '@/lib/thoughts';
+import { contentDayOf, usePregnancy } from '@/app/usePregnancy';
+import {
+  THOUGHT_SEEN_KEY,
+  shouldAutoOpen,
+  thoughtForDate,
+  thoughtForPregnancyDay,
+  type Thought,
+} from '@/lib/thoughts';
 
 /** The thought itself: source, original words, English + Hindi, and a line for baby. */
 function ThoughtBody({ thought, today }: { thought: Thought; today: string }) {
@@ -89,7 +96,10 @@ function ThoughtBody({ thought, today }: { thought: Thought; today: string }) {
 export function ThoughtOfDay({ index = 0 }: { index?: number }) {
   const t = useT();
   const today = getTodayISO();
-  const thought = thoughtForDate(today);
+  const pregnancy = usePregnancy();
+  const thought = pregnancy
+    ? thoughtForPregnancyDay(contentDayOf(pregnancy))
+    : thoughtForDate(today);
   const [open, setOpen] = useState(false);
 
   useEffect(() => {

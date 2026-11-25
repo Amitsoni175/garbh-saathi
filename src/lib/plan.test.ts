@@ -1,4 +1,4 @@
-import { GAME_IDS, getDailyPlan, rotate, unlockedStoryIds } from './plan';
+import { GAME_IDS, contentIndexForDay, getDailyPlan, rotate, unlockedStoryIds } from './plan';
 
 const ctx = {
   storyIds: ['abhimanyu', 'gita-1', 'gita-2', 'gita-3', 'dhruva'],
@@ -9,13 +9,15 @@ const ctx = {
 };
 
 describe('daily plan', () => {
-  it('starts every journey with story #1 (Abhimanyu)', () => {
-    expect(getDailyPlan(126, 0, ctx).storyId).toBe('abhimanyu');
-    expect(getDailyPlan(10, 0, ctx).storyId).toBe('abhimanyu');
+  it('picks the story and shloka by pregnancy day, whenever she set the app up', () => {
+    expect(getDailyPlan(1, 0, ctx).storyId).toBe('abhimanyu');
+    expect(getDailyPlan(126, 0, ctx).storyId).toBe(ctx.storyIds[125 % 5]);
+    expect(getDailyPlan(126, 30, ctx).storyId).toBe(getDailyPlan(126, 0, ctx).storyId);
+    expect(getDailyPlan(126, 30, ctx).shlokaId).toBe(ctx.shlokaIds[125 % 3]);
   });
 
   it('keeps a story series on consecutive days', () => {
-    expect([1, 2, 3].map((o) => getDailyPlan(100 + o, o, ctx).storyId)).toEqual([
+    expect([2, 3, 4].map((d) => getDailyPlan(100 + d, d, ctx, d).storyId)).toEqual([
       'gita-1',
       'gita-2',
       'gita-3',
@@ -23,15 +25,20 @@ describe('daily plan', () => {
   });
 
   it('rotates deterministically so every day has content, even past day 280', () => {
-    const a = getDailyPlan(280, 400, ctx);
-    const b = getDailyPlan(280, 400, ctx);
+    const a = getDailyPlan(280, 400, ctx, 300);
+    const b = getDailyPlan(280, 400, ctx, 300);
     expect(a).toEqual(b);
-    expect(a.storyId).toBe(ctx.storyIds[400 % 5]);
+    expect(a.storyId).toBe(ctx.storyIds[299 % 5]);
+    expect(getDailyPlan(280, 401, ctx, 301).storyId).not.toBe(a.storyId);
     expect(GAME_IDS).toContain(a.gameType);
   });
 
-  it('handles negative offsets (debug date before she started)', () => {
-    expect(getDailyPlan(1, -1, ctx).storyId).toBe('dhruva');
+  it('maps pregnancy days to content positions', () => {
+    expect(contentIndexForDay(1, 62)).toBe(0);
+    expect(contentIndexForDay(62, 62)).toBe(61);
+    expect(contentIndexForDay(63, 62)).toBe(0);
+    expect(contentIndexForDay(0, 5)).toBe(4);
+    expect(contentIndexForDay(5, 0)).toBe(0);
     expect(rotate(['a', 'b', 'c'], -4)).toBe('c');
   });
 
@@ -60,5 +67,12 @@ describe('daily plan', () => {
     expect(unlockedStoryIds(0, ctx.storyIds)).toEqual(['abhimanyu']);
     expect(unlockedStoryIds(2, ctx.storyIds)).toHaveLength(3);
     expect(unlockedStoryIds(99, ctx.storyIds)).toHaveLength(5);
+  });
+
+  it('unlocks the stories the calendar offered since she started', () => {
+    // Started on pregnancy day 3 (gita-2), today is day 4 (gita-3).
+    expect(unlockedStoryIds(1, ctx.storyIds, 4)).toEqual(['gita-2', 'gita-3']);
+    expect(unlockedStoryIds(0, ctx.storyIds, 6)).toEqual(['abhimanyu']);
+    expect(unlockedStoryIds(-2, ctx.storyIds, 7)).toEqual(['gita-1']);
   });
 });

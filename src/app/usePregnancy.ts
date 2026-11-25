@@ -28,14 +28,29 @@ export function useJourneyOffset(): number {
   return start && today ? differenceInCalendarDays(today, start) : 0;
 }
 
-export function planFor(dayNumber: number, offset: number, storyIds: string[]): DayPlan {
+/** Pregnancy day for picking content: day 1 = first day of the last period, no upper cap. */
+export function contentDayOf(pregnancy: PregnancyState | null): number {
+  return pregnancy ? Math.max(1, pregnancy.gestationalDays + 1) : 1;
+}
+
+export function planFor(
+  dayNumber: number,
+  offset: number,
+  storyIds: string[],
+  contentDay = dayNumber,
+): DayPlan {
   const prompts = getPrompts();
-  return getDailyPlan(dayNumber, offset, {
-    storyIds,
-    shlokaIds: getShlokas().map((s) => s.id),
-    promptIds: prompts.talk.map((p) => p.id),
-    papaIds: prompts.papa.map((p) => p.id),
-    journalIds: prompts.journal.map((p) => p.id),
-    explicit: getExplicitPlan(),
-  });
+  return getDailyPlan(
+    dayNumber,
+    offset,
+    {
+      storyIds,
+      shlokaIds: getShlokas().map((s) => s.id),
+      promptIds: prompts.talk.map((p) => p.id),
+      papaIds: prompts.papa.map((p) => p.id),
+      journalIds: prompts.journal.map((p) => p.id),
+      explicit: getExplicitPlan(),
+    },
+    contentDay,
+  );
 }

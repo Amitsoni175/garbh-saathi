@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.6.0 · A story and thought for every pregnancy day, website calendar (2026-11-25)
+
+- Story, shloka and Thought of the Day now follow the **pregnancy day** (counted from the last
+  period, or worked out from the due date), so each of the 280 days has its own, and setting the
+  app up again never restarts them. Stories in a series still come on following days.
+- New website page **/calendar/**: enter a last period date or due date to see that day's story,
+  thought and week, browse any day, see the next six days, and copy a personal link
+  (`/calendar/#edd=YYYY-MM-DD`; the date stays in the browser). Also lists all 280 days.
+- Calendar added to the website menu and the app's "Read & explore" links.
+- Homepage: WebSite and Organization structured data for the Wombtales name.
+
 ## 1.5.4 · Thought of the Day follows the calendar (2026-11-24)
 
 - The Thought of the Day now changes every calendar day at midnight (counted from 1 Jan 2026),

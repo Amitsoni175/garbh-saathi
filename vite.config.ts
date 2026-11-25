@@ -42,11 +42,11 @@ export default defineConfig({
       workbox: {
         // App shell + all code chunks + woff2 fonts work offline. (The older .woff copies are skipped.)
         globPatterns: ['**/*.{js,css,html,svg,png,woff2,webmanifest}'],
-        globIgnores: ['**/og-image.png', 'site.css', 'site.js'],
+        globIgnores: ['**/og-image.png', 'site.css', 'site.js', 'calendar.js'],
         navigateFallback: 'index.html',
         // Real pages (About, Privacy, articles) and search files must not be swapped for the app.
         navigateFallbackDenylist: [
-          /^\/(about|privacy|articles|pregnancy-week|stories|thoughts)(\/|$)/,
+          /^\/(about|privacy|articles|pregnancy-week|calendar|stories|thoughts)(\/|$)/,
           /\.(xml|txt)$/,
         ],
         cleanupOutdatedCaches: true,

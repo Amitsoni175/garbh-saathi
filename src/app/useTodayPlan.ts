@@ -2,7 +2,7 @@ import { useMemo } from 'react';
 import { getShlokas } from '@/lib/content';
 import type { DayPlan } from '@/lib/plan';
 import { ragaForMoment } from '@/lib/raga';
-import { planFor, useJourneyOffset, usePregnancy } from './usePregnancy';
+import { contentDayOf, planFor, useJourneyOffset, usePregnancy } from './usePregnancy';
 import { useNow } from './useClock';
 import { useStories } from './useStories';
 
@@ -17,9 +17,10 @@ export function useTodayPlan(dayShift = 0): {
   const stories = useStories();
   const storyIds = useMemo(() => (stories ?? []).map((s) => s.id), [stories]);
   const dayNumber = Math.max(1, (pregnancy?.dayNumber ?? 1) + dayShift);
+  const contentDay = Math.max(1, contentDayOf(pregnancy) + dayShift);
   const plan = useMemo(
-    () => (pregnancy ? planFor(dayNumber, offset, storyIds) : null),
-    [pregnancy, dayNumber, offset, storyIds],
+    () => (pregnancy ? planFor(dayNumber, offset, storyIds, contentDay) : null),
+    [pregnancy, dayNumber, offset, storyIds, contentDay],
   );
   return { plan, offset, dayNumber };
 }

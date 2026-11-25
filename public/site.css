@@ -508,3 +508,68 @@ a.card:hover {
   gap: 0.4rem 1rem;
   margin: 1rem 0;
 }
+
+/* Pregnancy calendar */
+.cal-form fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0 0 0.6rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.2rem;
+}
+.cal-form legend {
+  font-weight: 800;
+  margin-bottom: 0.3rem;
+}
+.cal-form label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  min-height: 44px;
+}
+.cal-date input {
+  min-height: 48px;
+  padding: 0.4rem 0.9rem;
+  border-radius: 14px;
+  border: 2px solid var(--accent);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+}
+.cal-form .btn {
+  margin: 0.6rem 0 0.2rem;
+}
+.cal-today h2 {
+  margin-top: 0.6rem;
+}
+.cal-pair {
+  display: grid;
+  gap: 0.8rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr));
+  margin: 0.8rem 0;
+}
+.cal-pair .card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  border: 2px solid var(--accent);
+}
+.cal-next,
+.cal-week ul {
+  padding-left: 1.1rem;
+}
+.cal-next li,
+.cal-week li {
+  margin: 0.3rem 0;
+}
+.cal-week summary {
+  font-weight: 800;
+  cursor: pointer;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+}
+.cal-result {
+  scroll-margin-top: 7rem;
+}

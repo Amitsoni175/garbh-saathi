@@ -54,6 +54,7 @@ export const coreStrings = {
   },
   'explore.articles': { en: 'Articles', hinglish: 'Lekh' },
   'explore.weeks': { en: 'Week by week', hinglish: 'Hafte-dar-hafte' },
+  'explore.calendar': { en: 'Calendar', hinglish: 'Calendar' },
   'explore.stories': { en: 'Stories', hinglish: 'Kahaniyan' },
   'explore.thoughts': { en: 'Thoughts', hinglish: 'Vichaar' },
   'settings.articles': { en: 'Articles', hinglish: 'Lekh' },
