@@ -28,3 +28,5 @@ Status values: `draft` → `draft (needs doctor review)` → `reviewed by Dr. __
 | 9   | B    | [day-09b-prahlad-story.md](day-09b-prahlad-story.md)                             | draft                      |
 | 10  | A    | [day-10a-sleep-position-in-pregnancy.md](day-10a-sleep-position-in-pregnancy.md) | draft, needs doctor review |
 | 10  | B    | [day-10b-shlokas-for-pregnancy.md](day-10b-shlokas-for-pregnancy.md)             | draft                      |
+| 11  | A    | [day-11a-water-intake-in-pregnancy.md](day-11a-water-intake-in-pregnancy.md)     | draft, needs doctor review |
+| 11  | B    | [day-11b-teej-in-pregnancy.md](day-11b-teej-in-pregnancy.md)                     | draft                      |
