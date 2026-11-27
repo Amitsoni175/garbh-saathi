@@ -32,3 +32,5 @@ Status values: `draft` → `draft (needs doctor review)` → `reviewed by Dr. __
 | 11  | B    | [day-11b-teej-in-pregnancy.md](day-11b-teej-in-pregnancy.md)                     | draft                      |
 | 12  | A    | [day-12a-exercise-during-pregnancy.md](day-12a-exercise-during-pregnancy.md)     | draft, needs doctor review |
 | 12  | B    | [day-12b-krishna-butter-story.md](day-12b-krishna-butter-story.md)               | draft                      |
+| 13  | A    | [day-13a-baby-first-kicks.md](day-13a-baby-first-kicks.md)                       | draft, needs doctor review |
+| 13  | B    | [day-13b-kick-counting.md](day-13b-kick-counting.md)                             | draft, needs doctor review |
